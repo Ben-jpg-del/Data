@@ -1,0 +1,5657 @@
+[
+  {
+    "id": "ACoAADybBcIBZm78agxIrJ5wytR-b9tLCbDWe8s",
+    "publicIdentifier": "anasurguladze",
+    "linkedinUrl": "https://www.linkedin.com/in/anasurguladze",
+    "firstName": "Ana",
+    "lastName": "Surguladze",
+    "headline": "Sales Development Representative @Theneo",
+    "about": "I thrive at the intersection of technology, communication, and problem-solving. As an SDR at Theneo, I currently help connect companies with solutions that make developer experiences smoother. Along the way, I’ve also built experience in content strategy, client onboarding, and project management.\n\nI love tackling new challenges, learning on the fly, and finding creative ways to make processes more efficient. Outside of main work, I also enjoy exploring writing and copywriting projects - they keep my creativity active and help me communicate ideas clearly and effectively.\n\nI’m always happy to connect with professionals to share insights, exchange ideas, or explore opportunities to work together.",
+    "openToWork": false,
+    "hiring": false,
+    "photo": "https://media.licdn.com/dms/image/v2/D5603AQF2uFJdNsF9Iw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1728657561553?e=1761782400&v=beta&t=a6t59eFaiOMcioDL8KYrqaKJICElvqNiQbapn0lp9JQ",
+    "premium": false,
+    "influencer": false,
+    "location": {
+      "linkedinText": "Tbilisi, Georgia",
+      "countryCode": "GE",
+      "parsed": {
+        "text": "Tbilisi, Georgia",
+        "countryCode": "GE",
+        "regionCode": null,
+        "country": "Georgia",
+        "countryFull": "Georgia",
+        "state": "Tbilisi",
+        "city": "Tbilisi"
+      }
+    },
+    "verified": true,
+    "registeredAt": "2022-07-06T17:48:49.417Z",
+    "topSkills": null,
+    "connectionsCount": 1183,
+    "followerCount": 1190,
+    "currentPosition": [
+      {
+        "companyId": "75072704",
+        "companyLinkedinUrl": "https://www.linkedin.com/company/75072704/",
+        "companyName": "Theneo",
+        "dateRange": {
+          "start": {
+            "month": 9,
+            "year": 2024,
+            "day": null
+          },
+          "end": null
+        }
+      }
+    ],
+    "profileTopEducation": [
+      {
+        "schoolId": "3349012",
+        "companyId": "19223870",
+        "schoolLinkedinUrl": "https://www.linkedin.com/company/19223870/",
+        "schoolName": "Alterbridge University • უნივერსიტეტი ალტერბრიჯი"
+      }
+    ],
+    "experience": [
+      {
+        "position": "Sales Development Representative",
+        "location": null,
+        "employmentType": "Full-time",
+        "workplaceType": "Remote",
+        "companyName": "Theneo",
+        "companyLinkedinUrl": "https://www.linkedin.com/company/theneoinc/",
+        "companyId": "75072704",
+        "companyUniversalName": "theneoinc",
+        "duration": "1 yr 1 mo",
+        "description": null,
+        "skills": null,
+        "startDate": {
+          "month": "Sep",
+          "year": 2024,
+          "text": "Sep 2024"
+        },
+        "endDate": {
+          "text": "Present"
+        }
+      },
+      {
+        "position": "Content Reviewer",
+        "location": null,
+        "employmentType": "Freelance",
+        "workplaceType": null,
+        "companyName": "Postlibri",
+        "companyLinkedinUrl": "https://www.linkedin.com/company/67503818/",
+        "companyId": "67503818",
+        "duration": "2 yrs 5 mos",
+        "description": "- Review, modify, and adjust content for over 30 companies, ensuring alignment with client-specific needs and expectations.\n- Manage client relationships through regular calls, email follow-ups, and constant communication, enhancing client satisfaction and content quality.\n- Gain in-depth knowledge of each company’s content and processes, allowing for tailored content adjustments and effective coordination.",
+        "skills": [
+          "Content Management",
+          "Content Strategy",
+          "Social Media",
+          "Account Management",
+          "Content Development",
+          "Online Content Creation"
+        ],
+        "startDate": {
+          "month": "May",
+          "year": 2023,
+          "text": "May 2023"
+        },
+        "endDate": {
+          "text": "Present"
+        }
+      },
+      {
+        "position": "Administrative Assistant",
+        "location": null,
+        "employmentType": "Full-time",
+        "workplaceType": null,
+        "companyName": "Imereti Agro Zone",
+        "companyLinkedinUrl": "https://www.linkedin.com/company/71579175/",
+        "companyId": "71579175",
+        "duration": "1 yr 5 mos",
+        "description": "- Coordinated and managed executive calendars, scheduling meetings, appointments, and events to optimize time and resource utilization.\n- Prepared, organized, and maintained important documents and reports, implementing efficient filing systems to streamline document retrieval.\n- Handled incoming and outgoing communications, including emails and phone calls, providing timely and professional responses to inquiries.\n- Supported meetings by preparing agendas, taking minutes, and following up on action items to ensure timely completion and effective communication.",
+        "skills": [
+          "Office Support",
+          "Administrative Assistance",
+          "Event Coordination"
+        ],
+        "startDate": {
+          "month": "Sep",
+          "year": 2022,
+          "text": "Sep 2022"
+        },
+        "endDate": {
+          "month": "Jan",
+          "year": 2024,
+          "text": "Jan 2024"
+        }
+      },
+      {
+        "position": "Lead Manager",
+        "location": null,
+        "employmentType": "Freelance",
+        "workplaceType": null,
+        "companyName": "The Free Website Guys",
+        "companyLinkedinUrl": "https://www.linkedin.com/company/64679452/",
+        "companyId": "64679452",
+        "duration": "1 yr 8 mos",
+        "description": "- Acted as the initial point of contact for all incoming inquiries, introducing the service to potential clients and managing 50-60 requests daily.\n- Answered questions, provided detailed service information, and guided clients through the onboarding process, contributing to a smooth and efficient client journey.\n- Handled both email and phone communications, ensuring clear and prompt responses to client needs.\n- Integrated into the client outreach process via various social media channels, actively engaging with clients to better understand and address their needs.",
+        "skills": [
+          "Customer Relationship Management (CRM)",
+          "Client Onboarding",
+          "Lead Generation",
+          "Feedback Implementation",
+          "Lead Qualification"
+        ],
+        "startDate": {
+          "month": "Oct",
+          "year": 2021,
+          "text": "Oct 2021"
+        },
+        "endDate": {
+          "month": "May",
+          "year": 2023,
+          "text": "May 2023"
+        }
+      },
+      {
+        "position": "Teaching Assistant",
+        "location": null,
+        "employmentType": null,
+        "workplaceType": null,
+        "companyName": "Free University of Tbilisi",
+        "companyLinkedinUrl": "https://www.linkedin.com/company/1038460/",
+        "companyId": "1038460",
+        "duration": "5 mos",
+        "description": "- Supported up to 100 students daily, assisting with their understanding of the educational process and enhancing their learning experience.\n- Attended seminars and lectures alongside the professor, providing additional academic support and guidance to students.\n- Reviewed and graded written materials and facilitated discussions, ensuring a comprehensive understanding of course content among students.",
+        "skills": [
+          "Communication",
+          "student support",
+          "Mentoring",
+          "Time Management",
+          "Attention to Detail"
+        ],
+        "startDate": {
+          "month": "Sep",
+          "year": 2021,
+          "text": "Sep 2021"
+        },
+        "endDate": {
+          "month": "Jan",
+          "year": 2022,
+          "text": "Jan 2022"
+        }
+      }
+    ],
+    "education": [
+      {
+        "schoolName": "Alterbridge University • უნივერსიტეტი ალტერბრიჯი",
+        "schoolLinkedinUrl": "https://www.linkedin.com/company/19223870/",
+        "degree": "Master's degree",
+        "fieldOfStudy": "Strategic Communication",
+        "skills": [],
+        "startDate": {
+          "month": "Sep",
+          "year": 2025,
+          "text": "Sep 2025"
+        },
+        "endDate": {
+          "month": "Aug",
+          "year": 2027,
+          "text": "Aug 2027"
+        },
+        "period": "Sep 2025 - Aug 2027"
+      },
+      {
+        "schoolName": "Free University of Tbilisi",
+        "schoolLinkedinUrl": "https://www.linkedin.com/company/1038460/",
+        "degree": "Governance and Social Sciences",
+        "fieldOfStudy": null,
+        "skills": [],
+        "startDate": {
+          "year": 2019,
+          "text": "2019"
+        },
+        "endDate": {
+          "month": "Jul",
+          "year": 2023,
+          "text": "Jul 2023"
+        },
+        "period": "2019 - Jul 2023"
+      }
+    ],
+    "certifications": [
+      {
+        "title": "IT project Management",
+        "issuedAt": "Issued Nov 2024",
+        "link": null,
+        "issuedBy": "Tbilisi School of Communication",
+        "issuedByLink": "https://www.linkedin.com/company/35434223/"
+      },
+      {
+        "title": "UX Writing in Communication Technologies",
+        "issuedAt": "Issued May 2024",
+        "link": null,
+        "issuedBy": "PEA Univeristy & Ministry of Education and Science of Georgia",
+        "issuedByLink": null
+      },
+      {
+        "title": "Copywriting",
+        "link": null,
+        "issuedBy": "Academy of Digital Industries",
+        "issuedByLink": "https://www.linkedin.com/company/18705916/"
+      }
+    ],
+    "projects": [],
+    "volunteering": [
+      {
+        "role": "Poetry Editor",
+        "startDate": null,
+        "endDate": {
+          "text": ""
+        },
+        "organizationName": "Flora Fiction",
+        "organizationLinkedinUrl": "https://www.linkedin.com/company/65582635/",
+        "cause": "Arts and Culture"
+      },
+      {
+        "role": "Transcriptionist",
+        "duration": "Jul 2020 - Oct 2020 · 4 mos",
+        "startDate": {
+          "month": "Jul",
+          "year": 2020,
+          "text": "Jul 2020"
+        },
+        "endDate": {
+          "month": "Oct",
+          "year": 2020,
+          "text": "Oct 2020 · 4 mos"
+        },
+        "organizationName": "Indigo Magazine",
+        "organizationLinkedinUrl": "https://www.linkedin.com/company/55184062/",
+        "cause": "Arts and Culture"
+      }
+    ],
+    "receivedRecommendations": [],
+    "skills": [
+      {
+        "name": "Software Project Management",
+        "positions": [
+          "IT project Management"
+        ],
+        "endorsements": "1 endorsement"
+      },
+      {
+        "name": "IT Project Lifecycle",
+        "positions": [
+          "IT project Management"
+        ],
+        "endorsements": "1 endorsement"
+      },
+      {
+        "name": "Agile Methodologies",
+        "positions": [
+          "IT project Management"
+        ],
+        "endorsements": "1 endorsement"
+      },
+      {
+        "name": "Content Management",
+        "positions": [
+          "Content Reviewer at Postlibri"
+        ],
+        "endorsements": "1 endorsement"
+      },
+      {
+        "name": "Content Strategy",
+        "positions": [
+          "Content Reviewer at Postlibri"
+        ],
+        "endorsements": "1 endorsement"
+      },
+      {
+        "name": "Social Media",
+        "positions": [
+          "Content Reviewer at Postlibri"
+        ],
+        "endorsements": "1 endorsement"
+      },
+      {
+        "name": "Account Management",
+        "positions": [
+          "Content Reviewer at Postlibri"
+        ],
+        "endorsements": "1 endorsement"
+      },
+      {
+        "name": "Content Development",
+        "positions": [
+          "Content Reviewer at Postlibri"
+        ],
+        "endorsements": "1 endorsement"
+      },
+      {
+        "name": "Online Content Creation",
+        "positions": [
+          "Content Reviewer at Postlibri"
+        ],
+        "endorsements": "1 endorsement"
+      },
+      {
+        "name": "Office Support",
+        "positions": [
+          "Administrative Assistant at Imereti Agro Zone"
+        ],
+        "endorsements": "1 endorsement"
+      },
+      {
+        "name": "Administrative Assistance",
+        "positions": [
+          "Administrative Assistant at Imereti Agro Zone"
+        ],
+        "endorsements": "1 endorsement"
+      },
+      {
+        "name": "Event Coordination",
+        "positions": [
+          "Administrative Assistant at Imereti Agro Zone"
+        ],
+        "endorsements": "1 endorsement"
+      },
+      {
+        "name": "Customer Relationship Management (CRM)",
+        "positions": [
+          "Lead Manager at The Free Website Guys"
+        ],
+        "endorsements": "1 endorsement"
+      },
+      {
+        "name": "Client Onboarding",
+        "positions": [
+          "Lead Manager at The Free Website Guys"
+        ],
+        "endorsements": "1 endorsement"
+      },
+      {
+        "name": "Lead Generation",
+        "positions": [
+          "Lead Manager at The Free Website Guys"
+        ],
+        "endorsements": "1 endorsement"
+      },
+      {
+        "name": "Feedback Implementation",
+        "positions": [
+          "Lead Manager at The Free Website Guys"
+        ]
+      },
+      {
+        "name": "Lead Qualification",
+        "positions": [
+          "Lead Manager at The Free Website Guys"
+        ]
+      },
+      {
+        "name": "Communication",
+        "positions": [
+          "Teaching Assistant at Free University of Tbilisi"
+        ]
+      },
+      {
+        "name": "student support",
+        "positions": [
+          "Teaching Assistant at Free University of Tbilisi"
+        ]
+      },
+      {
+        "name": "Mentoring",
+        "positions": [
+          "Teaching Assistant at Free University of Tbilisi"
+        ]
+      },
+      {
+        "name": "Time Management",
+        "positions": [
+          "Teaching Assistant at Free University of Tbilisi"
+        ]
+      },
+      {
+        "name": "Attention to Detail",
+        "positions": [
+          "Teaching Assistant at Free University of Tbilisi"
+        ]
+      },
+      {
+        "name": "Digital Copywriting",
+        "positions": [
+          "Copywriting"
+        ]
+      },
+      {
+        "name": "Social Media Writing",
+        "positions": [
+          "Copywriting"
+        ]
+      },
+      {
+        "name": "User Experience Writing"
+      },
+      {
+        "name": "Copywriting",
+        "positions": [
+          "Copywriting"
+        ]
+      }
+    ],
+    "publications": [
+      {
+        "title": "Poetry Publication",
+        "publishedAt": "Flora Fiction Literary Magazine · Jun 20, 2021",
+        "link": "https://www.amazon.com/Flora-Fiction-Literary-Magazine-Spring/dp/B099TJ668D"
+      },
+      {
+        "title": "Poetry Publication",
+        "publishedAt": "The Raven Review · Jul 15, 2020",
+        "link": "https://www.theravenreview.org/untitled-surguladze.html"
+      }
+    ],
+    "courses": [],
+    "patents": [],
+    "honorsAndAwards": [
+      {
+        "title": "Winner of De Re Publica contest",
+        "issuedBy": "Free University of Tbilisi",
+        "issuedAt": "May 2019",
+        "description": "Institutional scholarship for winning in a contest held by The Free University of Tbilisi",
+        "associatedWith": "Associated with Free University of Tbilisi",
+        "associatedWithLink": "https://www.linkedin.com/company/1038460/"
+      },
+      {
+        "title": "Winner of Journalistic Writing contest",
+        "issuedBy": "Free University of Tbilisi",
+        "issuedAt": "May 2018",
+        "description": "Institutional scholarship for scoring third place in a contest held by The Free University of Tbilisi",
+        "associatedWith": "Associated with Free University of Tbilisi",
+        "associatedWithLink": "https://www.linkedin.com/company/1038460/"
+      }
+    ],
+    "languages": [],
+    "causes": [],
+    "featured": null,
+    "composeOptionType": "PREMIUM_INMAIL",
+    "moreProfiles": [
+      {
+        "id": "ACoAAD3w1HcBQZHv8V1l5eNsi_rNWNmtQUFtRrQ",
+        "firstName": "Utkarsh",
+        "lastName": "Tiwari",
+        "publicIdentifier": "utkarsh-tiwari-b5b034250",
+        "linkedinUrl": "https://www.linkedin.com/in/utkarsh-tiwari-b5b034250"
+      },
+      {
+        "id": "ACoAADMGnSMBFQeu2ZLsWtg8tuHHyWbBVvbVPuQ",
+        "firstName": "Mariam",
+        "lastName": "Narimanidze",
+        "publicIdentifier": "mariam-narimanidze-8838431ba",
+        "linkedinUrl": "https://www.linkedin.com/in/mariam-narimanidze-8838431ba"
+      },
+      {
+        "id": "ACoAACouIC8BiG25_zlKQDoyAicOta7xSPrp028",
+        "firstName": "Tata",
+        "lastName": "Berelidze",
+        "publicIdentifier": "tata-berelidze-abbbb4178",
+        "linkedinUrl": "https://www.linkedin.com/in/tata-berelidze-abbbb4178"
+      },
+      {
+        "id": "ACoAAF9F6lMBoyPPCdmh_wglC_pQQ6avlKqhbTI",
+        "firstName": "Ellie ",
+        "lastName": "Mitchell",
+        "position": "Self Employed at Wells Fargo",
+        "publicIdentifier": "ellie-mitchell-157382387",
+        "linkedinUrl": "https://www.linkedin.com/in/ellie-mitchell-157382387"
+      },
+      {
+        "id": "ACoAAF9D5EIB5Mb3oDiogeOhGORqEN_vamrxOJQ",
+        "firstName": "Tanjain",
+        "lastName": "Maisha",
+        "position": "Human Resources Specialist at Wells Fargo",
+        "publicIdentifier": "tanjain-maisha-456319387",
+        "linkedinUrl": "https://www.linkedin.com/in/tanjain-maisha-456319387"
+      },
+      {
+        "id": "ACoAADPn7sUBQE4CGLZf4R_C2x8y4WblTrByhug",
+        "firstName": "Saba",
+        "lastName": "Gventsadze",
+        "publicIdentifier": "sabagv",
+        "linkedinUrl": "https://www.linkedin.com/in/sabagv"
+      },
+      {
+        "id": "ACoAADLytAcB4cT34SEkZPVlsI8J72a4etVkW50",
+        "firstName": "Mariam",
+        "lastName": "Lekveishvili",
+        "publicIdentifier": "mariamlekveishvili",
+        "linkedinUrl": "https://www.linkedin.com/in/mariamlekveishvili"
+      },
+      {
+        "id": "ACoAAF9DtgIBzrLoHIphMpqdUNVnEePpPdhm48I",
+        "firstName": "Ashraf ",
+        "lastName": "Karim",
+        "position": "Sales Specialist at Wells Fargo",
+        "publicIdentifier": "ashraf-karim-62a312387",
+        "linkedinUrl": "https://www.linkedin.com/in/ashraf-karim-62a312387"
+      },
+      {
+        "id": "ACoAAF9Cp_oBLdBuIsku5mJPOFWVI_4n_QworYs",
+        "firstName": "Apon",
+        "lastName": "Mia",
+        "position": "Human Resources Specialist at Wells Fargo",
+        "publicIdentifier": "apon-mia-62229a387",
+        "linkedinUrl": "https://www.linkedin.com/in/apon-mia-62229a387"
+      },
+      {
+        "id": "ACoAAERk9XkBjVKHk7JuUWyWTXTK4FFnjsCowaA",
+        "firstName": "salman",
+        "lastName": "fursi",
+        "position": "Web & Mobile Aplication developer",
+        "publicIdentifier": "salman-fursi-58934b280",
+        "linkedinUrl": "https://www.linkedin.com/in/salman-fursi-58934b280"
+      },
+      {
+        "id": "ACoAABJ4uG8BQgH23q_xRNIS3avDUIuD1HYRf0A",
+        "firstName": "Guri",
+        "lastName": "Koiava",
+        "publicIdentifier": "gurikoiava",
+        "linkedinUrl": "https://www.linkedin.com/in/gurikoiava"
+      },
+      {
+        "id": "ACoAAF9S9DkBFqv0996k7fyNrNTr2WVTePXDc68",
+        "firstName": "Rebecca",
+        "lastName": "Schulist",
+        "position": "Receptionist at Wells Fargo",
+        "publicIdentifier": "rebecca-schulist-761714387",
+        "linkedinUrl": "https://www.linkedin.com/in/rebecca-schulist-761714387"
+      },
+      {
+        "id": "ACoAAF9HH5ABZXcecYPcQRx8F_4bTKB-UftMKDU",
+        "firstName": "Mondal ",
+        "lastName": "Irene",
+        "position": "--",
+        "publicIdentifier": "mondal-irene-b283bb387",
+        "linkedinUrl": "https://www.linkedin.com/in/mondal-irene-b283bb387"
+      },
+      {
+        "id": "ACoAADeMjd4BBobOJ2Dq4R1z_iFHvHUJBMHfXrs",
+        "firstName": "Ucha",
+        "lastName": "Pipia",
+        "publicIdentifier": "ucha-pipia",
+        "linkedinUrl": "https://www.linkedin.com/in/ucha-pipia"
+      },
+      {
+        "id": "ACoAAF5wZjABSxMH-ofMWiYCYchZhrIoIVjvz5k",
+        "firstName": "Maikel",
+        "lastName": "Jordan ",
+        "position": "--",
+        "publicIdentifier": "maikel-jordan-3a8754382",
+        "linkedinUrl": "https://www.linkedin.com/in/maikel-jordan-3a8754382"
+      },
+      {
+        "id": "ACoAADdRZ3QBJ7Kd0tfRnsgK6h49sQrIVTdNlzs",
+        "firstName": "Beka",
+        "lastName": "Arabidze",
+        "publicIdentifier": "beka-arabidze-44499021a",
+        "linkedinUrl": "https://www.linkedin.com/in/beka-arabidze-44499021a"
+      },
+      {
+        "id": "ACoAADbbbCQBJivmBQ4-ystDhtcKHMv6egQJNxs",
+        "firstName": "Yea",
+        "lastName": "Saleh",
+        "position": "Full Stack Developer || Software Developer || JavaScript Developer || Front End Developer || React Developer",
+        "publicIdentifier": "yea-saleh",
+        "linkedinUrl": "https://www.linkedin.com/in/yea-saleh"
+      },
+      {
+        "id": "ACoAADPFMqMBk0yIq3y0FIgE5-kehXtkcKS2cBE",
+        "firstName": "Abu Saleh Mohammad",
+        "lastName": "Abdullah",
+        "position": "Full-Stack Web Developer | Laravel, Vue.js, React.js | Building Scalable Web Apps",
+        "publicIdentifier": "abu-saleh-mohammad-abdullah-96ba67202",
+        "linkedinUrl": "https://www.linkedin.com/in/abu-saleh-mohammad-abdullah-96ba67202"
+      },
+      {
+        "id": "ACoAAChwyIIBtcUexdmTnDeJWvblrthYWi97pjk",
+        "firstName": "Natia",
+        "lastName": "Khitarishvili",
+        "publicIdentifier": "natiakhitarishvili",
+        "linkedinUrl": "https://www.linkedin.com/in/natiakhitarishvili"
+      },
+      {
+        "id": "ACoAADVsOwgBAuSk7t3Tj3seHTp8enKlRzeuKE4",
+        "firstName": "Asfiq Mahmud",
+        "lastName": "Ishake",
+        "position": "Web Developer & Digital Marketer",
+        "publicIdentifier": "asfiq-mahmud-ishake-8601b7210",
+        "linkedinUrl": "https://www.linkedin.com/in/asfiq-mahmud-ishake-8601b7210"
+      },
+      {
+        "id": "ACoAACTcHSABAWNu5TzYUGCDigm9J6fTI0_a2ew",
+        "firstName": "Tamar",
+        "lastName": "Panchulidze",
+        "publicIdentifier": "tamar-panchulidze",
+        "linkedinUrl": "https://www.linkedin.com/in/tamar-panchulidze"
+      }
+    ],
+    "_meta": {
+      "pagination": {
+        "totalElements": 20,
+        "totalPages": 1,
+        "pageNumber": 1,
+        "previousElements": 0,
+        "pageSize": 25
+      }
+    }
+  },
+  {
+    "id": "ACoAADMGnSMBFQeu2ZLsWtg8tuHHyWbBVvbVPuQ",
+    "publicIdentifier": "mariam-narimanidze-8838431ba",
+    "linkedinUrl": "https://www.linkedin.com/in/mariam-narimanidze-8838431ba",
+    "firstName": "Mariam",
+    "lastName": "Narimanidze",
+    "headline": "Product Manager @ Theneo",
+    "about": null,
+    "openToWork": false,
+    "hiring": false,
+    "photo": "https://media.licdn.com/dms/image/v2/D4D03AQFnKGl1hN7LXg/profile-displayphoto-shrink_800_800/B4DZWwFA4dHYAg-/0/1742415860761?e=1761782400&v=beta&t=2TQzXMQFKJshkDwyM3QXXwMnnOTKZT_iCbyB1h8fZtw",
+    "premium": true,
+    "influencer": false,
+    "location": {
+      "linkedinText": "Tbilisi, Georgia",
+      "countryCode": "GE",
+      "parsed": {
+        "text": "Tbilisi, Georgia",
+        "countryCode": "GE",
+        "regionCode": null,
+        "country": "Georgia",
+        "countryFull": "Georgia",
+        "state": "Tbilisi",
+        "city": "Tbilisi"
+      }
+    },
+    "verified": false,
+    "registeredAt": "2020-10-27T16:43:19.470Z",
+    "topSkills": null,
+    "connectionsCount": 1490,
+    "followerCount": 1513,
+    "currentPosition": [
+      {
+        "companyId": "75072704",
+        "companyLinkedinUrl": "https://www.linkedin.com/company/75072704/",
+        "companyName": "Theneo",
+        "dateRange": {
+          "start": {
+            "month": 2,
+            "year": 2025,
+            "day": null
+          },
+          "end": null
+        }
+      }
+    ],
+    "profileTopEducation": [
+      {
+        "schoolId": "3154257",
+        "companyId": "1038460",
+        "schoolLinkedinUrl": "https://www.linkedin.com/company/1038460/",
+        "schoolName": "Free University of Tbilisi"
+      }
+    ],
+    "experience": [
+      {
+        "position": "Product Manager",
+        "location": null,
+        "employmentType": "Full-time",
+        "workplaceType": null,
+        "companyName": "Theneo",
+        "companyLinkedinUrl": "https://www.linkedin.com/company/theneoinc/",
+        "companyId": "75072704",
+        "companyUniversalName": "theneoinc",
+        "duration": "8 mos",
+        "description": null,
+        "skills": null,
+        "startDate": {
+          "month": "Feb",
+          "year": 2025,
+          "text": "Feb 2025"
+        },
+        "endDate": {
+          "text": "Present"
+        }
+      },
+      {
+        "position": "Junior Product Manager",
+        "location": "Tbilisi, Georgia",
+        "employmentType": "Full-time",
+        "workplaceType": null,
+        "companyName": "Theneo",
+        "companyLinkedinUrl": "https://www.linkedin.com/company/theneoinc/",
+        "companyId": "75072704",
+        "companyUniversalName": "theneoinc",
+        "duration": "1 yr 4 mos",
+        "description": null,
+        "skills": null,
+        "startDate": {
+          "month": "Oct",
+          "year": 2023,
+          "text": "Oct 2023"
+        },
+        "endDate": {
+          "month": "Jan",
+          "year": 2025,
+          "text": "Jan 2025"
+        }
+      },
+      {
+        "position": "Project Manager ",
+        "location": "Tbilisi, Georgia",
+        "employmentType": "Internship",
+        "workplaceType": null,
+        "companyName": "Theneo",
+        "companyLinkedinUrl": "https://www.linkedin.com/company/theneoinc/",
+        "companyId": "75072704",
+        "companyUniversalName": "theneoinc",
+        "duration": "6 mos",
+        "description": null,
+        "skills": null,
+        "startDate": {
+          "month": "Apr",
+          "year": 2023,
+          "text": "Apr 2023"
+        },
+        "endDate": {
+          "month": "Sep",
+          "year": 2023,
+          "text": "Sep 2023"
+        }
+      },
+      {
+        "position": "Teaching Assistant",
+        "location": null,
+        "employmentType": "Part-time",
+        "workplaceType": "Hybrid",
+        "companyName": "Free University of Tbilisi",
+        "companyLinkedinUrl": "https://www.linkedin.com/school/free-university-of-tbilisi/",
+        "companyId": "1038460",
+        "companyUniversalName": "free-university-of-tbilisi",
+        "duration": "6 mos",
+        "description": "As a Teaching Assistant I provided academic support to both the professor and students. My responsibilities included leading discussion sessions, assisting with grading and facilitating classroom activities. I also contributed to the development of course materials and provided personalized feedback to students. This role allowed me to strengthen my communication, teaching, and organizational skills.",
+        "skills": null,
+        "startDate": {
+          "month": "Jan",
+          "year": 2022,
+          "text": "Jan 2022"
+        },
+        "endDate": {
+          "month": "Jun",
+          "year": 2022,
+          "text": "Jun 2022"
+        }
+      }
+    ],
+    "education": [
+      {
+        "schoolName": "Free University of Tbilisi",
+        "schoolLinkedinUrl": "https://www.linkedin.com/company/1038460/",
+        "degree": "Bachelor of Applied Science - BASc",
+        "fieldOfStudy": "Governance and Social Sciences",
+        "skills": [],
+        "startDate": {
+          "year": 2019,
+          "text": "2019"
+        },
+        "endDate": {
+          "year": 2023,
+          "text": "2023"
+        },
+        "period": "2019 - 2023"
+      }
+    ],
+    "certifications": [
+      {
+        "title": "Professional Scrum Master™ I (PSM I)",
+        "issuedAt": "Issued Apr 2024",
+        "link": "https://www.credly.com/badges/1a23cfc0-b713-43b3-9d11-35deefc3a491/linked_in_profile",
+        "issuedBy": "Scrum.org",
+        "issuedByLink": "https://www.linkedin.com/company/1153894/"
+      },
+      {
+        "title": "Agile Meets Design Thinking",
+        "issuedAt": "Issued Oct 2023",
+        "link": "https://www.coursera.org/account/accomplishments/certificate/EWNCN6MY2CNM",
+        "issuedBy": "Coursera",
+        "issuedByLink": "https://www.linkedin.com/company/77663205/"
+      },
+      {
+        "title": "Managing an Agile Team",
+        "issuedAt": "Issued Oct 2023",
+        "link": "https://www.coursera.org/account/accomplishments/certificate/JYTQPWSYKDFU",
+        "issuedBy": "Coursera",
+        "issuedByLink": "https://www.linkedin.com/company/77663205/"
+      },
+      {
+        "title": "Digital Product Management: Modern Fundamentals",
+        "issuedAt": "Issued Aug 2023",
+        "link": "https://www.coursera.org/account/accomplishments/certificate/9X7TYRVETFSC",
+        "issuedBy": "Coursera",
+        "issuedByLink": "https://www.linkedin.com/company/2453129/"
+      },
+      {
+        "title": "Autodesk 3ds Max",
+        "issuedAt": "Issued Sep 2021",
+        "link": null,
+        "issuedBy": "Academy of Digital Industries",
+        "issuedByLink": "https://www.linkedin.com/company/18705916/"
+      }
+    ],
+    "projects": [],
+    "volunteering": [],
+    "receivedRecommendations": [],
+    "skills": [
+      {
+        "name": "Scrum",
+        "endorsements": "3 endorsements"
+      },
+      {
+        "name": "University Teaching",
+        "endorsements": "3 endorsements"
+      },
+      {
+        "name": "Digital Project Management",
+        "positions": [
+          "Digital Product Management: Modern Fundamentals"
+        ],
+        "endorsements": "3 endorsements"
+      },
+      {
+        "name": "Agile Methodologies",
+        "positions": [
+          "Agile Meets Design Thinking",
+          "Managing an Agile Team"
+        ],
+        "endorsements": "4 endorsements"
+      },
+      {
+        "name": "Agile Project Management",
+        "positions": [
+          "Agile Meets Design Thinking"
+        ],
+        "endorsements": "4 endorsements"
+      },
+      {
+        "name": "Product Management",
+        "positions": [
+          "Digital Product Management: Modern Fundamentals"
+        ],
+        "endorsements": "4 endorsements"
+      },
+      {
+        "name": "Jira",
+        "endorsements": "5 endorsements"
+      },
+      {
+        "name": "ARCHICAD",
+        "endorsements": "4 endorsements"
+      },
+      {
+        "name": "3D Modeling",
+        "endorsements": "4 endorsements"
+      },
+      {
+        "name": "Communication",
+        "endorsements": "5 endorsements"
+      },
+      {
+        "name": "Analytical Skills",
+        "endorsements": "5 endorsements"
+      },
+      {
+        "name": "Problem Solving",
+        "endorsements": "5 endorsements"
+      },
+      {
+        "name": "Critical Thinking",
+        "endorsements": "5 endorsements"
+      },
+      {
+        "name": "Writing",
+        "endorsements": "5 endorsements"
+      }
+    ],
+    "publications": [],
+    "courses": [],
+    "patents": [],
+    "honorsAndAwards": [
+      {
+        "title": "John McCain Scholarship",
+        "issuedBy": "Free University of Tbilisi",
+        "issuedAt": "Sep 2019",
+        "description": "Awarded the prestigious John McCain Scholarship for academic excellence as the top student with the highest enrollment scores at the Free University of Tbilisi. This honor recognizes my dedication, outstanding performance, and commitment to academic achievement. The scholarship fully covered my tuition fees for one year, supporting my continued growth and commitment to education.",
+        "associatedWith": "Associated with Free University of Tbilisi",
+        "associatedWithLink": "https://www.linkedin.com/company/1038460/"
+      }
+    ],
+    "languages": [
+      {
+        "name": "English",
+        "proficiency": "Professional working proficiency"
+      },
+      {
+        "name": "Georgian",
+        "proficiency": "Native or bilingual proficiency"
+      }
+    ],
+    "causes": [
+      "Animal Welfare",
+      "Arts and Culture",
+      "Civil Rights and Social Action",
+      "Economic Empowerment",
+      "Education",
+      "Environment",
+      "Health",
+      "Human Rights",
+      "Politics",
+      "Science and Technology"
+    ],
+    "featured": null,
+    "composeOptionType": "UPSELL",
+    "moreProfiles": [
+      {
+        "id": "ACoAADrI4hgB0JRkC3HiUbZG6AoH2V1_zt-jOlk",
+        "firstName": "Sali",
+        "lastName": "Lomidze",
+        "position": "Architect / Designer",
+        "publicIdentifier": "sali-lomidze-9b435a236",
+        "linkedinUrl": "https://www.linkedin.com/in/sali-lomidze-9b435a236"
+      },
+      {
+        "id": "ACoAADlSk1IBTYCFy-9XYtGpljp87FXD7l9qaD4",
+        "firstName": "Anna",
+        "lastName": "Tekhovi",
+        "publicIdentifier": "annatekhovi",
+        "linkedinUrl": "https://www.linkedin.com/in/annatekhovi"
+      },
+      {
+        "id": "ACoAAAr0xP8BsISXslv2t-4aqbsFYT0EQfyLIyc",
+        "firstName": "Ana",
+        "lastName": "Robakidze",
+        "publicIdentifier": "robakidzeana",
+        "linkedinUrl": "https://www.linkedin.com/in/robakidzeana"
+      },
+      {
+        "id": "ACoAADpryLMBFE1Y2005Pq8LiioNF6AYruorPBk",
+        "firstName": "Ekaterine",
+        "lastName": "Nanava",
+        "position": "Brand Manager",
+        "publicIdentifier": "ekaterine-nanava-b572b7234",
+        "linkedinUrl": "https://www.linkedin.com/in/ekaterine-nanava-b572b7234"
+      },
+      {
+        "id": "ACoAAEe89EkBRRJBCHCXsbMu3j_8EemCCa68Myg",
+        "firstName": "Keti",
+        "lastName": "Bardakovi",
+        "position": "Java Software Developer at Making Science • Sweeft",
+        "publicIdentifier": "keti-bardakovi-a890a3297",
+        "linkedinUrl": "https://www.linkedin.com/in/keti-bardakovi-a890a3297"
+      },
+      {
+        "id": "ACoAAD52Yg0BOVNY6ttrPR9__ldTNSDGVl8BCsg",
+        "firstName": "saba",
+        "lastName": "sulaberidze",
+        "position": "Senior Software Developer @ Balance • ბალანსი | Bachelor's degree in Mathematics and Computer Science",
+        "publicIdentifier": "saba-sulaberidze-0b9b56252",
+        "linkedinUrl": "https://www.linkedin.com/in/saba-sulaberidze-0b9b56252"
+      },
+      {
+        "id": "ACoAADrq8pgBKGYsvBvGolfpon6kNOnUeC7niyw",
+        "firstName": "Luka",
+        "lastName": "Shalikashvili",
+        "position": "PASHA Bank",
+        "publicIdentifier": "luka-shalikashvili-908056237",
+        "linkedinUrl": "https://www.linkedin.com/in/luka-shalikashvili-908056237"
+      },
+      {
+        "id": "ACoAAABuiyIBAFjN9PvAvx0ln98iez2VsAfIvRI",
+        "firstName": "Gail Christine",
+        "lastName": "Gannon",
+        "publicIdentifier": "gailgannon",
+        "linkedinUrl": "https://www.linkedin.com/in/gailgannon"
+      },
+      {
+        "id": "ACoAADybBcIBZm78agxIrJ5wytR-b9tLCbDWe8s",
+        "firstName": "Ana",
+        "lastName": "Surguladze",
+        "publicIdentifier": "anasurguladze",
+        "linkedinUrl": "https://www.linkedin.com/in/anasurguladze"
+      },
+      {
+        "id": "ACoAADadArkB4Xrqv1TdGbJYyvdmEEBuu5HPpEE",
+        "firstName": "Sophie",
+        "lastName": "Kalandadze",
+        "publicIdentifier": "sophie-kalandadze-935a2a216",
+        "linkedinUrl": "https://www.linkedin.com/in/sophie-kalandadze-935a2a216"
+      },
+      {
+        "id": "ACoAADtmgGgB4ZSdcKByA0mKx7wZ6R7YGxvDCl4",
+        "firstName": "tornike",
+        "lastName": "shatberashvili",
+        "position": "Software Developer | Unity | C#",
+        "publicIdentifier": "tornike-shatberashvili-7a0900239",
+        "linkedinUrl": "https://www.linkedin.com/in/tornike-shatberashvili-7a0900239"
+      },
+      {
+        "id": "ACoAADyKKFEBzW5-sncqHvIusZZLzNHrHrJTbj8",
+        "firstName": "Ana",
+        "lastName": "Davitashvili",
+        "position": "Software Engineer at Google",
+        "publicIdentifier": "ana-davitashvili-b81199244",
+        "linkedinUrl": "https://www.linkedin.com/in/ana-davitashvili-b81199244"
+      },
+      {
+        "id": "ACoAAFuK780BgJhUlU7-m_35mtLoiW3PCvAIqOA",
+        "firstName": "Samantha",
+        "lastName": "Martin",
+        "position": "--",
+        "publicIdentifier": "samantha-martin-81141b36a",
+        "linkedinUrl": "https://www.linkedin.com/in/samantha-martin-81141b36a"
+      },
+      {
+        "id": "ACoAAEYx1iABFEIVn075uVabR3Sm2TNXcVv62LI",
+        "firstName": "Mariam",
+        "lastName": "Brodzeli",
+        "position": "Marketing Manager",
+        "publicIdentifier": "mbrodzeli",
+        "linkedinUrl": "https://www.linkedin.com/in/mbrodzeli"
+      },
+      {
+        "id": "ACoAAEK9DE8BVWkLjN99cxhoFWjC6g4ZNQ8N0Lk",
+        "firstName": "Luka",
+        "lastName": "Arsenashvili",
+        "position": "Data Analyst at adjarabet.com | SQL | Python | Tableau | Aspiring Machine Learning Engineer",
+        "publicIdentifier": "luka-arsenashvili-327b92272",
+        "linkedinUrl": "https://www.linkedin.com/in/luka-arsenashvili-327b92272"
+      },
+      {
+        "id": "ACoAADnATEgBKa1JnnwLZ8Yg1PDnalEGlDSRZss",
+        "firstName": "Nini",
+        "lastName": "Chkheidze",
+        "position": "Art Director",
+        "publicIdentifier": "nini-chkheidze-234598230",
+        "linkedinUrl": "https://www.linkedin.com/in/nini-chkheidze-234598230"
+      },
+      {
+        "id": "ACoAACROYL4BUQEt54f2mh0-Vb_dlb2HQ4My4JQ",
+        "firstName": "Tornike",
+        "lastName": "Tabatadze",
+        "publicIdentifier": "tornike-tabatadze-a7aba914b",
+        "linkedinUrl": "https://www.linkedin.com/in/tornike-tabatadze-a7aba914b"
+      },
+      {
+        "id": "ACoAAChwyIIBtcUexdmTnDeJWvblrthYWi97pjk",
+        "firstName": "Natia",
+        "lastName": "Khitarishvili",
+        "publicIdentifier": "natiakhitarishvili",
+        "linkedinUrl": "https://www.linkedin.com/in/natiakhitarishvili"
+      },
+      {
+        "id": "ACoAAAZ5JzwBk3nECgZCKue3rmCd8xU05U26YL8",
+        "firstName": "Nodo",
+        "lastName": "Ivanidze",
+        "publicIdentifier": "nodo-ivanidze",
+        "linkedinUrl": "https://www.linkedin.com/in/nodo-ivanidze"
+      },
+      {
+        "id": "ACoAABmAqykBiVkmP-KHPkI2jNxGZbBL_yxsWsQ",
+        "firstName": "Achi",
+        "lastName": "Bakhsoliani",
+        "publicIdentifier": "achi-bakhsoliani",
+        "linkedinUrl": "https://www.linkedin.com/in/achi-bakhsoliani"
+      },
+      {
+        "id": "ACoAADBkxKYBpNReAtoEvvoSv4K1gT3BpOFHPR0",
+        "firstName": "Salome",
+        "lastName": "Bolkvadze",
+        "publicIdentifier": "salome-bolkvadze-606aa71a7",
+        "linkedinUrl": "https://www.linkedin.com/in/salome-bolkvadze-606aa71a7"
+      }
+    ],
+    "_meta": {
+      "pagination": {
+        "totalElements": 20,
+        "totalPages": 1,
+        "pageNumber": 1,
+        "previousElements": 0,
+        "pageSize": 25
+      }
+    }
+  },
+  {
+    "id": "ACoAADdRZ3QBJ7Kd0tfRnsgK6h49sQrIVTdNlzs",
+    "publicIdentifier": "beka-arabidze-44499021a",
+    "linkedinUrl": "https://www.linkedin.com/in/beka-arabidze-44499021a",
+    "firstName": "Beka",
+    "lastName": "Arabidze",
+    "headline": "Software Engineer",
+    "about": "As a Full Stack Engineer, I leverage my skills in React, Nextjs, Go, and Node to create innovative web applications. I have a Master's degree in Computer and Information Sciences from Georgian American University, where I honed my technical expertise and problem-solving abilities. I am passionate about delivering high-quality solutions that meet the needs of diverse clients. I am always eager to learn new technologies and collaborate with other developers to enhance our team's performance.",
+    "openToWork": false,
+    "hiring": false,
+    "photo": "https://media.licdn.com/dms/image/v2/D4E03AQGORY_I3cXyhg/profile-displayphoto-shrink_800_800/B4EZYUO14gHkAg-/0/1744096157756?e=1761782400&v=beta&t=M8hIBWYts54Ya6_agJLZmuIaIjlfRT-mC2MOQ67s-r4",
+    "premium": false,
+    "influencer": false,
+    "location": {
+      "linkedinText": "Rustavi, Georgia",
+      "countryCode": "GE",
+      "parsed": {
+        "text": "Rustavi, Georgia",
+        "countryCode": "GE",
+        "regionCode": null,
+        "country": "Georgia",
+        "countryFull": "Georgia",
+        "state": "Kvemo Kartli",
+        "city": "Rustavi"
+      }
+    },
+    "verified": false,
+    "registeredAt": "2021-08-21T19:45:08.785Z",
+    "topSkills": "HTML • JavaScript • TypeScript • Go • Node",
+    "connectionsCount": 532,
+    "followerCount": 532,
+    "currentPosition": [
+      {
+        "companyId": "75072704",
+        "companyLinkedinUrl": "https://www.linkedin.com/company/75072704/",
+        "companyName": "Theneo (YC W22)",
+        "dateRange": {
+          "start": {
+            "month": 1,
+            "year": 2023,
+            "day": null
+          },
+          "end": null
+        }
+      }
+    ],
+    "profileTopEducation": [
+      {
+        "schoolId": "4057024",
+        "companyId": "3334328",
+        "schoolLinkedinUrl": "https://www.linkedin.com/company/3334328/",
+        "schoolName": "Georgian American University - GAU"
+      }
+    ],
+    "experience": [
+      {
+        "position": "Full Stack Engineer",
+        "location": "Tbilisi, Georgia",
+        "employmentType": "Full-time",
+        "workplaceType": "Hybrid",
+        "companyName": "Theneo (YC W22)",
+        "companyLinkedinUrl": "https://www.linkedin.com/company/theneoinc/",
+        "companyId": "75072704",
+        "companyUniversalName": "theneoinc",
+        "duration": "2 yrs 9 mos",
+        "description": null,
+        "skills": null,
+        "startDate": {
+          "month": "Jan",
+          "year": 2023,
+          "text": "Jan 2023"
+        },
+        "endDate": {
+          "text": "Present"
+        }
+      },
+      {
+        "position": "Web Developer",
+        "location": "Tbilisi, Georgia",
+        "employmentType": "Part-time",
+        "workplaceType": null,
+        "companyName": "Oxeni",
+        "companyLinkedinUrl": "https://www.linkedin.com/search/results/all/?keywords=Oxeni",
+        "duration": "1 yr 1 mo",
+        "description": null,
+        "skills": [
+          "Git",
+          "REST APIs",
+          "Full-Stack Development"
+        ],
+        "startDate": {
+          "year": 2020,
+          "text": "2020"
+        },
+        "endDate": {
+          "month": "Jan",
+          "year": 2021,
+          "text": "Jan 2021"
+        }
+      }
+    ],
+    "education": [
+      {
+        "schoolName": "Georgian American University - GAU",
+        "schoolLinkedinUrl": "https://www.linkedin.com/company/3334328/",
+        "degree": "Master's degree",
+        "fieldOfStudy": "Computer and Information Sciences and Support Services",
+        "skills": [],
+        "startDate": {
+          "month": "Sep",
+          "year": 2021,
+          "text": "Sep 2021"
+        },
+        "endDate": {
+          "month": "Jul",
+          "year": 2023,
+          "text": "Jul 2023"
+        },
+        "period": "Sep 2021 - Jul 2023"
+      },
+      {
+        "schoolName": "Georgian American University - GAU",
+        "schoolLinkedinUrl": "https://www.linkedin.com/company/3334328/",
+        "degree": "Bachelor of Engineering - BE",
+        "fieldOfStudy": "Web/Multimedia Management and Webmaster",
+        "skills": [
+          "Full-Stack Development"
+        ],
+        "startDate": {
+          "month": "Sep",
+          "year": 2018,
+          "text": "Sep 2018"
+        },
+        "endDate": {
+          "month": "Jul",
+          "year": 2021,
+          "text": "Jul 2021"
+        },
+        "period": "Sep 2018 - Jul 2021"
+      }
+    ],
+    "certifications": [],
+    "projects": [],
+    "volunteering": [],
+    "receivedRecommendations": [],
+    "skills": [
+      {
+        "name": "HTML"
+      },
+      {
+        "name": "Go"
+      },
+      {
+        "name": "Node"
+      },
+      {
+        "name": "REST APIs"
+      },
+      {
+        "name": "Git"
+      },
+      {
+        "name": "Full-Stack Development",
+        "positions": [
+          "Georgian American University - GAU"
+        ]
+      },
+      {
+        "name": "Networking"
+      },
+      {
+        "name": "Web Development"
+      },
+      {
+        "name": "React.js",
+        "assessments": "Passed LinkedIn Skill Assessment"
+      },
+      {
+        "name": "JavaScript"
+      },
+      {
+        "name": "Next.js"
+      },
+      {
+        "name": "HTML5"
+      },
+      {
+        "name": "SASS"
+      },
+      {
+        "name": "MobX"
+      },
+      {
+        "name": "Redux.js"
+      },
+      {
+        "name": "Node.js"
+      },
+      {
+        "name": "GitHub"
+      },
+      {
+        "name": "Figma (Software)"
+      },
+      {
+        "name": "English"
+      },
+      {
+        "name": "TypeScript"
+      },
+      {
+        "name": "MongoDB"
+      },
+      {
+        "name": "Cascading Style Sheets (CSS)",
+        "assessments": "Passed LinkedIn Skill Assessment"
+      }
+    ],
+    "publications": [],
+    "courses": [],
+    "patents": [],
+    "honorsAndAwards": [],
+    "languages": [],
+    "causes": [],
+    "featured": null,
+    "moreProfiles": [
+      {
+        "id": "ACoAACF7epABLQpVUgNWLuZb7n8epIa_PbMlwu8",
+        "firstName": "Olusola",
+        "lastName": "Ogundimu",
+        "publicIdentifier": "olusola-ogundimu-328161138",
+        "linkedinUrl": "https://www.linkedin.com/in/olusola-ogundimu-328161138"
+      },
+      {
+        "id": "ACoAADQIXkMBubDYt2WTQw7BXrjN8K2Xgukgq1Q",
+        "firstName": "Irakli",
+        "lastName": "Sokhadze",
+        "publicIdentifier": "irakli-sokhadze-36b42b204",
+        "linkedinUrl": "https://www.linkedin.com/in/irakli-sokhadze-36b42b204"
+      },
+      {
+        "id": "ACoAADLytAcB4cT34SEkZPVlsI8J72a4etVkW50",
+        "firstName": "Mariam",
+        "lastName": "Lekveishvili",
+        "publicIdentifier": "mariamlekveishvili",
+        "linkedinUrl": "https://www.linkedin.com/in/mariamlekveishvili"
+      },
+      {
+        "id": "ACoAACM10SsBWdB1pngjdLRQjdJnn1O76DxhVCY",
+        "firstName": "Maka",
+        "lastName": "Natsvlishvili",
+        "position": "Founder and Director in Business Shop LLC, Director @ Jsc ABD and CO | Embawood- B2B Manager/ Caucasenergo - ESMP and Procurement Manager",
+        "publicIdentifier": "maka-natsvlishvili-437a01145",
+        "linkedinUrl": "https://www.linkedin.com/in/maka-natsvlishvili-437a01145"
+      },
+      {
+        "id": "ACoAADaVZZsBh13NxXTQH-dAp0x1RSD6yIfoT50",
+        "firstName": "Tako",
+        "lastName": "Aslamazishvili",
+        "position": "Online Student Recruiter at AVG Education",
+        "publicIdentifier": "takoaslamazishvili",
+        "linkedinUrl": "https://www.linkedin.com/in/takoaslamazishvili"
+      },
+      {
+        "id": "ACoAAAr0xP8BsISXslv2t-4aqbsFYT0EQfyLIyc",
+        "firstName": "Ana",
+        "lastName": "Robakidze",
+        "publicIdentifier": "robakidzeana",
+        "linkedinUrl": "https://www.linkedin.com/in/robakidzeana"
+      },
+      {
+        "id": "ACoAAF6mUrsB3bx75mX8jXK6mBK1mcwSbqCXu00",
+        "firstName": "Amos ",
+        "lastName": "Steele",
+        "position": "--",
+        "publicIdentifier": "amos-steele-537979383",
+        "linkedinUrl": "https://www.linkedin.com/in/amos-steele-537979383"
+      },
+      {
+        "id": "ACoAADeP-yoBh2286a7qyeqUZwkx41fRMRjgoa0",
+        "firstName": "Nari",
+        "lastName": "Nozadze",
+        "position": "Junior HR Administration Specialist | Passionate About People & Processes",
+        "publicIdentifier": "nari-nozadze-7a2229220",
+        "linkedinUrl": "https://www.linkedin.com/in/nari-nozadze-7a2229220"
+      },
+      {
+        "id": "ACoAACn-7YEBwXDFSY7ICZt7tg4bRJ1rBLSKSwk",
+        "firstName": "Morris",
+        "lastName": "Khutsishvili",
+        "publicIdentifier": "morris-khutsishvili",
+        "linkedinUrl": "https://www.linkedin.com/in/morris-khutsishvili"
+      },
+      {
+        "id": "ACoAAFqSl8YB7YnvFfa4f3Id07JNhj1fSZnCwTQ",
+        "firstName": "Nanuka",
+        "lastName": "Khorava",
+        "position": "Information Technology Help Desk Support at Bank of Georgia",
+        "publicIdentifier": "nanuka-khorava-006a91364",
+        "linkedinUrl": "https://www.linkedin.com/in/nanuka-khorava-006a91364"
+      },
+      {
+        "id": "ACoAABy4_AsBbGbrNvAcC-ScZbrMtxpf8d7-zew",
+        "firstName": "Mariam",
+        "lastName": "Amirejibi",
+        "publicIdentifier": "mariam-amirejibi-8b7470115",
+        "linkedinUrl": "https://www.linkedin.com/in/mariam-amirejibi-8b7470115"
+      },
+      {
+        "id": "ACoAADeMjd4BBobOJ2Dq4R1z_iFHvHUJBMHfXrs",
+        "firstName": "Ucha",
+        "lastName": "Pipia",
+        "publicIdentifier": "ucha-pipia",
+        "linkedinUrl": "https://www.linkedin.com/in/ucha-pipia"
+      },
+      {
+        "id": "ACoAADsRqZ8BGEoTV3uOTDt3EAfdTfrsE1vSoag",
+        "firstName": "Nino",
+        "lastName": "Gogoberishvili",
+        "publicIdentifier": "nino-gogoberishvili-07ba7b237",
+        "linkedinUrl": "https://www.linkedin.com/in/nino-gogoberishvili-07ba7b237"
+      },
+      {
+        "id": "ACoAAD8dAEUBQlRoQktItmhsAOX_80W_2Hd1Tsw",
+        "firstName": "Irina",
+        "lastName": "Ghvinadze",
+        "position": "Human Resources Supervisor at Majid Al Futtaim",
+        "publicIdentifier": "irina-ghvinadze-285741256",
+        "linkedinUrl": "https://www.linkedin.com/in/irina-ghvinadze-285741256"
+      },
+      {
+        "id": "ACoAAFl87hwBJ3Ps11tBPlrZkjDLESE8IQ7kRFk",
+        "firstName": "Guja",
+        "lastName": "Chachiashvili",
+        "position": "Senior Fraud/Payment/AML Analyst 5+ years of experience",
+        "publicIdentifier": "guja-chachiashvili-47897635a",
+        "linkedinUrl": "https://www.linkedin.com/in/guja-chachiashvili-47897635a"
+      },
+      {
+        "id": "ACoAABCeCmoBbkRHvQWDZJsGgAvP1zPvpjDK8g4",
+        "firstName": "Andria",
+        "lastName": "Shonia",
+        "publicIdentifier": "andria-shonia",
+        "linkedinUrl": "https://www.linkedin.com/in/andria-shonia"
+      },
+      {
+        "id": "ACoAACPGgC8BJVEf71VW5Dseph72hCSVEWz1v9o",
+        "firstName": "Tamar",
+        "lastName": "Robakidze",
+        "position": "HR Professional",
+        "publicIdentifier": "tamar-robakidze-753014149",
+        "linkedinUrl": "https://www.linkedin.com/in/tamar-robakidze-753014149"
+      },
+      {
+        "id": "ACoAAEQcuNwB0zzxdKCuhUG06Nyz9UkqMpcuOrE",
+        "firstName": "Anuka",
+        "lastName": "Aptsiauri",
+        "position": "Head of Organizational Development Division",
+        "publicIdentifier": "anuka-aptsiauri-9b884727a",
+        "linkedinUrl": "https://www.linkedin.com/in/anuka-aptsiauri-9b884727a"
+      },
+      {
+        "id": "ACoAAAmz1ywBctWvY-IWo3EQ53_nPByYw4L5v5Q",
+        "firstName": "Rati",
+        "lastName": "Kiria",
+        "position": "Financial market trader || Investment Analytics \nUnited Nations 59th GSP Fellow at United Nations",
+        "publicIdentifier": "ratikiria",
+        "linkedinUrl": "https://www.linkedin.com/in/ratikiria"
+      },
+      {
+        "id": "ACoAAD6io2gBQrjszvODNZXLGkRB4xlJB99Vgwc",
+        "firstName": "Ani",
+        "lastName": "Lomidze",
+        "position": "Lawyer at Nemsitsveridze law firm",
+        "publicIdentifier": "ani-lomidze-608b14253",
+        "linkedinUrl": "https://www.linkedin.com/in/ani-lomidze-608b14253"
+      },
+      {
+        "id": "ACoAACjmyfoBZO-uAen8CyNx6fGzSmzzQH9EFfU",
+        "firstName": "mamuka",
+        "lastName": "khurtsilava",
+        "publicIdentifier": "mamuka-khurtsilava-44a98a171",
+        "linkedinUrl": "https://www.linkedin.com/in/mamuka-khurtsilava-44a98a171"
+      }
+    ],
+    "_meta": {
+      "pagination": {
+        "totalElements": 20,
+        "totalPages": 1,
+        "pageNumber": 1,
+        "previousElements": 0,
+        "pageSize": 25
+      }
+    }
+  },
+  {
+    "id": "ACoAABCeCmoBbkRHvQWDZJsGgAvP1zPvpjDK8g4",
+    "publicIdentifier": "andria-shonia",
+    "linkedinUrl": "https://www.linkedin.com/in/andria-shonia",
+    "firstName": "Andria",
+    "lastName": "Shonia",
+    "headline": "Software Engineer at Theneo (YC W22)",
+    "about": null,
+    "openToWork": false,
+    "hiring": false,
+    "photo": null,
+    "premium": false,
+    "influencer": false,
+    "location": {
+      "linkedinText": "Tbilisi, Georgia",
+      "countryCode": "GE",
+      "parsed": {
+        "text": "Tbilisi, Georgia",
+        "countryCode": "GE",
+        "regionCode": null,
+        "country": "Georgia",
+        "countryFull": "Georgia",
+        "state": "Tbilisi",
+        "city": "Tbilisi"
+      }
+    },
+    "verified": true,
+    "registeredAt": "2013-08-10T15:33:53.736Z",
+    "topSkills": null,
+    "connectionsCount": 4418,
+    "followerCount": 4447,
+    "currentPosition": [
+      {
+        "companyId": "75072704",
+        "companyLinkedinUrl": "https://www.linkedin.com/company/75072704/",
+        "companyName": "Theneo (YC W22)",
+        "dateRange": {
+          "start": {
+            "month": 6,
+            "year": 2022,
+            "day": null
+          },
+          "end": null
+        }
+      }
+    ],
+    "profileTopEducation": [
+      {
+        "schoolId": "4070005",
+        "companyId": "2726469",
+        "schoolLinkedinUrl": "https://www.linkedin.com/company/2726469/",
+        "schoolName": "The University of Georgia (Tbilisi)"
+      }
+    ],
+    "experience": [
+      {
+        "position": "Software Engineer",
+        "location": "Tbilisi, Georgia",
+        "employmentType": "Full-time",
+        "workplaceType": "Hybrid",
+        "companyName": "Theneo (YC W22)",
+        "companyLinkedinUrl": "https://www.linkedin.com/company/theneoinc/",
+        "companyId": "75072704",
+        "companyUniversalName": "theneoinc",
+        "duration": "3 yrs 4 mos",
+        "description": null,
+        "skills": null,
+        "startDate": {
+          "month": "Jun",
+          "year": 2022,
+          "text": "Jun 2022"
+        },
+        "endDate": {
+          "text": "Present"
+        }
+      },
+      {
+        "position": "Software Engineer",
+        "location": "Georgia",
+        "employmentType": "Full-time",
+        "workplaceType": null,
+        "companyName": "Clientela Inc.",
+        "companyLinkedinUrl": "https://www.linkedin.com/company/679598/",
+        "companyId": "679598",
+        "duration": "1 yr 6 mos",
+        "description": null,
+        "skills": null,
+        "startDate": {
+          "month": "Jan",
+          "year": 2021,
+          "text": "Jan 2021"
+        },
+        "endDate": {
+          "month": "Jun",
+          "year": 2022,
+          "text": "Jun 2022"
+        }
+      },
+      {
+        "position": "Software Engineer",
+        "location": "Tbilisi",
+        "employmentType": "Full-time",
+        "workplaceType": null,
+        "companyName": "Betsson Group",
+        "companyLinkedinUrl": "https://www.linkedin.com/company/16289/",
+        "companyId": "16289",
+        "duration": "1 yr 8 mos",
+        "description": null,
+        "skills": null,
+        "startDate": {
+          "month": "Sep",
+          "year": 2019,
+          "text": "Sep 2019"
+        },
+        "endDate": {
+          "month": "Apr",
+          "year": 2021,
+          "text": "Apr 2021"
+        }
+      },
+      {
+        "position": "Software Engineer",
+        "location": "Tbilisi, Georgia",
+        "employmentType": "Contract",
+        "workplaceType": null,
+        "companyName": "Liberty Bank",
+        "companyLinkedinUrl": "https://www.linkedin.com/company/923180/",
+        "companyId": "923180",
+        "duration": "7 mos",
+        "description": null,
+        "skills": null,
+        "startDate": {
+          "month": "Jun",
+          "year": 2020,
+          "text": "Jun 2020"
+        },
+        "endDate": {
+          "month": "Dec",
+          "year": 2020,
+          "text": "Dec 2020"
+        }
+      },
+      {
+        "position": "Software Engineer",
+        "location": "Tbilisi",
+        "employmentType": "Full-time",
+        "workplaceType": null,
+        "companyName": "SchoolBook - სქულბუქი",
+        "companyLinkedinUrl": "https://www.linkedin.com/company/13285618/",
+        "companyId": "13285618",
+        "duration": "2 yrs 1 mo",
+        "description": null,
+        "skills": null,
+        "startDate": {
+          "month": "Aug",
+          "year": 2017,
+          "text": "Aug 2017"
+        },
+        "endDate": {
+          "month": "Aug",
+          "year": 2019,
+          "text": "Aug 2019"
+        }
+      }
+    ],
+    "education": [
+      {
+        "schoolName": "The University of Georgia (Tbilisi)",
+        "schoolLinkedinUrl": "https://www.linkedin.com/company/2726469/",
+        "degree": "Bachelor's degree",
+        "fieldOfStudy": "Information Technology",
+        "skills": [],
+        "startDate": {
+          "year": 2013,
+          "text": "2013"
+        },
+        "endDate": {
+          "year": 2018,
+          "text": "2018"
+        },
+        "period": "2013 - 2018"
+      }
+    ],
+    "certifications": [],
+    "projects": [],
+    "volunteering": [],
+    "receivedRecommendations": [],
+    "skills": [
+      {
+        "name": "TypeScript"
+      },
+      {
+        "name": "Front-End Design"
+      },
+      {
+        "name": "what i can?",
+        "endorsements": "3 endorsements"
+      },
+      {
+        "name": "Strategic Planning",
+        "endorsements": "10 endorsements"
+      },
+      {
+        "name": "Project Planning",
+        "endorsements": "5 endorsements"
+      },
+      {
+        "name": "Project Management",
+        "endorsements": "4 endorsements"
+      },
+      {
+        "name": "Leadership",
+        "endorsements": "3 endorsements"
+      },
+      {
+        "name": "Business Development",
+        "endorsements": "4 endorsements"
+      },
+      {
+        "name": "Team Building",
+        "endorsements": "3 endorsements"
+      },
+      {
+        "name": "Team Leadership",
+        "endorsements": "3 endorsements"
+      },
+      {
+        "name": "Web Design",
+        "endorsements": "2 endorsements"
+      },
+      {
+        "name": "Web Applications",
+        "endorsements": "2 endorsements"
+      },
+      {
+        "name": "Web Analytics",
+        "endorsements": "2 endorsements"
+      },
+      {
+        "name": "Web Services",
+        "endorsements": "2 endorsements"
+      },
+      {
+        "name": "PWA",
+        "endorsements": "2 endorsements"
+      },
+      {
+        "name": "Google Analytics",
+        "endorsements": "2 endorsements"
+      },
+      {
+        "name": "Google Apps",
+        "endorsements": "2 endorsements"
+      },
+      {
+        "name": "Web Development",
+        "endorsements": "2 endorsements"
+      },
+      {
+        "name": "Responsive Web Design",
+        "endorsements": "2 endorsements"
+      },
+      {
+        "name": "Web Services API",
+        "endorsements": "2 endorsements"
+      },
+      {
+        "name": "Web Application Design",
+        "endorsements": "1 endorsement"
+      }
+    ],
+    "publications": [],
+    "courses": [],
+    "patents": [],
+    "honorsAndAwards": [],
+    "languages": [
+      {
+        "name": "English",
+        "proficiency": "Professional working proficiency"
+      },
+      {
+        "name": "Georgian",
+        "proficiency": "Full professional proficiency"
+      }
+    ],
+    "causes": [
+      "Education",
+      "Environment",
+      "Science and Technology"
+    ],
+    "featured": null,
+    "composeOptionType": "UPSELL",
+    "moreProfiles": [
+      {
+        "id": "ACoAAEEkh-0BOMIbsSsCBBvSLqqFNyoYiBp_3sQ",
+        "firstName": "Khatia",
+        "lastName": "Kvrivishvili",
+        "position": "Head of Litigation Support Group of Retail and Small Business, Litigation & Representations Direction",
+        "publicIdentifier": "khatia-kvrivishvili-a65020266",
+        "linkedinUrl": "https://www.linkedin.com/in/khatia-kvrivishvili-a65020266"
+      },
+      {
+        "id": "ACoAADhzWNIBx5Xb7EQ_73bMqaODAAm28xXCpI0",
+        "firstName": "Elisabed",
+        "lastName": "Kereselidze",
+        "position": "HR Specialist | HRIS at 2 ნაბიჯი - 2 Nabiji",
+        "publicIdentifier": "elisabed-kereselidze-86a214225",
+        "linkedinUrl": "https://www.linkedin.com/in/elisabed-kereselidze-86a214225"
+      },
+      {
+        "id": "ACoAAD7OLVQBorZaAzrroTfGCYPYddw9VvAitz0",
+        "firstName": "Tekle",
+        "lastName": "Arghvliani",
+        "position": "Human Capital Administration Specialist",
+        "publicIdentifier": "tekle-arghvliani-904a6b254",
+        "linkedinUrl": "https://www.linkedin.com/in/tekle-arghvliani-904a6b254"
+      },
+      {
+        "id": "ACoAAAr0xP8BsISXslv2t-4aqbsFYT0EQfyLIyc",
+        "firstName": "Ana",
+        "lastName": "Robakidze",
+        "publicIdentifier": "robakidzeana",
+        "linkedinUrl": "https://www.linkedin.com/in/robakidzeana"
+      },
+      {
+        "id": "ACoAACn-7YEBwXDFSY7ICZt7tg4bRJ1rBLSKSwk",
+        "firstName": "Morris",
+        "lastName": "Khutsishvili",
+        "publicIdentifier": "morris-khutsishvili",
+        "linkedinUrl": "https://www.linkedin.com/in/morris-khutsishvili"
+      },
+      {
+        "id": "ACoAADwDGCwBlVA4FpdlbU6HNjxmC93zd6PXtiA",
+        "firstName": "Rezo",
+        "lastName": "Lazariashvili",
+        "position": "Internal Auditor & Tax Expert at PB SERVICES GEORGIA",
+        "publicIdentifier": "rezo-lazariashvili-6b822b241",
+        "linkedinUrl": "https://www.linkedin.com/in/rezo-lazariashvili-6b822b241"
+      },
+      {
+        "id": "ACoAAEYMEPoBjmLew1eVriOAJuOh_sF6xe2VGGY",
+        "firstName": "Mustafa",
+        "lastName": "Hussein",
+        "position": "Account manager at Alrayan Co. | Expertise in Budgeting & Forecasting",
+        "publicIdentifier": "mustafa-hussein-2766a2289",
+        "linkedinUrl": "https://www.linkedin.com/in/mustafa-hussein-2766a2289"
+      },
+      {
+        "id": "ACoAAABuiyIBAFjN9PvAvx0ln98iez2VsAfIvRI",
+        "firstName": "Gail Christine",
+        "lastName": "Gannon",
+        "publicIdentifier": "gailgannon",
+        "linkedinUrl": "https://www.linkedin.com/in/gailgannon"
+      },
+      {
+        "id": "ACoAABrBn8EBM7HKW2o3Ew-Rh95ZUUXVfz5oRNg",
+        "firstName": "Mira",
+        "lastName": "Kipshidze MBA",
+        "publicIdentifier": "mirandakipshidze16",
+        "linkedinUrl": "https://www.linkedin.com/in/mirandakipshidze16"
+      },
+      {
+        "id": "ACoAAERGeEIBhLByFZWTJxMnkNAVHYo8CL1zl8k",
+        "firstName": "Mariam",
+        "lastName": "Tkeshelashvili",
+        "position": "Human Resources Specialist",
+        "publicIdentifier": "mariam-tkeshelashvili-19674727b",
+        "linkedinUrl": "https://www.linkedin.com/in/mariam-tkeshelashvili-19674727b"
+      },
+      {
+        "id": "ACoAAD3w1HcBQZHv8V1l5eNsi_rNWNmtQUFtRrQ",
+        "firstName": "Utkarsh",
+        "lastName": "Tiwari",
+        "publicIdentifier": "utkarsh-tiwari-b5b034250",
+        "linkedinUrl": "https://www.linkedin.com/in/utkarsh-tiwari-b5b034250"
+      },
+      {
+        "id": "ACoAADLytAcB4cT34SEkZPVlsI8J72a4etVkW50",
+        "firstName": "Mariam",
+        "lastName": "Lekveishvili",
+        "publicIdentifier": "mariamlekveishvili",
+        "linkedinUrl": "https://www.linkedin.com/in/mariamlekveishvili"
+      },
+      {
+        "id": "ACoAADTFIyoBprpGULDnUaoa-fTvcvCwUOsKEpQ",
+        "firstName": "Temo",
+        "lastName": "Suluashvili",
+        "position": "Associate, Business Services & Outsourcing",
+        "publicIdentifier": "temo-suluashvili-6625b6208",
+        "linkedinUrl": "https://www.linkedin.com/in/temo-suluashvili-6625b6208"
+      },
+      {
+        "id": "ACoAAFfq_GkBpKvx_OY6isXfB0NwYeWIwl9Hvdw",
+        "firstName": "Tamar",
+        "lastName": "Kochiashvili",
+        "position": "Software QA Engineer | Manual & Automation Testing",
+        "publicIdentifier": "tamar-kochiashvili",
+        "linkedinUrl": "https://www.linkedin.com/in/tamar-kochiashvili"
+      },
+      {
+        "id": "ACoAACeck9sB1Jh9d_dkM1eH8Pwhe23RB6FbhuY",
+        "firstName": "ioseb",
+        "lastName": "bichinashvili",
+        "publicIdentifier": "ioseb-bichinashvili-963692166",
+        "linkedinUrl": "https://www.linkedin.com/in/ioseb-bichinashvili-963692166"
+      },
+      {
+        "id": "ACoAACROYL4BUQEt54f2mh0-Vb_dlb2HQ4My4JQ",
+        "firstName": "Tornike",
+        "lastName": "Tabatadze",
+        "publicIdentifier": "tornike-tabatadze-a7aba914b",
+        "linkedinUrl": "https://www.linkedin.com/in/tornike-tabatadze-a7aba914b"
+      },
+      {
+        "id": "ACoAAFRlSuEBB6iWD2ekeSUKZWYGUI3VmiaHclk",
+        "firstName": "Natia",
+        "lastName": "Lomidze",
+        "position": "HR Manager  |  Administrative Specialist  | Service Manager  | Healthcare Manager",
+        "publicIdentifier": "natia-lomidze-881234336",
+        "linkedinUrl": "https://www.linkedin.com/in/natia-lomidze-881234336"
+      },
+      {
+        "id": "ACoAABmBNlUBoW2FnV87QVZR4474THDvvHcSIxg",
+        "firstName": "Theano",
+        "lastName": "Dimitrakis",
+        "publicIdentifier": "theanodimitrakis",
+        "linkedinUrl": "https://www.linkedin.com/in/theanodimitrakis"
+      },
+      {
+        "id": "ACoAADhtrYEBy3RdaeijgsK0IzzlYW1Lu4nJwy4",
+        "firstName": "Keti",
+        "lastName": "Aladashvili",
+        "position": "Human Resources Manager",
+        "publicIdentifier": "keti-aladashvili-855075225",
+        "linkedinUrl": "https://www.linkedin.com/in/keti-aladashvili-855075225"
+      },
+      {
+        "id": "ACoAAFzCMh4Bfb-I-sDoknGL1YzfpQnHgl_g3I8",
+        "firstName": "Annalise",
+        "lastName": "Calhoun",
+        "position": "Human Resources Consultant at Cisco",
+        "publicIdentifier": "annalise-calhoun-566218375",
+        "linkedinUrl": "https://www.linkedin.com/in/annalise-calhoun-566218375"
+      },
+      {
+        "id": "ACoAAAZ5JzwBk3nECgZCKue3rmCd8xU05U26YL8",
+        "firstName": "Nodo",
+        "lastName": "Ivanidze",
+        "publicIdentifier": "nodo-ivanidze",
+        "linkedinUrl": "https://www.linkedin.com/in/nodo-ivanidze"
+      }
+    ],
+    "_meta": {
+      "pagination": {
+        "totalElements": 20,
+        "totalPages": 1,
+        "pageNumber": 1,
+        "previousElements": 0,
+        "pageSize": 25
+      }
+    }
+  },
+  {
+    "id": "ACoAACeck9sB1Jh9d_dkM1eH8Pwhe23RB6FbhuY",
+    "publicIdentifier": "ioseb-bichinashvili-963692166",
+    "linkedinUrl": "https://www.linkedin.com/in/ioseb-bichinashvili-963692166",
+    "firstName": "ioseb",
+    "lastName": "bichinashvili",
+    "headline": "Senior Software Engineer",
+    "about": null,
+    "openToWork": false,
+    "hiring": false,
+    "photo": "https://media.licdn.com/dms/image/v2/C5603AQFsihHfhePZ_g/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1561881182978?e=1761782400&v=beta&t=4ZjmlBTwNJk_YKmyYIHWLExhvPAhRtlp5f8cVmMN8C0",
+    "premium": false,
+    "influencer": false,
+    "location": {
+      "linkedinText": "Tbilisi, Georgia",
+      "countryCode": "GE",
+      "parsed": {
+        "text": "Tbilisi, Georgia",
+        "countryCode": "GE",
+        "regionCode": null,
+        "country": "Georgia",
+        "countryFull": "Georgia",
+        "state": "Tbilisi",
+        "city": "Tbilisi"
+      }
+    },
+    "verified": true,
+    "registeredAt": "2018-06-26T15:37:37.097Z",
+    "topSkills": null,
+    "connectionsCount": 1031,
+    "followerCount": 1033,
+    "currentPosition": [
+      {
+        "companyId": "75072704",
+        "companyLinkedinUrl": "https://www.linkedin.com/company/75072704/",
+        "companyName": "Theneo",
+        "dateRange": {
+          "start": {
+            "month": 9,
+            "year": 2024,
+            "day": null
+          },
+          "end": null
+        }
+      }
+    ],
+    "profileTopEducation": [
+      {
+        "schoolId": "4070005",
+        "companyId": "2726469",
+        "schoolLinkedinUrl": "https://www.linkedin.com/company/2726469/",
+        "schoolName": "The University of Georgia (Tbilisi)"
+      }
+    ],
+    "experience": [
+      {
+        "position": "Software Engineer",
+        "location": "Tbilisi, Georgia",
+        "employmentType": "Contract",
+        "workplaceType": "Hybrid",
+        "companyName": "Theneo",
+        "companyLinkedinUrl": "https://www.linkedin.com/company/theneoinc/",
+        "companyId": "75072704",
+        "companyUniversalName": "theneoinc",
+        "duration": "1 yr 1 mo",
+        "description": null,
+        "skills": null,
+        "startDate": {
+          "month": "Sep",
+          "year": 2024,
+          "text": "Sep 2024"
+        },
+        "endDate": {
+          "text": "Present"
+        }
+      },
+      {
+        "position": "Senior Software Engineer",
+        "location": null,
+        "employmentType": "Full-time",
+        "workplaceType": "Remote",
+        "companyName": "OAK'S LAB",
+        "companyLinkedinUrl": "https://www.linkedin.com/company/10910216/",
+        "companyId": "10910216",
+        "duration": "1 yr 10 mos",
+        "description": null,
+        "skills": null,
+        "startDate": {
+          "month": "Aug",
+          "year": 2022,
+          "text": "Aug 2022"
+        },
+        "endDate": {
+          "month": "May",
+          "year": 2024,
+          "text": "May 2024"
+        }
+      },
+      {
+        "position": "Senior Software Engineer",
+        "location": "Georgia",
+        "employmentType": "Full-time",
+        "workplaceType": null,
+        "companyName": "Techub Development Center",
+        "companyLinkedinUrl": "https://www.linkedin.com/company/19109384/",
+        "companyId": "19109384",
+        "duration": "3 yrs",
+        "description": null,
+        "skills": null,
+        "startDate": {
+          "month": "Sep",
+          "year": 2019,
+          "text": "Sep 2019"
+        },
+        "endDate": {
+          "month": "Aug",
+          "year": 2022,
+          "text": "Aug 2022"
+        }
+      },
+      {
+        "position": "Senior Software Engineer",
+        "location": "Georgia",
+        "employmentType": "Full-time",
+        "workplaceType": null,
+        "companyName": "INEXPHONE",
+        "companyLinkedinUrl": "https://www.linkedin.com/company/17968060/",
+        "companyId": "17968060",
+        "duration": "6 yrs 7 mos",
+        "description": null,
+        "skills": null,
+        "startDate": {
+          "month": "Feb",
+          "year": 2016,
+          "text": "Feb 2016"
+        },
+        "endDate": {
+          "month": "Aug",
+          "year": 2022,
+          "text": "Aug 2022"
+        }
+      },
+      {
+        "position": "Programmer",
+        "location": null,
+        "employmentType": null,
+        "workplaceType": null,
+        "companyName": "VOBI",
+        "companyLinkedinUrl": "https://www.linkedin.com/company/27227070/",
+        "companyId": "27227070",
+        "duration": "1 yr 4 mos",
+        "description": null,
+        "skills": null,
+        "startDate": {
+          "month": "Jun",
+          "year": 2018,
+          "text": "Jun 2018"
+        },
+        "endDate": {
+          "month": "Sep",
+          "year": 2019,
+          "text": "Sep 2019"
+        }
+      }
+    ],
+    "education": [
+      {
+        "schoolName": "The University of Georgia (Tbilisi)",
+        "schoolLinkedinUrl": "https://www.linkedin.com/company/2726469/",
+        "degree": "Computer Science",
+        "fieldOfStudy": null,
+        "skills": [],
+        "startDate": {
+          "year": 2017,
+          "text": "2017"
+        },
+        "endDate": {
+          "year": 2019,
+          "text": "2019"
+        },
+        "period": "2017 - 2019"
+      },
+      {
+        "schoolName": "Caucasus University",
+        "schoolLinkedinUrl": "https://www.linkedin.com/company/15102237/",
+        "degree": "Computer Science",
+        "fieldOfStudy": null,
+        "skills": [],
+        "startDate": {
+          "year": 2010,
+          "text": "2010"
+        },
+        "endDate": {
+          "year": 2016,
+          "text": "2016"
+        },
+        "period": "2010 - 2016"
+      }
+    ],
+    "certifications": [],
+    "projects": [],
+    "volunteering": [],
+    "receivedRecommendations": [],
+    "skills": [
+      {
+        "name": "React.js",
+        "assessments": "Passed LinkedIn Skill Assessment"
+      },
+      {
+        "name": "Node.js",
+        "assessments": "Passed LinkedIn Skill Assessment"
+      },
+      {
+        "name": "Apollo GraphQL"
+      },
+      {
+        "name": "MongoDB",
+        "assessments": "Passed LinkedIn Skill Assessment"
+      },
+      {
+        "name": "Cascading Style Sheets (CSS)"
+      },
+      {
+        "name": "HTML"
+      },
+      {
+        "name": "JavaScript",
+        "assessments": "Passed LinkedIn Skill Assessment",
+        "endorsements": "1 endorsement"
+      },
+      {
+        "name": "Meteor.js"
+      },
+      {
+        "name": "Git"
+      },
+      {
+        "name": "HTML5"
+      },
+      {
+        "name": "Redux.js"
+      },
+      {
+        "name": "Bootstrap"
+      },
+      {
+        "name": "SASS"
+      },
+      {
+        "name": "PostgreSQL"
+      },
+      {
+        "name": "jQuery"
+      },
+      {
+        "name": "NestJS"
+      },
+      {
+        "name": "TypeORM"
+      },
+      {
+        "name": "React Native"
+      },
+      {
+        "name": "GraphQL"
+      },
+      {
+        "name": "Express.js"
+      },
+      {
+        "name": "expo.io"
+      }
+    ],
+    "publications": [],
+    "courses": [],
+    "patents": [],
+    "honorsAndAwards": [],
+    "languages": [],
+    "causes": [],
+    "featured": null,
+    "composeOptionType": "UPSELL",
+    "moreProfiles": [
+      {
+        "id": "ACoAAEEkh-0BOMIbsSsCBBvSLqqFNyoYiBp_3sQ",
+        "firstName": "Khatia",
+        "lastName": "Kvrivishvili",
+        "position": "Head of Litigation Support Group of Retail and Small Business, Litigation & Representations Direction",
+        "publicIdentifier": "khatia-kvrivishvili-a65020266",
+        "linkedinUrl": "https://www.linkedin.com/in/khatia-kvrivishvili-a65020266"
+      },
+      {
+        "id": "ACoAADhzWNIBx5Xb7EQ_73bMqaODAAm28xXCpI0",
+        "firstName": "Elisabed",
+        "lastName": "Kereselidze",
+        "position": "HR Specialist | HRIS at 2 ნაბიჯი - 2 Nabiji",
+        "publicIdentifier": "elisabed-kereselidze-86a214225",
+        "linkedinUrl": "https://www.linkedin.com/in/elisabed-kereselidze-86a214225"
+      },
+      {
+        "id": "ACoAAD7OLVQBorZaAzrroTfGCYPYddw9VvAitz0",
+        "firstName": "Tekle",
+        "lastName": "Arghvliani",
+        "position": "Human Capital Administration Specialist",
+        "publicIdentifier": "tekle-arghvliani-904a6b254",
+        "linkedinUrl": "https://www.linkedin.com/in/tekle-arghvliani-904a6b254"
+      },
+      {
+        "id": "ACoAAAr0xP8BsISXslv2t-4aqbsFYT0EQfyLIyc",
+        "firstName": "Ana",
+        "lastName": "Robakidze",
+        "publicIdentifier": "robakidzeana",
+        "linkedinUrl": "https://www.linkedin.com/in/robakidzeana"
+      },
+      {
+        "id": "ACoAADwDGCwBlVA4FpdlbU6HNjxmC93zd6PXtiA",
+        "firstName": "Rezo",
+        "lastName": "Lazariashvili",
+        "position": "Internal Auditor & Tax Expert at PB SERVICES GEORGIA",
+        "publicIdentifier": "rezo-lazariashvili-6b822b241",
+        "linkedinUrl": "https://www.linkedin.com/in/rezo-lazariashvili-6b822b241"
+      },
+      {
+        "id": "ACoAAEYMEPoBjmLew1eVriOAJuOh_sF6xe2VGGY",
+        "firstName": "Mustafa",
+        "lastName": "Hussein",
+        "position": "Account manager at Alrayan Co. | Expertise in Budgeting & Forecasting",
+        "publicIdentifier": "mustafa-hussein-2766a2289",
+        "linkedinUrl": "https://www.linkedin.com/in/mustafa-hussein-2766a2289"
+      },
+      {
+        "id": "ACoAABCeCmoBbkRHvQWDZJsGgAvP1zPvpjDK8g4",
+        "firstName": "Andria",
+        "lastName": "Shonia",
+        "publicIdentifier": "andria-shonia",
+        "linkedinUrl": "https://www.linkedin.com/in/andria-shonia"
+      },
+      {
+        "id": "ACoAAABuiyIBAFjN9PvAvx0ln98iez2VsAfIvRI",
+        "firstName": "Gail Christine",
+        "lastName": "Gannon",
+        "publicIdentifier": "gailgannon",
+        "linkedinUrl": "https://www.linkedin.com/in/gailgannon"
+      },
+      {
+        "id": "ACoAADybBcIBZm78agxIrJ5wytR-b9tLCbDWe8s",
+        "firstName": "Ana",
+        "lastName": "Surguladze",
+        "publicIdentifier": "anasurguladze",
+        "linkedinUrl": "https://www.linkedin.com/in/anasurguladze"
+      },
+      {
+        "id": "ACoAADX4o7UBVEHhmvcDtQE6PJkuHfNtlmm8A6Q",
+        "firstName": "Givi",
+        "lastName": "Chargeishvili",
+        "publicIdentifier": "givi-chargeishvili-a192b4213",
+        "linkedinUrl": "https://www.linkedin.com/in/givi-chargeishvili-a192b4213"
+      },
+      {
+        "id": "ACoAAERGeEIBhLByFZWTJxMnkNAVHYo8CL1zl8k",
+        "firstName": "Mariam",
+        "lastName": "Tkeshelashvili",
+        "position": "Human Resources Specialist",
+        "publicIdentifier": "mariam-tkeshelashvili-19674727b",
+        "linkedinUrl": "https://www.linkedin.com/in/mariam-tkeshelashvili-19674727b"
+      },
+      {
+        "id": "ACoAADLytAcB4cT34SEkZPVlsI8J72a4etVkW50",
+        "firstName": "Mariam",
+        "lastName": "Lekveishvili",
+        "publicIdentifier": "mariamlekveishvili",
+        "linkedinUrl": "https://www.linkedin.com/in/mariamlekveishvili"
+      },
+      {
+        "id": "ACoAADTFIyoBprpGULDnUaoa-fTvcvCwUOsKEpQ",
+        "firstName": "Temo",
+        "lastName": "Suluashvili",
+        "position": "Associate, Business Services & Outsourcing",
+        "publicIdentifier": "temo-suluashvili-6625b6208",
+        "linkedinUrl": "https://www.linkedin.com/in/temo-suluashvili-6625b6208"
+      },
+      {
+        "id": "ACoAAFfq_GkBpKvx_OY6isXfB0NwYeWIwl9Hvdw",
+        "firstName": "Tamar",
+        "lastName": "Kochiashvili",
+        "position": "Software QA Engineer | Manual & Automation Testing",
+        "publicIdentifier": "tamar-kochiashvili",
+        "linkedinUrl": "https://www.linkedin.com/in/tamar-kochiashvili"
+      },
+      {
+        "id": "ACoAACROYL4BUQEt54f2mh0-Vb_dlb2HQ4My4JQ",
+        "firstName": "Tornike",
+        "lastName": "Tabatadze",
+        "publicIdentifier": "tornike-tabatadze-a7aba914b",
+        "linkedinUrl": "https://www.linkedin.com/in/tornike-tabatadze-a7aba914b"
+      },
+      {
+        "id": "ACoAAChwyIIBtcUexdmTnDeJWvblrthYWi97pjk",
+        "firstName": "Natia",
+        "lastName": "Khitarishvili",
+        "publicIdentifier": "natiakhitarishvili",
+        "linkedinUrl": "https://www.linkedin.com/in/natiakhitarishvili"
+      },
+      {
+        "id": "ACoAAFRlSuEBB6iWD2ekeSUKZWYGUI3VmiaHclk",
+        "firstName": "Natia",
+        "lastName": "Lomidze",
+        "position": "HR Manager  |  Administrative Specialist  | Service Manager  | Healthcare Manager",
+        "publicIdentifier": "natia-lomidze-881234336",
+        "linkedinUrl": "https://www.linkedin.com/in/natia-lomidze-881234336"
+      },
+      {
+        "id": "ACoAABmBNlUBoW2FnV87QVZR4474THDvvHcSIxg",
+        "firstName": "Theano",
+        "lastName": "Dimitrakis",
+        "publicIdentifier": "theanodimitrakis",
+        "linkedinUrl": "https://www.linkedin.com/in/theanodimitrakis"
+      },
+      {
+        "id": "ACoAADhtrYEBy3RdaeijgsK0IzzlYW1Lu4nJwy4",
+        "firstName": "Keti",
+        "lastName": "Aladashvili",
+        "position": "Human Resources Manager",
+        "publicIdentifier": "keti-aladashvili-855075225",
+        "linkedinUrl": "https://www.linkedin.com/in/keti-aladashvili-855075225"
+      },
+      {
+        "id": "ACoAAFzCMh4Bfb-I-sDoknGL1YzfpQnHgl_g3I8",
+        "firstName": "Annalise",
+        "lastName": "Calhoun",
+        "position": "Human Resources Consultant at Cisco",
+        "publicIdentifier": "annalise-calhoun-566218375",
+        "linkedinUrl": "https://www.linkedin.com/in/annalise-calhoun-566218375"
+      },
+      {
+        "id": "ACoAAAZ5JzwBk3nECgZCKue3rmCd8xU05U26YL8",
+        "firstName": "Nodo",
+        "lastName": "Ivanidze",
+        "publicIdentifier": "nodo-ivanidze",
+        "linkedinUrl": "https://www.linkedin.com/in/nodo-ivanidze"
+      }
+    ],
+    "_meta": {
+      "pagination": {
+        "totalElements": 20,
+        "totalPages": 1,
+        "pageNumber": 1,
+        "previousElements": 0,
+        "pageSize": 25
+      }
+    }
+  },
+  {
+    "id": "ACoAACROYL4BUQEt54f2mh0-Vb_dlb2HQ4My4JQ",
+    "publicIdentifier": "tornike-tabatadze-a7aba914b",
+    "linkedinUrl": "https://www.linkedin.com/in/tornike-tabatadze-a7aba914b",
+    "firstName": "Tornike",
+    "lastName": "Tabatadze",
+    "headline": "Manual QA Engineer at Theneo (YC W22)",
+    "about": null,
+    "openToWork": false,
+    "hiring": false,
+    "photo": "https://media.licdn.com/dms/image/v2/D4D03AQFKNfPsCn5TIw/profile-displayphoto-shrink_800_800/B4DZUjk3lAGkAk-/0/1740058622667?e=1761782400&v=beta&t=8KAi7CoYDgJXSLAi5pl5Y0zXFSwpfnlacNwc0gta2XI",
+    "premium": false,
+    "influencer": false,
+    "location": {
+      "linkedinText": "Tbilisi, Georgia",
+      "countryCode": "GE",
+      "parsed": {
+        "text": "Tbilisi, Georgia",
+        "countryCode": "GE",
+        "regionCode": null,
+        "country": "Georgia",
+        "countryFull": "Georgia",
+        "state": "Tbilisi",
+        "city": "Tbilisi"
+      }
+    },
+    "verified": false,
+    "registeredAt": "2017-09-18T20:56:40.008Z",
+    "topSkills": null,
+    "connectionsCount": 989,
+    "followerCount": 1083,
+    "currentPosition": [
+      {
+        "companyId": "75072704",
+        "companyLinkedinUrl": "https://www.linkedin.com/company/75072704/",
+        "companyName": "Theneo (YC W22)",
+        "dateRange": {
+          "start": {
+            "month": 8,
+            "year": 2022,
+            "day": null
+          },
+          "end": null
+        }
+      }
+    ],
+    "profileTopEducation": [],
+    "experience": [
+      {
+        "position": "Manual QA Engineer",
+        "location": null,
+        "employmentType": "Full-time",
+        "workplaceType": null,
+        "companyName": "Theneo (YC W22)",
+        "companyLinkedinUrl": "https://www.linkedin.com/company/theneoinc/",
+        "companyId": "75072704",
+        "companyUniversalName": "theneoinc",
+        "duration": "3 yrs 2 mos",
+        "description": "1. Design and execute comprehensive manual test plans and test cases based on product requirements and user stories.\n2. Identify, document, and track defects using tools like Jira.\n3. Perform functional, integration, regression, and exploratory testing to validate product stability and performance.\n4. Collaborate closely with developers and product managers to ensure features meet quality standards before release.\n5. Provide clear, concise, and actionable bug reports and work closely with the engineering team to resolve issues.\n6. Participate in sprint planning, reviews, and daily standups to ensure timely testing and feedback loops.\n7. Validate bug fixes and ensure that issues are resolved without causing regression in other areas of the product.\n8. Contribute to the development and continuous improvement of QA processes, test plans, and strategies.\n9. Ensure cross-browser and cross-platform compatibility for the platform.",
+        "skills": null,
+        "startDate": {
+          "month": "Aug",
+          "year": 2022,
+          "text": "Aug 2022"
+        },
+        "endDate": {
+          "text": "Present"
+        }
+      },
+      {
+        "position": "Software Tester",
+        "location": "Tbilisi, Georgia",
+        "employmentType": "Full-time",
+        "workplaceType": null,
+        "companyName": "Webiz ∙ ვებიზ",
+        "companyLinkedinUrl": "https://www.linkedin.com/company/52164016/",
+        "companyId": "52164016",
+        "duration": "7 mos",
+        "description": "1. Working closely with PO, PM, developers, UI/UX designers, and testers\n2. Participating in all scrum meetings\n3. Reviewing and analyzing business requirements\n4. Create positive and negative test cases based on business requirements\n5. Test website functionality in positive and negative ways\n6. Test website front-end and UI in different browsers\n7. Test website back-end logic using Swagger and Postman\n6. Creating detailed bug reports in Jira\n7. Conduct re-testing when bugs are fixed\n8. Conduct regression testing on the staging environments before release\n9. Conduct regression testing on production",
+        "skills": [
+          "Postman API",
+          "Swagger API",
+          "Software Testing",
+          "Manual Testing",
+          "API Testing"
+        ],
+        "startDate": {
+          "month": "Jan",
+          "year": 2022,
+          "text": "Jan 2022"
+        },
+        "endDate": {
+          "month": "Jul",
+          "year": 2022,
+          "text": "Jul 2022"
+        }
+      }
+    ],
+    "education": [
+      {
+        "schoolName": "Webiz Academy",
+        "schoolLinkedinUrl": "https://www.linkedin.com/search/results/all/?keywords=Webiz+Academy",
+        "degree": null,
+        "fieldOfStudy": null,
+        "skills": [],
+        "description": "Software Testing Course",
+        "startDate": {
+          "month": "Nov",
+          "year": 2021,
+          "text": "Nov 2021"
+        },
+        "endDate": {
+          "month": "Jan",
+          "year": 2022,
+          "text": "Jan 2022"
+        },
+        "period": "Nov 2021 - Jan 2022"
+      },
+      {
+        "schoolName": "Smart Academy",
+        "schoolLinkedinUrl": "https://www.linkedin.com/search/results/all/?keywords=Smart+Academy",
+        "degree": null,
+        "fieldOfStudy": null,
+        "skills": [],
+        "description": "Python Basics Course",
+        "startDate": {
+          "month": "Jan",
+          "year": 2021,
+          "text": "Jan 2021"
+        },
+        "endDate": {
+          "month": "Mar",
+          "year": 2021,
+          "text": "Mar 2021"
+        },
+        "period": "Jan 2021 - Mar 2021"
+      },
+      {
+        "schoolName": "Georgian Technical University",
+        "schoolLinkedinUrl": "https://www.linkedin.com/company/820895/",
+        "degree": "Bachelor's degree",
+        "fieldOfStudy": "Civil Engineering",
+        "skills": [],
+        "startDate": {
+          "year": 2014,
+          "text": "2014"
+        },
+        "endDate": {
+          "year": 2018,
+          "text": "2018"
+        },
+        "period": "2014 - 2018"
+      }
+    ],
+    "certifications": [],
+    "projects": [],
+    "volunteering": [],
+    "receivedRecommendations": [
+      {
+        "givenBy": "Konstantine Kevlishvili",
+        "givenAt": "June 24, 2022, Konstantine managed Tornike directly",
+        "givenByLink": "https://www.linkedin.com/in/kevlishvili",
+        "description": "Tornike is an amazing professional with a great work ethic. Even at the beginning of his career in the software testing field, his skill and dedication proved to be exceptional. \n\nSince he is a very open-minded and humble guy, it was a pleasure to work with him, and I believe he would be a great addition to any team in the future!"
+      },
+      {
+        "givenBy": "Anastasia Tabagari",
+        "givenAt": "June 23, 2022, Anastasia managed Tornike directly",
+        "givenByLink": "https://www.linkedin.com/in/anastasia-tabagari",
+        "description": "Tornike is a motivated and forward-thinking Quality Assurance who has lots of knowledge in his field. His hands-on approach to process of bug tracking, ticketing, communication and powerful personality gained him the respect of the staff. Excellent, result driven and an amazing team player. He had vision to see the benefits and the passion to turn that into a competitive advantage for Webiz. I could always depend on him to set the best example as quality assurance at Webiz. Experiencing his fast and sharp mind at the workplace is most remarkable. "
+      }
+    ],
+    "skills": [
+      {
+        "name": "Postman API",
+        "positions": [
+          "Software Tester at Webiz ∙ ვებიზ",
+          "Endorsed by 2 colleagues at Webiz International"
+        ],
+        "endorsements": "3 endorsements"
+      },
+      {
+        "name": "API Testing",
+        "positions": [
+          "Software Tester at Webiz ∙ ვებიზ",
+          "Endorsed by 2 colleagues at Webiz International"
+        ],
+        "endorsements": "3 endorsements"
+      },
+      {
+        "name": "Manual Testing",
+        "positions": [
+          "Software Tester at Webiz ∙ ვებიზ",
+          "Endorsed by 2 colleagues at Webiz International"
+        ],
+        "endorsements": "3 endorsements"
+      },
+      {
+        "name": "Software Testing",
+        "positions": [
+          "Software Tester at Webiz ∙ ვებიზ"
+        ],
+        "endorsements": "1 endorsement"
+      },
+      {
+        "name": "Swagger API",
+        "positions": [
+          "Software Tester at Webiz ∙ ვებიზ"
+        ],
+        "endorsements": "1 endorsement"
+      }
+    ],
+    "publications": [],
+    "courses": [],
+    "patents": [],
+    "honorsAndAwards": [],
+    "languages": [],
+    "causes": [],
+    "featured": null,
+    "composeOptionType": "UPSELL",
+    "moreProfiles": [
+      {
+        "id": "ACoAAF5sNzQB04RVANtHK9nfI06IPE7ZFWgngMc",
+        "firstName": "bryan",
+        "lastName": "Pereira Disegna",
+        "position": "Operador de câmera na OpenAI",
+        "publicIdentifier": "bryan-pereira-disegna-7b0641382",
+        "linkedinUrl": "https://www.linkedin.com/in/bryan-pereira-disegna-7b0641382"
+      },
+      {
+        "id": "ACoAAF5bWasBMfG9D7tZcxM8WBRdPZw1_FVVz6M",
+        "firstName": "José Henrique",
+        "lastName": "Souza",
+        "position": "Proprietário na OpenAI",
+        "publicIdentifier": "josé-henrique-souza-0371aa382",
+        "linkedinUrl": "https://www.linkedin.com/in/josé-henrique-souza-0371aa382"
+      },
+      {
+        "id": "ACoAACmW70cBwp2kPSsGclbVUPNaNHdUYKX-XA4",
+        "firstName": "Ara",
+        "lastName": "Mkrtchyan",
+        "publicIdentifier": "ara-mkrtchyan-a33816175",
+        "linkedinUrl": "https://www.linkedin.com/in/ara-mkrtchyan-a33816175"
+      },
+      {
+        "id": "ACoAAEbSVR4BSCgZX187VPnJOYVj5XjAjjr4K_E",
+        "firstName": "Igor",
+        "lastName": "Biccas",
+        "position": "Product Manager",
+        "publicIdentifier": "igorbiccas",
+        "linkedinUrl": "https://www.linkedin.com/in/igorbiccas"
+      },
+      {
+        "id": "ACoAAAr0xP8BsISXslv2t-4aqbsFYT0EQfyLIyc",
+        "firstName": "Ana",
+        "lastName": "Robakidze",
+        "publicIdentifier": "robakidzeana",
+        "linkedinUrl": "https://www.linkedin.com/in/robakidzeana"
+      },
+      {
+        "id": "ACoAADem3v0BGW5d5jIK6o7a-b7o2pLvPa0kChI",
+        "firstName": "Stefan",
+        "lastName": "Radojičić",
+        "publicIdentifier": "stefan-radojičić-939831220",
+        "linkedinUrl": "https://www.linkedin.com/in/stefan-radojičić-939831220"
+      },
+      {
+        "id": "ACoAAF7BMRkB--nyxrqjHyTZaft0npHEYYRrpuM",
+        "firstName": "pau vei",
+        "lastName": "barerito",
+        "position": "Professor na OpenAI",
+        "publicIdentifier": "pau-vei-barerito-561488384",
+        "linkedinUrl": "https://www.linkedin.com/in/pau-vei-barerito-561488384"
+      },
+      {
+        "id": "ACoAADeMjd4BBobOJ2Dq4R1z_iFHvHUJBMHfXrs",
+        "firstName": "Ucha",
+        "lastName": "Pipia",
+        "publicIdentifier": "ucha-pipia",
+        "linkedinUrl": "https://www.linkedin.com/in/ucha-pipia"
+      },
+      {
+        "id": "ACoAABCeCmoBbkRHvQWDZJsGgAvP1zPvpjDK8g4",
+        "firstName": "Andria",
+        "lastName": "Shonia",
+        "publicIdentifier": "andria-shonia",
+        "linkedinUrl": "https://www.linkedin.com/in/andria-shonia"
+      },
+      {
+        "id": "ACoAACe_BKgBxgZkd8nEHIQ4oquxs2MGCxYE11g",
+        "firstName": "Giorgi",
+        "lastName": "Gigolashvili",
+        "publicIdentifier": "giorgi-gigolashvili-ba03a0167",
+        "linkedinUrl": "https://www.linkedin.com/in/giorgi-gigolashvili-ba03a0167"
+      },
+      {
+        "id": "ACoAAABuiyIBAFjN9PvAvx0ln98iez2VsAfIvRI",
+        "firstName": "Gail Christine",
+        "lastName": "Gannon",
+        "publicIdentifier": "gailgannon",
+        "linkedinUrl": "https://www.linkedin.com/in/gailgannon"
+      },
+      {
+        "id": "ACoAAF71cMUB556LU5IPSKXE8PHV2Zg493vTLFk",
+        "firstName": "Sofia",
+        "lastName": "Santos",
+        "position": "Proprietário na OpenAI",
+        "publicIdentifier": "sofia-santos-05965a385",
+        "linkedinUrl": "https://www.linkedin.com/in/sofia-santos-05965a385"
+      },
+      {
+        "id": "ACoAAF5lChkBXXhzqks1seftAN5U5jYK8kH5mjQ",
+        "firstName": "JsExper",
+        "lastName": "Html",
+        "position": "--",
+        "publicIdentifier": "jsexper-html-5b5455382",
+        "linkedinUrl": "https://www.linkedin.com/in/jsexper-html-5b5455382"
+      },
+      {
+        "id": "ACoAAE37xPEB94TsG8pMVfoyLFpIMBtLkTo0674",
+        "firstName": "G",
+        "lastName": "Antonieto",
+        "position": "Human Resources Director | CHRO | Consulting Partner",
+        "publicIdentifier": "g-antonieto-5291b4306",
+        "linkedinUrl": "https://www.linkedin.com/in/g-antonieto-5291b4306"
+      },
+      {
+        "id": "ACoAADLytAcB4cT34SEkZPVlsI8J72a4etVkW50",
+        "firstName": "Mariam",
+        "lastName": "Lekveishvili",
+        "publicIdentifier": "mariamlekveishvili",
+        "linkedinUrl": "https://www.linkedin.com/in/mariamlekveishvili"
+      },
+      {
+        "id": "ACoAAF5BCKoBM5iyMcwsTAwXzgzoiVfmIc5tbtM",
+        "firstName": "Rafael felipe",
+        "lastName": "Safieddine sanches",
+        "position": "Supervisor na OpenAI",
+        "publicIdentifier": "rafael-felipe-safieddine-sanches-b4a6b7381",
+        "linkedinUrl": "https://www.linkedin.com/in/rafael-felipe-safieddine-sanches-b4a6b7381"
+      },
+      {
+        "id": "ACoAAFOhz9oBs7mkXm7XhmaepxiXmUadDfeuFxg",
+        "firstName": "Rustam",
+        "lastName": "Hairov",
+        "publicIdentifier": "rustam-hairov",
+        "linkedinUrl": "https://www.linkedin.com/in/rustam-hairov"
+      },
+      {
+        "id": "ACoAAF72JOsBsh9L0eOLq3Q8fk0kwnk3TiHBA9Q",
+        "firstName": "the",
+        "lastName": "fox",
+        "position": "Empreendedor na OpenAI",
+        "publicIdentifier": "the-fox-88b680385",
+        "linkedinUrl": "https://www.linkedin.com/in/the-fox-88b680385"
+      },
+      {
+        "id": "ACoAAF7loZwBsUyBK6tsL0weoAtD-UtzbBYtRqg",
+        "firstName": "Maria",
+        "lastName": "Das dores",
+        "position": "Gerente na OpenAI",
+        "publicIdentifier": "maria-das-dores-56423a385",
+        "linkedinUrl": "https://www.linkedin.com/in/maria-das-dores-56423a385"
+      },
+      {
+        "id": "ACoAAF3QI8wB5bf6BuEDiuoDSQUUCsS6Ks0qJ7U",
+        "firstName": "Blake",
+        "lastName": "Ray",
+        "position": "Human Resources Director at OpenAI",
+        "publicIdentifier": "blake-ray-41012a37b",
+        "linkedinUrl": "https://www.linkedin.com/in/blake-ray-41012a37b"
+      },
+      {
+        "id": "ACoAAAZ5JzwBk3nECgZCKue3rmCd8xU05U26YL8",
+        "firstName": "Nodo",
+        "lastName": "Ivanidze",
+        "publicIdentifier": "nodo-ivanidze",
+        "linkedinUrl": "https://www.linkedin.com/in/nodo-ivanidze"
+      }
+    ],
+    "_meta": {
+      "pagination": {
+        "totalElements": 20,
+        "totalPages": 1,
+        "pageNumber": 1,
+        "previousElements": 0,
+        "pageSize": 25
+      }
+    }
+  },
+  {
+    "id": "ACoAAEABh-IBo5hkDGuiWnp_u9qYlXJkPXKDJwQ",
+    "publicIdentifier": "i-abashidze",
+    "linkedinUrl": "https://www.linkedin.com/in/i-abashidze",
+    "firstName": "Irakli",
+    "lastName": "Abashidze",
+    "headline": "QA Engineer at Theneo",
+    "about": "👋 Self-taught Front-End Developer | Seeking Opportunities 🚀\nPassionate and motivated front-end developer with a strong foundation in HTML, CSS, SCSS, SASS, Tailwind CSS, JavaScript, React, Node.js, Express, MongoDB. Eager to contribute skills in creating engaging web experiences. Adaptable, quick learner, and excited to embrace new challenges. Let's collaborate and build something amazing together! #FrontEndDeveloper #WebDeveloper #HTML #CSS #JavaScript #SelfTaughtDev #OpenToWork #React",
+    "openToWork": false,
+    "hiring": false,
+    "photo": "https://media.licdn.com/dms/image/v2/D4D03AQFeTzUpzPfuXA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1694419184088?e=1761782400&v=beta&t=Q7ilKYAYPEtl_9BTs7P933n1KpKCbhka4uS3rgC7lh0",
+    "premium": false,
+    "influencer": false,
+    "location": {
+      "linkedinText": "Tbilisi, Georgia",
+      "countryCode": "GE",
+      "parsed": {
+        "text": "Tbilisi, Georgia",
+        "countryCode": "GE",
+        "regionCode": null,
+        "country": "Georgia",
+        "countryFull": "Georgia",
+        "state": "Tbilisi",
+        "city": "Tbilisi"
+      }
+    },
+    "verified": true,
+    "registeredAt": "2022-12-23T11:26:13.238Z",
+    "topSkills": "React.js • Node.js • MongoDB • Express.js • Vue.js",
+    "connectionsCount": 325,
+    "followerCount": 326,
+    "currentPosition": [
+      {
+        "companyId": "75072704",
+        "companyLinkedinUrl": "https://www.linkedin.com/company/75072704/",
+        "companyName": "Theneo",
+        "dateRange": {
+          "start": {
+            "month": 10,
+            "year": 2024,
+            "day": null
+          },
+          "end": null
+        }
+      }
+    ],
+    "profileTopEducation": [],
+    "experience": [
+      {
+        "position": "QA Engineer",
+        "location": "Tbilisi, Georgia",
+        "employmentType": "Full-time",
+        "workplaceType": "Remote",
+        "companyName": "Theneo",
+        "companyLinkedinUrl": "https://www.linkedin.com/company/theneoinc/",
+        "companyId": "75072704",
+        "companyUniversalName": "theneoinc",
+        "duration": "1 yr",
+        "description": null,
+        "skills": null,
+        "startDate": {
+          "month": "Oct",
+          "year": 2024,
+          "text": "Oct 2024"
+        },
+        "endDate": {
+          "text": "Present"
+        }
+      }
+    ],
+    "education": [],
+    "certifications": [
+      {
+        "title": "The Complete JavaScript Course 2023: From Zero to Expert!",
+        "issuedAt": "Issued Jun 2023",
+        "issuedBy": "Udemy",
+        "issuedByLink": "https://www.linkedin.com/company/822535/"
+      },
+      {
+        "title": "Build Responsive Real-World Websites with HTML and CSS",
+        "issuedAt": "Issued Mar 2023",
+        "issuedBy": "Udemy",
+        "issuedByLink": "https://www.linkedin.com/company/822535/"
+      }
+    ],
+    "projects": [
+      {
+        "title": "Eat n Split",
+        "duration": null,
+        "startDate": null,
+        "endDate": {
+          "text": ""
+        },
+        "associatedWith": null,
+        "associatedWithLink": null,
+        "description": "The Eat n Split project is a web application designed to simplify group dining experiences by allowing users to split bills and track individual expenses. The project leverages React to build a dynamic and responsive interface that enhances user interaction and functionality."
+      },
+      {
+        "title": "Far Away",
+        "duration": null,
+        "startDate": null,
+        "endDate": {
+          "text": ""
+        },
+        "associatedWith": null,
+        "associatedWithLink": null,
+        "description": "The Far Away project is a travel planning web application that allows users to create and manage a personalized list of items they need for their trips. Designed to help users organize their travel essentials efficiently, the application features a user-friendly interface and interactive elements."
+      },
+      {
+        "title": "Forkify",
+        "duration": null,
+        "startDate": null,
+        "endDate": {
+          "text": ""
+        },
+        "associatedWith": null,
+        "associatedWithLink": null,
+        "description": "Developed the Forkify project, a dynamic web application that allows users to search for recipes, add their own recipes, and bookmark favorites for easy access. Utilized Vanilla JavaScript, HTML, and CSS to build a responsive and interactive user interface. Through this project, I gained a solid understanding of the MVC (Model-View-Controller) design pattern, which improved code maintainability and scalability by 40%."
+      },
+      {
+        "title": "NoteApp",
+        "duration": null,
+        "startDate": null,
+        "endDate": {
+          "text": ""
+        },
+        "associatedWith": null,
+        "associatedWithLink": null,
+        "description": "Developed Noteapp, a comprehensive web application that allows users to sign up, log in, and manage their notes. Users can add, edit, delete, and pin notes for easy organization. Utilized React for the front-end, Node.js and Express for the back-end, and MongoDB for the database. This project enhanced my fullstack development skills and provided hands-on experience in building a complete, user-friendly application from scratch."
+      },
+      {
+        "title": "Omnifood",
+        "duration": null,
+        "startDate": null,
+        "endDate": {
+          "text": ""
+        },
+        "associatedWith": null,
+        "associatedWithLink": null,
+        "description": "The Omnifood project is a responsive web application designed to showcase a modern food delivery service. The project involved creating a visually appealing and interactive website that demonstrates the capabilities of front-end technologies."
+      }
+    ],
+    "volunteering": [],
+    "receivedRecommendations": [],
+    "skills": [
+      {
+        "name": "Vue.js"
+      },
+      {
+        "name": "AXIOS"
+      },
+      {
+        "name": "React"
+      },
+      {
+        "name": "Nodejs"
+      },
+      {
+        "name": "Express"
+      },
+      {
+        "name": "Model-View-Controller (MVC)"
+      },
+      {
+        "name": "Express.js"
+      },
+      {
+        "name": "MongoDB"
+      },
+      {
+        "name": "Node.js"
+      },
+      {
+        "name": "Redux.js"
+      },
+      {
+        "name": "Python (Programming Language)"
+      },
+      {
+        "name": "React.js"
+      },
+      {
+        "name": "styled-components"
+      },
+      {
+        "name": "Web Development",
+        "positions": [
+          "Build Responsive Real-World Websites with HTML and CSS"
+        ]
+      },
+      {
+        "name": "HTML",
+        "positions": [
+          "Build Responsive Real-World Websites with HTML and CSS"
+        ]
+      },
+      {
+        "name": "Responsive Web Design",
+        "positions": [
+          "Build Responsive Real-World Websites with HTML and CSS"
+        ]
+      },
+      {
+        "name": "JavaScript",
+        "positions": [
+          "The Complete JavaScript Course 2023: From Zero to Expert!"
+        ]
+      },
+      {
+        "name": "Cascading Style Sheets (CSS)",
+        "positions": [
+          "Build Responsive Real-World Websites with HTML and CSS"
+        ]
+      }
+    ],
+    "publications": [],
+    "courses": [],
+    "patents": [],
+    "honorsAndAwards": [],
+    "languages": [],
+    "causes": [],
+    "featured": null,
+    "composeOptionType": "UPSELL",
+    "moreProfiles": [
+      {
+        "id": "ACoAADnShPwBeCcODBh3W3u7EModtdQpMzZKx_A",
+        "firstName": "Dato",
+        "lastName": "Diasamidze",
+        "position": "Full Stack Developer | Full Stack Mentor | 3+ Years  | React/NextJS & Express/NestJs ",
+        "publicIdentifier": "datodiasamidze",
+        "linkedinUrl": "https://www.linkedin.com/in/datodiasamidze"
+      },
+      {
+        "id": "ACoAADMGnSMBFQeu2ZLsWtg8tuHHyWbBVvbVPuQ",
+        "firstName": "Mariam",
+        "lastName": "Narimanidze",
+        "position": "Product Manager @ Theneo",
+        "publicIdentifier": "mariam-narimanidze-8838431ba",
+        "linkedinUrl": "https://www.linkedin.com/in/mariam-narimanidze-8838431ba"
+      },
+      {
+        "id": "ACoAADPn7sUBQE4CGLZf4R_C2x8y4WblTrByhug",
+        "firstName": "Saba",
+        "lastName": "Gventsadze",
+        "publicIdentifier": "sabagv",
+        "linkedinUrl": "https://www.linkedin.com/in/sabagv"
+      },
+      {
+        "id": "ACoAAAr0xP8BsISXslv2t-4aqbsFYT0EQfyLIyc",
+        "firstName": "Ana",
+        "lastName": "Robakidze",
+        "publicIdentifier": "robakidzeana",
+        "linkedinUrl": "https://www.linkedin.com/in/robakidzeana"
+      },
+      {
+        "id": "ACoAACn-7YEBwXDFSY7ICZt7tg4bRJ1rBLSKSwk",
+        "firstName": "Morris",
+        "lastName": "Khutsishvili",
+        "publicIdentifier": "morris-khutsishvili",
+        "linkedinUrl": "https://www.linkedin.com/in/morris-khutsishvili"
+      },
+      {
+        "id": "ACoAADeMjd4BBobOJ2Dq4R1z_iFHvHUJBMHfXrs",
+        "firstName": "Ucha",
+        "lastName": "Pipia",
+        "publicIdentifier": "ucha-pipia",
+        "linkedinUrl": "https://www.linkedin.com/in/ucha-pipia"
+      },
+      {
+        "id": "ACoAABCeCmoBbkRHvQWDZJsGgAvP1zPvpjDK8g4",
+        "firstName": "Andria",
+        "lastName": "Shonia",
+        "position": "Software Engineer at Theneo (YC W22)",
+        "publicIdentifier": "andria-shonia",
+        "linkedinUrl": "https://www.linkedin.com/in/andria-shonia"
+      },
+      {
+        "id": "ACoAAFP-Re4BiHltsQChkiwQNboPVn5uhZgKj4M",
+        "firstName": "Elene",
+        "lastName": "Kvitsiani",
+        "position": "Software Engineer Intern @ Theneo | Computer Science Student at Free University of Tbilisi",
+        "publicIdentifier": "elene-kvitsiani-752b19333",
+        "linkedinUrl": "https://www.linkedin.com/in/elene-kvitsiani-752b19333"
+      },
+      {
+        "id": "ACoAAABuiyIBAFjN9PvAvx0ln98iez2VsAfIvRI",
+        "firstName": "Gail Christine",
+        "lastName": "Gannon",
+        "publicIdentifier": "gailgannon",
+        "linkedinUrl": "https://www.linkedin.com/in/gailgannon"
+      },
+      {
+        "id": "ACoAADybBcIBZm78agxIrJ5wytR-b9tLCbDWe8s",
+        "firstName": "Ana",
+        "lastName": "Surguladze",
+        "position": "Sales Development Representative @Theneo",
+        "publicIdentifier": "anasurguladze",
+        "linkedinUrl": "https://www.linkedin.com/in/anasurguladze"
+      },
+      {
+        "id": "ACoAAFzJMZEBHUQl3Y3zlwaK2hbcPJiJt0LccCU",
+        "firstName": "Ashleigh",
+        "lastName": "Shelton",
+        "position": "Human Resources Positions at UST",
+        "publicIdentifier": "ashleigh-shelton-a413b9375",
+        "linkedinUrl": "https://www.linkedin.com/in/ashleigh-shelton-a413b9375"
+      },
+      {
+        "id": "ACoAADyAr-kBO0oJTfvkbLnOm1o_Z2eWTSP9B_k",
+        "firstName": "Giorgi",
+        "lastName": "Zankaidze",
+        "publicIdentifier": "giorgi-zankaidze-975b3a243",
+        "linkedinUrl": "https://www.linkedin.com/in/giorgi-zankaidze-975b3a243"
+      },
+      {
+        "id": "ACoAAFK2er4Bq1ECk3WoWclaEq8XP0BNzCsiulk",
+        "firstName": "giorgi",
+        "lastName": "beridze",
+        "position": "Student at Free University of Tbilisi",
+        "publicIdentifier": "giorgi-beridze-8a6899328",
+        "linkedinUrl": "https://www.linkedin.com/in/giorgi-beridze-8a6899328"
+      },
+      {
+        "id": "ACoAADsRqZ8BGEoTV3uOTDt3EAfdTfrsE1vSoag",
+        "firstName": "Nino",
+        "lastName": "Gogoberishvili",
+        "publicIdentifier": "nino-gogoberishvili-07ba7b237",
+        "linkedinUrl": "https://www.linkedin.com/in/nino-gogoberishvili-07ba7b237"
+      },
+      {
+        "id": "ACoAADdRZ3QBJ7Kd0tfRnsgK6h49sQrIVTdNlzs",
+        "firstName": "Beka",
+        "lastName": "Arabidze",
+        "position": "Software Engineer",
+        "publicIdentifier": "beka-arabidze-44499021a",
+        "linkedinUrl": "https://www.linkedin.com/in/beka-arabidze-44499021a"
+      },
+      {
+        "id": "ACoAACROYL4BUQEt54f2mh0-Vb_dlb2HQ4My4JQ",
+        "firstName": "Tornike",
+        "lastName": "Tabatadze",
+        "position": "Manual QA Engineer at Theneo (YC W22)",
+        "publicIdentifier": "tornike-tabatadze-a7aba914b",
+        "linkedinUrl": "https://www.linkedin.com/in/tornike-tabatadze-a7aba914b"
+      },
+      {
+        "id": "ACoAAChwyIIBtcUexdmTnDeJWvblrthYWi97pjk",
+        "firstName": "Natia",
+        "lastName": "Khitarishvili",
+        "position": "Senior Product Designer @Theneo",
+        "publicIdentifier": "natiakhitarishvili",
+        "linkedinUrl": "https://www.linkedin.com/in/natiakhitarishvili"
+      },
+      {
+        "id": "ACoAAAZ5JzwBk3nECgZCKue3rmCd8xU05U26YL8",
+        "firstName": "Nodo",
+        "lastName": "Ivanidze",
+        "publicIdentifier": "nodo-ivanidze",
+        "linkedinUrl": "https://www.linkedin.com/in/nodo-ivanidze"
+      }
+    ],
+    "_meta": {
+      "pagination": {
+        "totalElements": 20,
+        "totalPages": 1,
+        "pageNumber": 1,
+        "previousElements": 0,
+        "pageSize": 25
+      }
+    }
+  },
+  {
+    "id": "ACoAAChwyIIBtcUexdmTnDeJWvblrthYWi97pjk",
+    "publicIdentifier": "natiakhitarishvili",
+    "linkedinUrl": "https://www.linkedin.com/in/natiakhitarishvili",
+    "firstName": "Natia",
+    "lastName": "Khitarishvili",
+    "headline": "Senior Product Designer @Theneo",
+    "about": "I am a UX/UI designer looking for opportunities to use my experience and ideas to face challenging design problems and find best solutions for them",
+    "openToWork": false,
+    "hiring": false,
+    "photo": "https://media.licdn.com/dms/image/v2/C4E03AQEjphSBPsQgGg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1604649859770?e=1761782400&v=beta&t=xVajwa-E5GGcDcQ9vjP0ck2ZDmGez9l7PudmG9Badog",
+    "premium": false,
+    "influencer": false,
+    "location": {
+      "linkedinText": "Tbilisi, Georgia",
+      "countryCode": "GE",
+      "parsed": {
+        "text": "Tbilisi, Georgia",
+        "countryCode": "GE",
+        "regionCode": null,
+        "country": "Georgia",
+        "countryFull": "Georgia",
+        "state": "Tbilisi",
+        "city": "Tbilisi"
+      }
+    },
+    "verified": false,
+    "registeredAt": "2018-08-23T11:14:29.436Z",
+    "topSkills": null,
+    "connectionsCount": 1597,
+    "followerCount": 1593,
+    "currentPosition": [
+      {
+        "companyId": "75072704",
+        "companyLinkedinUrl": "https://www.linkedin.com/company/75072704/",
+        "companyName": "Theneo (YC W22)",
+        "dateRange": {
+          "start": {
+            "month": 11,
+            "year": 2023,
+            "day": null
+          },
+          "end": null
+        }
+      }
+    ],
+    "profileTopEducation": [
+      {
+        "schoolId": "11988",
+        "companyId": "15189",
+        "schoolLinkedinUrl": "https://www.linkedin.com/company/15189/",
+        "schoolName": "University of Cologne"
+      }
+    ],
+    "experience": [
+      {
+        "position": "Senior Product Designer",
+        "location": null,
+        "employmentType": "Full-time",
+        "workplaceType": null,
+        "companyName": "Theneo (YC W22)",
+        "companyLinkedinUrl": "https://www.linkedin.com/company/theneoinc/",
+        "companyId": "75072704",
+        "companyUniversalName": "theneoinc",
+        "duration": "1 yr 11 mos",
+        "description": null,
+        "skills": null,
+        "startDate": {
+          "month": "Nov",
+          "year": 2023,
+          "text": "Nov 2023"
+        },
+        "endDate": {
+          "text": "Present"
+        }
+      },
+      {
+        "position": "Product Designer",
+        "location": null,
+        "employmentType": "Full-time",
+        "workplaceType": null,
+        "companyName": "TBC Bank",
+        "companyLinkedinUrl": "https://www.linkedin.com/company/27191/",
+        "companyId": "27191",
+        "duration": "2 yrs 2 mos",
+        "description": null,
+        "skills": null,
+        "startDate": {
+          "month": "Apr",
+          "year": 2021,
+          "text": "Apr 2021"
+        },
+        "endDate": {
+          "month": "May",
+          "year": 2023,
+          "text": "May 2023"
+        }
+      },
+      {
+        "position": "UX/UI Designer",
+        "location": null,
+        "employmentType": "Part-time",
+        "workplaceType": "Remote",
+        "companyName": "Pubgenius Inc.",
+        "companyLinkedinUrl": "https://www.linkedin.com/company/18755889/",
+        "companyId": "18755889",
+        "duration": "9 mos",
+        "description": null,
+        "skills": null,
+        "startDate": {
+          "month": "Apr",
+          "year": 2022,
+          "text": "Apr 2022"
+        },
+        "endDate": {
+          "month": "Dec",
+          "year": 2022,
+          "text": "Dec 2022"
+        }
+      },
+      {
+        "position": "UX/UI Designer",
+        "location": null,
+        "employmentType": "Full-time",
+        "workplaceType": null,
+        "companyName": "Feedc",
+        "companyLinkedinUrl": "https://www.linkedin.com/company/24979798/",
+        "companyId": "24979798",
+        "duration": "1 yr 1 mo",
+        "description": "• Actively participating in wireframing of new features\n• Validating new ideas through prototyping\n• Testing newly implemented features\n• Working on the UI part of the product\n• Participating in creating the design system\n• Conducting user research",
+        "skills": null,
+        "startDate": {
+          "month": "Dec",
+          "year": 2019,
+          "text": "Dec 2019"
+        },
+        "endDate": {
+          "month": "Dec",
+          "year": 2020,
+          "text": "Dec 2020"
+        }
+      }
+    ],
+    "education": [
+      {
+        "schoolName": "University of Cologne",
+        "schoolLinkedinUrl": "https://www.linkedin.com/company/15189/",
+        "degree": "Master's degree",
+        "fieldOfStudy": "Law",
+        "skills": [],
+        "startDate": {
+          "year": 2017,
+          "text": "2017"
+        },
+        "endDate": {
+          "year": 2019,
+          "text": "2019"
+        },
+        "period": "2017 - 2019"
+      },
+      {
+        "schoolName": "Tbilisi State University",
+        "schoolLinkedinUrl": "https://www.linkedin.com/company/27200742/",
+        "degree": "Bachelor's degree ",
+        "fieldOfStudy": "Law",
+        "skills": [],
+        "startDate": {
+          "year": 2013,
+          "text": "2013"
+        },
+        "endDate": {
+          "year": 2017,
+          "text": "2017"
+        },
+        "period": "2013 - 2017"
+      }
+    ],
+    "certifications": [
+      {
+        "title": "Mobile User Experience (UX) Design",
+        "issuedAt": "Issued Jul 2022",
+        "link": null,
+        "issuedBy": "IxDF - Interaction Design Foundation",
+        "issuedByLink": "https://www.linkedin.com/company/1048470/"
+      },
+      {
+        "title": "Get Your Product Used: Adoption and Appropriation",
+        "issuedAt": "Issued Jun 2022",
+        "link": null,
+        "issuedBy": "IxDF - Interaction Design Foundation",
+        "issuedByLink": "https://www.linkedin.com/company/1048470/"
+      },
+      {
+        "title": "Interaction Design for Usability",
+        "issuedAt": "Issued Jun 2022",
+        "link": null,
+        "issuedBy": "IxDF - Interaction Design Foundation",
+        "issuedByLink": "https://www.linkedin.com/company/1048470/"
+      },
+      {
+        "title": "Emotional Design — How to Make Products People Will Love",
+        "issuedAt": "Issued May 2022",
+        "link": null,
+        "issuedBy": "IxDF - Interaction Design Foundation",
+        "issuedByLink": "https://www.linkedin.com/company/1048470/"
+      },
+      {
+        "title": "Gestalt Psychology and Web Design: The Ultimate Guide",
+        "issuedAt": "Issued May 2022",
+        "link": null,
+        "issuedBy": "IxDF - Interaction Design Foundation",
+        "issuedByLink": "https://www.linkedin.com/company/1048470/"
+      },
+      {
+        "title": "Journey Mapping",
+        "issuedAt": "Issued May 2022",
+        "link": null,
+        "issuedBy": "IxDF - Interaction Design Foundation",
+        "issuedByLink": "https://www.linkedin.com/company/1048470/"
+      },
+      {
+        "title": "The Brain and Technology: The Brain Science in Interface Design",
+        "issuedAt": "Issued May 2022",
+        "link": null,
+        "issuedBy": "IxDF - Interaction Design Foundation",
+        "issuedByLink": "https://www.linkedin.com/company/1048470/"
+      },
+      {
+        "title": "UX Research & Strategy",
+        "issuedAt": "Issued Dec 2020",
+        "link": null,
+        "issuedBy": "Designlab",
+        "issuedByLink": "https://www.linkedin.com/company/89842/"
+      },
+      {
+        "title": "Human-Centered Design: an Introduction",
+        "issuedAt": "Issued Oct 2020",
+        "link": "https://coursera.org/share/bb45bc4038c332b506dd3efd4f59f93e",
+        "issuedBy": "UC San Diego",
+        "issuedByLink": "https://www.linkedin.com/company/3382/"
+      },
+      {
+        "title": "Service Design: How to Design Integrated Service Experiences",
+        "link": null,
+        "issuedBy": "IxDF - Interaction Design Foundation",
+        "issuedByLink": "https://www.linkedin.com/company/1048470/"
+      }
+    ],
+    "projects": [],
+    "volunteering": [],
+    "receivedRecommendations": [],
+    "skills": [
+      {
+        "name": "User Experience (UX)",
+        "positions": [
+          "Endorsed by 2 colleagues at Feedc"
+        ],
+        "endorsements": "3 endorsements"
+      },
+      {
+        "name": "User Interface Design",
+        "positions": [
+          "Endorsed by 2 colleagues at Feedc"
+        ],
+        "endorsements": "3 endorsements"
+      },
+      {
+        "name": "UX Research",
+        "positions": [
+          "Endorsed by 2 colleagues at Feedc"
+        ],
+        "endorsements": "3 endorsements"
+      },
+      {
+        "name": "Wireframing",
+        "endorsements": "2 endorsements"
+      },
+      {
+        "name": "Adobe XD",
+        "endorsements": "2 endorsements"
+      },
+      {
+        "name": "Figma",
+        "endorsements": "2 endorsements"
+      },
+      {
+        "name": "Prototyping",
+        "endorsements": "2 endorsements"
+      },
+      {
+        "name": "Research Design",
+        "endorsements": "2 endorsements"
+      },
+      {
+        "name": "Usability",
+        "endorsements": "2 endorsements"
+      },
+      {
+        "name": "Interaction Design",
+        "endorsements": "2 endorsements"
+      },
+      {
+        "name": "Usability Testing",
+        "endorsements": "2 endorsements"
+      }
+    ],
+    "publications": [],
+    "courses": [],
+    "patents": [],
+    "honorsAndAwards": [],
+    "languages": [
+      {
+        "name": "English",
+        "proficiency": "Professional working proficiency"
+      },
+      {
+        "name": "Georgian",
+        "proficiency": "Native or bilingual proficiency"
+      },
+      {
+        "name": "German",
+        "proficiency": "Professional working proficiency"
+      }
+    ],
+    "causes": [],
+    "featured": null,
+    "moreProfiles": [
+      {
+        "id": "ACoAADsRqZ8BGEoTV3uOTDt3EAfdTfrsE1vSoag",
+        "firstName": "Nino",
+        "lastName": "Gogoberishvili",
+        "publicIdentifier": "nino-gogoberishvili-07ba7b237",
+        "linkedinUrl": "https://www.linkedin.com/in/nino-gogoberishvili-07ba7b237"
+      },
+      {
+        "id": "ACoAADMGnSMBFQeu2ZLsWtg8tuHHyWbBVvbVPuQ",
+        "firstName": "Mariam",
+        "lastName": "Narimanidze",
+        "publicIdentifier": "mariam-narimanidze-8838431ba",
+        "linkedinUrl": "https://www.linkedin.com/in/mariam-narimanidze-8838431ba"
+      },
+      {
+        "id": "ACoAABCeCmoBbkRHvQWDZJsGgAvP1zPvpjDK8g4",
+        "firstName": "Andria",
+        "lastName": "Shonia",
+        "publicIdentifier": "andria-shonia",
+        "linkedinUrl": "https://www.linkedin.com/in/andria-shonia"
+      },
+      {
+        "id": "ACoAADSXOn8BIdHy3pTz4EDqNHbFG4-wIf_-CFk",
+        "firstName": "Mariam",
+        "lastName": "Kurdadze",
+        "publicIdentifier": "mariamkurdadze",
+        "linkedinUrl": "https://www.linkedin.com/in/mariamkurdadze"
+      },
+      {
+        "id": "ACoAACeck9sB1Jh9d_dkM1eH8Pwhe23RB6FbhuY",
+        "firstName": "ioseb",
+        "lastName": "bichinashvili",
+        "publicIdentifier": "ioseb-bichinashvili-963692166",
+        "linkedinUrl": "https://www.linkedin.com/in/ioseb-bichinashvili-963692166"
+      },
+      {
+        "id": "ACoAACmAE_IBg5XmMLti_H3l4EpCsxcgwnIBFKE",
+        "firstName": "Ana",
+        "lastName": "Shakaia",
+        "publicIdentifier": "anashakaia",
+        "linkedinUrl": "https://www.linkedin.com/in/anashakaia"
+      },
+      {
+        "id": "ACoAACROYL4BUQEt54f2mh0-Vb_dlb2HQ4My4JQ",
+        "firstName": "Tornike",
+        "lastName": "Tabatadze",
+        "publicIdentifier": "tornike-tabatadze-a7aba914b",
+        "linkedinUrl": "https://www.linkedin.com/in/tornike-tabatadze-a7aba914b"
+      },
+      {
+        "id": "ACoAAAr0xP8BsISXslv2t-4aqbsFYT0EQfyLIyc",
+        "firstName": "Ana",
+        "lastName": "Robakidze",
+        "publicIdentifier": "robakidzeana",
+        "linkedinUrl": "https://www.linkedin.com/in/robakidzeana"
+      },
+      {
+        "id": "ACoAAC9mKyMBMO7Bx_Q8SmLtVJ-J6c3nDt9wdWM",
+        "firstName": "Ioseb",
+        "lastName": "Chitishvili",
+        "publicIdentifier": "ioseb-chitishvili-6ab39b1a2",
+        "linkedinUrl": "https://www.linkedin.com/in/ioseb-chitishvili-6ab39b1a2"
+      },
+      {
+        "id": "ACoAADybBcIBZm78agxIrJ5wytR-b9tLCbDWe8s",
+        "firstName": "Ana",
+        "lastName": "Surguladze",
+        "publicIdentifier": "anasurguladze",
+        "linkedinUrl": "https://www.linkedin.com/in/anasurguladze"
+      }
+    ],
+    "_meta": {
+      "pagination": {
+        "totalElements": 20,
+        "totalPages": 1,
+        "pageNumber": 1,
+        "previousElements": 0,
+        "pageSize": 25
+      }
+    }
+  },
+  {
+    "id": "ACoAADPn7sUBQE4CGLZf4R_C2x8y4WblTrByhug",
+    "publicIdentifier": "sabagv",
+    "linkedinUrl": "https://www.linkedin.com/in/sabagv",
+    "firstName": "Saba",
+    "lastName": "Gventsadze",
+    "headline": "Software Engineer @ Theneo",
+    "about": "Backend engineer focused on designing and scaling complex, high-performance backend systems for real-time use cases. Experienced in building microservice architectures and improving system reliability and scalability across cloud environments.",
+    "openToWork": false,
+    "hiring": false,
+    "photo": "https://media.licdn.com/dms/image/v2/D4D03AQFId_HpyNYowA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1731240749225?e=1761782400&v=beta&t=GztPWTP_m8NWgnUfT5GJSQVm_tjE2_Y0wyPmQm72pVI",
+    "premium": false,
+    "influencer": false,
+    "location": {
+      "linkedinText": "Tbilisi, Georgia",
+      "countryCode": "GE",
+      "parsed": {
+        "text": "Tbilisi, Georgia",
+        "countryCode": "GE",
+        "regionCode": null,
+        "country": "Georgia",
+        "countryFull": "Georgia",
+        "state": "Tbilisi",
+        "city": "Tbilisi"
+      }
+    },
+    "verified": true,
+    "registeredAt": "2021-01-09T09:34:09.788Z",
+    "topSkills": null,
+    "connectionsCount": 581,
+    "followerCount": 583,
+    "currentPosition": [
+      {
+        "companyId": "75072704",
+        "companyLinkedinUrl": "https://www.linkedin.com/company/75072704/",
+        "companyName": "Theneo",
+        "dateRange": {
+          "start": {
+            "month": 7,
+            "year": 2024,
+            "day": null
+          },
+          "end": null
+        }
+      }
+    ],
+    "profileTopEducation": [
+      {
+        "schoolId": "3154257",
+        "companyId": "1038460",
+        "schoolLinkedinUrl": "https://www.linkedin.com/company/1038460/",
+        "schoolName": "Free University of Tbilisi"
+      }
+    ],
+    "experience": [
+      {
+        "position": "Software Engineer",
+        "location": "San Francisco Bay Area",
+        "employmentType": "Full-time",
+        "workplaceType": "Remote",
+        "companyName": "Theneo",
+        "companyLinkedinUrl": "https://www.linkedin.com/company/theneoinc/",
+        "companyId": "75072704",
+        "companyUniversalName": "theneoinc",
+        "duration": "1 yr 3 mos",
+        "description": "Improved and scaled the company’s AI backend pipeline involving Python, FastAPI, and a microservice-based architecture. Optimized Retrieval-Augmented Generation (RAG) systems and LLM-powered semantic search by enhancing chunk scoring mechanisms and vector embedding logic. Strengthened REST API integrations across internal backend services and streamlined deployment on AWS and Azure. Successfully improved backend performance, reliability, and scalability of AI-driven services, contributing to a more robust AI infrastructure and higher operational efficiency.",
+        "skills": null,
+        "startDate": {
+          "month": "Jul",
+          "year": 2024,
+          "text": "Jul 2024"
+        },
+        "endDate": {
+          "text": "Present"
+        }
+      },
+      {
+        "position": "Teaching Assistant",
+        "location": "Kutaisi, Georgia",
+        "employmentType": "Part-time",
+        "workplaceType": "Remote",
+        "companyName": "Kutaisi International University / ქუთაისის საერთაშორისო უნივერსიტეტი",
+        "companyLinkedinUrl": "https://www.linkedin.com/company/38138898/",
+        "companyId": "38138898",
+        "duration": "1 yr 1 mo",
+        "description": "Supported course delivery across Problem Solving with Data Structures and Algorithms (2 semesters) and Backend Development (1 semester). Assisted professors in grading assignments and exams, and providing 1-on-1 mentoring to students. Actively contributed to improving course content and fostering collaborative, hands-on learning.",
+        "skills": null,
+        "startDate": {
+          "month": "Feb",
+          "year": 2024,
+          "text": "Feb 2024"
+        },
+        "endDate": {
+          "month": "Feb",
+          "year": 2025,
+          "text": "Feb 2025"
+        }
+      },
+      {
+        "position": "Software Engineer",
+        "location": "Tbilisi, Georgia",
+        "employmentType": "Full-time",
+        "workplaceType": "On-site",
+        "companyName": "Casatrade | Software Development",
+        "companyLinkedinUrl": "https://www.linkedin.com/company/10312974/",
+        "companyId": "10312974",
+        "duration": "6 mos",
+        "description": "Implemented a health-check and monitoring system and co-developed the backend architecture of a real-time parking management platform in Java. Focused on improving REST API integration, backend performance optimization, and service reliability to support large-scale vehicle data flow. Delivered dependable backend services that power real-time operations in high-traffic environments, while working closely with senior engineer to architect scalable and fault-tolerant system.",
+        "skills": null,
+        "startDate": {
+          "month": "Nov",
+          "year": 2023,
+          "text": "Nov 2023"
+        },
+        "endDate": {
+          "month": "Apr",
+          "year": 2024,
+          "text": "Apr 2024"
+        }
+      }
+    ],
+    "education": [
+      {
+        "schoolName": "Free University of Tbilisi",
+        "schoolLinkedinUrl": "https://www.linkedin.com/company/1038460/",
+        "degree": "Bachelor of Science - BS",
+        "fieldOfStudy": "Mathematics and Computer Science",
+        "skills": [],
+        "startDate": null,
+        "endDate": {
+          "month": "Sep",
+          "year": 2020,
+          "text": "Sep 2020"
+        },
+        "period": "Sep 2020"
+      }
+    ],
+    "certifications": [],
+    "projects": [],
+    "volunteering": [],
+    "receivedRecommendations": [],
+    "skills": [
+      {
+        "name": "Engineering",
+        "endorsements": "1 endorsement"
+      },
+      {
+        "name": "Assistant Teaching"
+      },
+      {
+        "name": "Raspberry Pi"
+      },
+      {
+        "name": "Data Structures & Algorithms"
+      },
+      {
+        "name": "Algorithms"
+      },
+      {
+        "name": "Manual Testing"
+      },
+      {
+        "name": "Problem Solving",
+        "endorsements": "7 endorsements"
+      },
+      {
+        "name": "C++",
+        "assessments": "Passed LinkedIn Skill Assessment",
+        "endorsements": "5 endorsements"
+      },
+      {
+        "name": "Java",
+        "endorsements": "7 endorsements"
+      },
+      {
+        "name": "Tutoring",
+        "endorsements": "1 endorsement"
+      },
+      {
+        "name": "Time Management",
+        "endorsements": "1 endorsement"
+      },
+      {
+        "name": "Data Structures",
+        "endorsements": "1 endorsement"
+      },
+      {
+        "name": "Microsoft Excel",
+        "assessments": "Passed LinkedIn Skill Assessment",
+        "endorsements": "2 endorsements"
+      },
+      {
+        "name": "Python (Programming Language)",
+        "assessments": "Passed LinkedIn Skill Assessment",
+        "endorsements": "2 endorsements"
+      }
+    ],
+    "publications": [],
+    "courses": [],
+    "patents": [],
+    "honorsAndAwards": [],
+    "languages": [
+      {
+        "name": "English",
+        "proficiency": "Professional working proficiency"
+      },
+      {
+        "name": "Georgian",
+        "proficiency": "Native or bilingual proficiency"
+      },
+      {
+        "name": "Russian",
+        "proficiency": "Elementary proficiency"
+      }
+    ],
+    "causes": [],
+    "featured": null,
+    "composeOptionType": "UPSELL",
+    "moreProfiles": [
+      {
+        "id": "ACoAADnShPwBeCcODBh3W3u7EModtdQpMzZKx_A",
+        "firstName": "Dato",
+        "lastName": "Diasamidze",
+        "position": "Full Stack Developer | Full Stack Mentor | 3+ Years  | React/NextJS & Express/NestJs ",
+        "publicIdentifier": "datodiasamidze",
+        "linkedinUrl": "https://www.linkedin.com/in/datodiasamidze"
+      },
+      {
+        "id": "ACoAAD3w1HcBQZHv8V1l5eNsi_rNWNmtQUFtRrQ",
+        "firstName": "Utkarsh",
+        "lastName": "Tiwari",
+        "position": "SWE Intern - Theneo (YC W22) 🚀 |  Open source - JSON Schema & AsyncAPI | NIT Durgapur 26",
+        "publicIdentifier": "utkarsh-tiwari-b5b034250",
+        "linkedinUrl": "https://www.linkedin.com/in/utkarsh-tiwari-b5b034250"
+      },
+      {
+        "id": "ACoAAC0vCeUB5FKYcc7RtlcY-FIYO2Y3zU6zCww",
+        "firstName": "Revaz",
+        "lastName": "Lobzhanidze",
+        "publicIdentifier": "revaz-lobzhanidze-799a56191",
+        "linkedinUrl": "https://www.linkedin.com/in/revaz-lobzhanidze-799a56191"
+      },
+      {
+        "id": "ACoAADMGnSMBFQeu2ZLsWtg8tuHHyWbBVvbVPuQ",
+        "firstName": "Mariam",
+        "lastName": "Narimanidze",
+        "position": "Product Manager @ Theneo",
+        "publicIdentifier": "mariam-narimanidze-8838431ba",
+        "linkedinUrl": "https://www.linkedin.com/in/mariam-narimanidze-8838431ba"
+      },
+      {
+        "id": "ACoAAECgjUsBuFEYJw9ySbcrZxLFXxL1VcEmJfA",
+        "firstName": "Nika",
+        "lastName": "Kekelishvili",
+        "publicIdentifier": "nika-kekelishvili-54b14b263",
+        "linkedinUrl": "https://www.linkedin.com/in/nika-kekelishvili-54b14b263"
+      },
+      {
+        "id": "ACoAAEZ85kIBeZkO06cdscgExvE9h7a8sp_N-gw",
+        "firstName": "Nikoloz",
+        "lastName": "Avsajanishvili",
+        "publicIdentifier": "nikoloz-avsajanishvili",
+        "linkedinUrl": "https://www.linkedin.com/in/nikoloz-avsajanishvili"
+      },
+      {
+        "id": "ACoAAFubvzcB_UWS3m71Gd2n-rNRuHVF7oT0AWM",
+        "firstName": "Ashley",
+        "lastName": "Thomas",
+        "position": "--",
+        "publicIdentifier": "ashley-thomas-27387136a",
+        "linkedinUrl": "https://www.linkedin.com/in/ashley-thomas-27387136a"
+      },
+      {
+        "id": "ACoAACvWgjsBqK1SwsiCgeIEVoZnl70hc27xp8Q",
+        "firstName": "Temuri",
+        "lastName": "Takalandze",
+        "publicIdentifier": "abgeo",
+        "linkedinUrl": "https://www.linkedin.com/in/abgeo"
+      },
+      {
+        "id": "ACoAADq7hfgBBjBKNiD1aPZxz5GjBNnDSBpaWEo",
+        "firstName": "Mariam",
+        "lastName": "Tkesheladze",
+        "publicIdentifier": "mariam-tkesheladze-188bb8235",
+        "linkedinUrl": "https://www.linkedin.com/in/mariam-tkesheladze-188bb8235"
+      },
+      {
+        "id": "ACoAADQe7ZABGjmFZVYWTkYUcIEeMnHz7oO_Ev0",
+        "firstName": "Rati",
+        "lastName": "Bregvadze",
+        "publicIdentifier": "rati-bregvadze",
+        "linkedinUrl": "https://www.linkedin.com/in/rati-bregvadze"
+      },
+      {
+        "id": "ACoAADeMjd4BBobOJ2Dq4R1z_iFHvHUJBMHfXrs",
+        "firstName": "Ucha",
+        "lastName": "Pipia",
+        "publicIdentifier": "ucha-pipia",
+        "linkedinUrl": "https://www.linkedin.com/in/ucha-pipia"
+      },
+      {
+        "id": "ACoAADsRqZ8BGEoTV3uOTDt3EAfdTfrsE1vSoag",
+        "firstName": "Nino",
+        "lastName": "Gogoberishvili",
+        "publicIdentifier": "nino-gogoberishvili-07ba7b237",
+        "linkedinUrl": "https://www.linkedin.com/in/nino-gogoberishvili-07ba7b237"
+      },
+      {
+        "id": "ACoAADdRZ3QBJ7Kd0tfRnsgK6h49sQrIVTdNlzs",
+        "firstName": "Beka",
+        "lastName": "Arabidze",
+        "position": "Software Engineer",
+        "publicIdentifier": "beka-arabidze-44499021a",
+        "linkedinUrl": "https://www.linkedin.com/in/beka-arabidze-44499021a"
+      },
+      {
+        "id": "ACoAABCeCmoBbkRHvQWDZJsGgAvP1zPvpjDK8g4",
+        "firstName": "Andria",
+        "lastName": "Shonia",
+        "position": "Software Engineer at Theneo (YC W22)",
+        "publicIdentifier": "andria-shonia",
+        "linkedinUrl": "https://www.linkedin.com/in/andria-shonia"
+      },
+      {
+        "id": "ACoAACeck9sB1Jh9d_dkM1eH8Pwhe23RB6FbhuY",
+        "firstName": "ioseb",
+        "lastName": "bichinashvili",
+        "position": "Senior Software Engineer",
+        "publicIdentifier": "ioseb-bichinashvili-963692166",
+        "linkedinUrl": "https://www.linkedin.com/in/ioseb-bichinashvili-963692166"
+      },
+      {
+        "id": "ACoAAChwyIIBtcUexdmTnDeJWvblrthYWi97pjk",
+        "firstName": "Natia",
+        "lastName": "Khitarishvili",
+        "position": "Senior Product Designer @Theneo",
+        "publicIdentifier": "natiakhitarishvili",
+        "linkedinUrl": "https://www.linkedin.com/in/natiakhitarishvili"
+      },
+      {
+        "id": "ACoAADybBcIBZm78agxIrJ5wytR-b9tLCbDWe8s",
+        "firstName": "Ana",
+        "lastName": "Surguladze",
+        "position": "Sales Development Representative @Theneo",
+        "publicIdentifier": "anasurguladze",
+        "linkedinUrl": "https://www.linkedin.com/in/anasurguladze"
+      },
+      {
+        "id": "ACoAADPCdqkBx2VIP64XMjTX_b7ukz1z3m3CYKY",
+        "firstName": "Murman",
+        "lastName": "Vadachkoria",
+        "publicIdentifier": "murman-vadachkoria",
+        "linkedinUrl": "https://www.linkedin.com/in/murman-vadachkoria"
+      },
+      {
+        "id": "ACoAAEABh-IBo5hkDGuiWnp_u9qYlXJkPXKDJwQ",
+        "firstName": "Irakli",
+        "lastName": "Abashidze",
+        "position": "QA Engineer at Theneo",
+        "publicIdentifier": "i-abashidze",
+        "linkedinUrl": "https://www.linkedin.com/in/i-abashidze"
+      }
+    ],
+    "_meta": {
+      "pagination": {
+        "totalElements": 20,
+        "totalPages": 1,
+        "pageNumber": 1,
+        "previousElements": 0,
+        "pageSize": 25
+      }
+    }
+  },
+  {
+    "id": "ACoAAD3w1HcBQZHv8V1l5eNsi_rNWNmtQUFtRrQ",
+    "publicIdentifier": "utkarsh-tiwari-b5b034250",
+    "linkedinUrl": "https://www.linkedin.com/in/utkarsh-tiwari-b5b034250",
+    "firstName": "Utkarsh",
+    "lastName": "Tiwari",
+    "headline": "SWE Intern - Theneo (YC W22) 🚀 |  Open source - JSON Schema & AsyncAPI | NIT Durgapur 26",
+    "about": null,
+    "openToWork": false,
+    "hiring": false,
+    "photo": "https://media.licdn.com/dms/image/v2/D5603AQGPP39QzazxgA/profile-displayphoto-crop_800_800/B56Zjvj4q2HcAI-/0/1756365823313?e=1761782400&v=beta&t=k0cJqZTw-OepONN7hSj6qA1H4wSTEQ11_7_EPYSFNaA",
+    "premium": false,
+    "influencer": false,
+    "location": {
+      "linkedinText": "Varanasi, Uttar Pradesh, India",
+      "countryCode": "IN",
+      "parsed": {
+        "text": "Varanasi, India",
+        "countryCode": "IN",
+        "regionCode": null,
+        "country": "India",
+        "countryFull": "India",
+        "state": "Uttar Pradesh",
+        "city": "Varanasi"
+      }
+    },
+    "verified": true,
+    "registeredAt": "2022-09-12T03:10:14.778Z",
+    "topSkills": null,
+    "connectionsCount": 1372,
+    "followerCount": 1405,
+    "currentPosition": [
+      {
+        "companyId": "75072704",
+        "companyLinkedinUrl": "https://www.linkedin.com/company/75072704/",
+        "companyName": "Theneo",
+        "dateRange": {
+          "start": {
+            "month": 6,
+            "year": 2025,
+            "day": null
+          },
+          "end": null
+        }
+      }
+    ],
+    "profileTopEducation": [
+      {
+        "schoolId": "21045",
+        "companyId": "15113250",
+        "schoolLinkedinUrl": "https://www.linkedin.com/company/15113250/",
+        "schoolName": "National Institute of Technology Durgapur"
+      }
+    ],
+    "experience": [
+      {
+        "position": "Software Engineer Intern",
+        "location": "San Francisco, California, United States",
+        "employmentType": "Internship",
+        "workplaceType": "Remote",
+        "companyName": "Theneo",
+        "companyLinkedinUrl": "https://www.linkedin.com/company/theneoinc/",
+        "companyId": "75072704",
+        "companyUniversalName": "theneoinc",
+        "duration": "4 mos",
+        "description": null,
+        "skills": null,
+        "startDate": {
+          "month": "Jun",
+          "year": 2025,
+          "text": "Jun 2025"
+        },
+        "endDate": {
+          "text": "Present"
+        }
+      },
+      {
+        "position": "Open Source Developer",
+        "location": "Community of Madrid, Spain",
+        "employmentType": "Part-time",
+        "workplaceType": "Remote",
+        "companyName": "JSON Schema",
+        "companyLinkedinUrl": "https://www.linkedin.com/company/90785835/",
+        "companyId": "90785835",
+        "duration": "1 yr",
+        "description": "• Collaborated with a distributed team of international developers to deliver high-impact contributions across multiple repositories within the JSON Schema Organization.\n• Proactively resolved critical issues, improved application stability, and optimized developer workflows through detailed bug fixes and code refactoring.\n• Spearheaded efforts to improve and standardize project documentation, enabling better onboarding and clearer contributor guidelines.\n• Supported new contributors, helping them debug issues and successfully submit high-quality pull requests.",
+        "skills": [
+          "JavaScript",
+          "TypeScript",
+          "JSON",
+          "Web Development",
+          "Web Design",
+          "OSC"
+        ],
+        "startDate": {
+          "month": "Oct",
+          "year": 2024,
+          "text": "Oct 2024"
+        },
+        "endDate": {
+          "text": "Present"
+        }
+      }
+    ],
+    "education": [
+      {
+        "schoolName": "National Institute of Technology Durgapur",
+        "schoolLinkedinUrl": "https://www.linkedin.com/company/15113250/",
+        "degree": "Bachelor of Technology - BTech",
+        "fieldOfStudy": null,
+        "skills": [
+          "Cascading Style Sheets (CSS)",
+          "TypeScript",
+          "Problem Solving",
+          "Firebase",
+          "Algorithms",
+          "Software Solutions",
+          "Programming Languages",
+          "Back-End Web Development",
+          "HTML",
+          "Computer Science",
+          "Work Processes",
+          "Code Review",
+          "WordPress",
+          "Data Structures",
+          "JSON Web Token (JWT)",
+          "Stripes",
+          "Programming",
+          "Node.js",
+          "Software Projects"
+        ],
+        "startDate": {
+          "month": "Nov",
+          "year": 2022,
+          "text": "Nov 2022"
+        },
+        "endDate": {
+          "month": "Sep",
+          "year": 2026,
+          "text": "Sep 2026"
+        },
+        "period": "Nov 2022 - Sep 2026"
+      },
+      {
+        "schoolName": "St. Mary's Convent School Varanasi ",
+        "schoolLinkedinUrl": "https://www.linkedin.com/search/results/all/?keywords=St%2E+Mary%27s+Convent+School+Varanasi+",
+        "degree": "Class - XII",
+        "fieldOfStudy": null,
+        "skills": [],
+        "insights": "Grade: 95.4 %",
+        "startDate": null,
+        "endDate": {
+          "text": ""
+        }
+      }
+    ],
+    "certifications": [],
+    "projects": [
+      {
+        "title": "AIdeaPad",
+        "description": "AIdeaPad is an intelligent note-taking app that combines the power of AI with advanced editing tools to help you create high-quality notes effortlessly. Whether you're jotting down important ideas, exploring your favorite topics, or organizing key information, AI assistance ensures clarity, coherence, and depth in your notes. Designed for everyone—from students to professionals and coders—AIdeaPad offers rich formatting options, including seamless integration of code blocks for developers. Plus, with a cutting-edge authentication system, your data remains protected with the highest level of security. Elevate your note-taking experience with AIdeaPad!",
+        "duration": "Dec 2024 - Dec 2024",
+        "startDate": {
+          "month": "Dec",
+          "year": 2024,
+          "text": "Dec 2024"
+        },
+        "endDate": {
+          "month": "Dec",
+          "year": 2024,
+          "text": "Dec 2024"
+        },
+        "associatedWith": "Next.js, TypeScript and +3 skills",
+        "associatedWithLink": null
+      }
+    ],
+    "volunteering": [],
+    "receivedRecommendations": [],
+    "skills": [
+      {
+        "name": "JSON",
+        "positions": [
+          "Open Source Developer at JSON Schema"
+        ]
+      },
+      {
+        "name": "Web Design",
+        "positions": [
+          "Open Source Developer at JSON Schema"
+        ]
+      },
+      {
+        "name": "OSC",
+        "positions": [
+          "Open Source Developer at JSON Schema"
+        ]
+      },
+      {
+        "name": "Databases"
+      },
+      {
+        "name": "Server Side"
+      },
+      {
+        "name": "Software Development"
+      },
+      {
+        "name": "NoSQL"
+      },
+      {
+        "name": "Next.js"
+      },
+      {
+        "name": "Auth.js"
+      },
+      {
+        "name": "PostgreSQL"
+      },
+      {
+        "name": "Artificial Intelligence (AI)"
+      },
+      {
+        "name": "HTML5"
+      },
+      {
+        "name": "Tailwind CSS"
+      },
+      {
+        "name": "Front-End Development"
+      },
+      {
+        "name": "Git"
+      },
+      {
+        "name": "Collaborative Problem Solving"
+      },
+      {
+        "name": "Attention to Detail"
+      },
+      {
+        "name": "Back-end Operations"
+      },
+      {
+        "name": "Object-Oriented Programming (OOP)"
+      },
+      {
+        "name": "Writing"
+      },
+      {
+        "name": "English"
+      },
+      {
+        "name": "Organization Skills"
+      },
+      {
+        "name": "Creative Problem Solving"
+      },
+      {
+        "name": "Teamwork"
+      },
+      {
+        "name": "Interpersonal Skills"
+      },
+      {
+        "name": "Team Leadership"
+      },
+      {
+        "name": "Stripes",
+        "positions": [
+          "National Institute of Technology Durgapur"
+        ]
+      },
+      {
+        "name": "Programming Languages",
+        "positions": [
+          "National Institute of Technology Durgapur"
+        ]
+      },
+      {
+        "name": "Mathematics"
+      },
+      {
+        "name": "Hypertext Transfer Protocol (HTTP)"
+      },
+      {
+        "name": "Software Design"
+      },
+      {
+        "name": "New Concepts"
+      },
+      {
+        "name": "Cross-browser Compatibility"
+      },
+      {
+        "name": "Communication"
+      },
+      {
+        "name": "Web Development",
+        "positions": [
+          "Open Source Developer at JSON Schema"
+        ]
+      },
+      {
+        "name": "SQL"
+      },
+      {
+        "name": "React.js"
+      },
+      {
+        "name": "JavaScript",
+        "positions": [
+          "Open Source Developer at JSON Schema"
+        ]
+      },
+      {
+        "name": "JSON Web Token (JWT)",
+        "positions": [
+          "National Institute of Technology Durgapur"
+        ]
+      },
+      {
+        "name": "HTML",
+        "positions": [
+          "National Institute of Technology Durgapur"
+        ]
+      },
+      {
+        "name": "Firebase",
+        "positions": [
+          "National Institute of Technology Durgapur"
+        ]
+      },
+      {
+        "name": "Code Review",
+        "positions": [
+          "National Institute of Technology Durgapur"
+        ]
+      },
+      {
+        "name": "WordPress",
+        "positions": [
+          "National Institute of Technology Durgapur"
+        ]
+      },
+      {
+        "name": "Node.js",
+        "positions": [
+          "National Institute of Technology Durgapur"
+        ]
+      },
+      {
+        "name": "Cascading Style Sheets (CSS)",
+        "positions": [
+          "National Institute of Technology Durgapur"
+        ]
+      },
+      {
+        "name": "TypeScript",
+        "positions": [
+          "Open Source Developer at JSON Schema",
+          "National Institute of Technology Durgapur"
+        ]
+      },
+      {
+        "name": "Back-End Web Development",
+        "positions": [
+          "National Institute of Technology Durgapur"
+        ]
+      },
+      {
+        "name": "Work Processes",
+        "positions": [
+          "National Institute of Technology Durgapur"
+        ],
+        "endorsements": "1 endorsement"
+      },
+      {
+        "name": "Software Solutions",
+        "positions": [
+          "National Institute of Technology Durgapur"
+        ],
+        "endorsements": "1 endorsement"
+      },
+      {
+        "name": "Software Projects",
+        "positions": [
+          "National Institute of Technology Durgapur"
+        ]
+      },
+      {
+        "name": "Programming",
+        "positions": [
+          "National Institute of Technology Durgapur"
+        ]
+      },
+      {
+        "name": "Computer Science",
+        "positions": [
+          "National Institute of Technology Durgapur"
+        ]
+      },
+      {
+        "name": "Problem Solving",
+        "positions": [
+          "National Institute of Technology Durgapur"
+        ]
+      },
+      {
+        "name": "Data Structures",
+        "positions": [
+          "National Institute of Technology Durgapur"
+        ]
+      },
+      {
+        "name": "Algorithms",
+        "positions": [
+          "National Institute of Technology Durgapur"
+        ]
+      }
+    ],
+    "publications": [],
+    "courses": [],
+    "patents": [],
+    "honorsAndAwards": [],
+    "languages": [],
+    "causes": [],
+    "featured": {
+      "images": [
+        "https://media.licdn.com/dms/image/v2/D5622AQEuTAqlFfZVag/feedshare-shrink_2048_1536/B56ZevVwLcGQAo-/0/1750993408280?e=1761782400&v=beta&t=CZ9oDTHeMDZ_y0T3aY5Krg2lMubHN2gxB-SJ_DtdS4w"
+      ],
+      "link": "https://www.linkedin.com/feed/update/urn:li:activity:7344198665764315137?updateEntityUrn=urn%3Ali%3Afs_feedUpdate%3A%28V2%2Curn%3Ali%3Aactivity%3A7344198665764315137%29"
+    },
+    "composeOptionType": "UPSELL",
+    "moreProfiles": [
+      {
+        "id": "ACoAAErhnNsB84k5bx3bnpKFD8mwW4XC89UMaxo",
+        "firstName": "Ayush",
+        "lastName": "Raj",
+        "position": "Student at National Institute of Technology Durgapur CE’27 II Intern at JSBCCL,Jharkhand,India II Teaching Volunteer at an NGO BMEP II Core Member of Bureau of Indian Standards Club II Class & Dept. Representative-CE’27",
+        "publicIdentifier": "ayush-raj-38b8952b0",
+        "linkedinUrl": "https://www.linkedin.com/in/ayush-raj-38b8952b0"
+      },
+      {
+        "id": "ACoAAFFq4VIBCQZOhkQ_1KkclsiuBUjrranNAzY",
+        "firstName": "Aryan",
+        "lastName": "Kumar",
+        "position": "NIT Durgapur (CSE)'28 | FFE-AWOO Scholar | Frontend Developer",
+        "publicIdentifier": "aryannitdgp",
+        "linkedinUrl": "https://www.linkedin.com/in/aryannitdgp"
+      },
+      {
+        "id": "ACoAAFD1NJwBEi3NO6mHntK1TKTqEmAX4FsRdHE",
+        "firstName": "Rahul",
+        "lastName": "Subedi",
+        "position": "SDE Aspirant | Sophomore @ NIT Durgapur (EE) | Java, MERN Stack, DSA Enthusiast | 200+ LeetCode",
+        "publicIdentifier": "rahul-subedi-738a5a31a",
+        "linkedinUrl": "https://www.linkedin.com/in/rahul-subedi-738a5a31a"
+      },
+      {
+        "id": "ACoAAFQm17sBClHO4EwYg7jJuccw6adRYtPRh7E",
+        "firstName": "Anmol",
+        "lastName": "Sharma",
+        "publicIdentifier": "anmol-sharma-30b9a0334",
+        "linkedinUrl": "https://www.linkedin.com/in/anmol-sharma-30b9a0334"
+      },
+      {
+        "id": "ACoAAEEmpHEBlj4I7ho3frY5E48aVZ1Qb53yQfU",
+        "firstName": "Shiwani",
+        "lastName": "Jain",
+        "publicIdentifier": "shiwani-jain-b55088266",
+        "linkedinUrl": "https://www.linkedin.com/in/shiwani-jain-b55088266"
+      },
+      {
+        "id": "ACoAAFHhxXUB4sAyLXRJWdRs203ET0xULlkdyq4",
+        "firstName": "Soumyadeep",
+        "lastName": "Paul",
+        "position": "Sophomore at National Institute of Technology Durgapur | JBNSTS Scholar 2021.",
+        "publicIdentifier": "soumyadeep-paul-705096324",
+        "linkedinUrl": "https://www.linkedin.com/in/soumyadeep-paul-705096324"
+      },
+      {
+        "id": "ACoAACU9lywBGFJBopVPGvXxsetQU_RPVhpgMV8",
+        "firstName": "Nitish",
+        "lastName": "Jha",
+        "publicIdentifier": "nitish-jha-2b82aa155",
+        "linkedinUrl": "https://www.linkedin.com/in/nitish-jha-2b82aa155"
+      },
+      {
+        "id": "ACoAAETsL4kBJYMrah7HhfkiaXy-gzoBjrtWINc",
+        "firstName": "Swaraj",
+        "lastName": "Jaiswal",
+        "position": "Student at National Institute of Technology Durgapur || Reliance Foundation Undergraduate Scholar || Web Developer @SAEINDIA NITDGP || GSSoC'24",
+        "publicIdentifier": "swaraj-jaiswal-0b5304283",
+        "linkedinUrl": "https://www.linkedin.com/in/swaraj-jaiswal-0b5304283"
+      },
+      {
+        "id": "ACoAAERNhokBIuxRdwpJ9jq_fCevyTo_GXl1_Gg",
+        "firstName": "Laxman",
+        "lastName": "Giridhar",
+        "position": "Attended National Institute of Technology Durgapur, Mangement Head @ NSS NIT Durgapur, Intern @CollegeTips.in",
+        "publicIdentifier": "laxman-giridhar-8b592a27b",
+        "linkedinUrl": "https://www.linkedin.com/in/laxman-giridhar-8b592a27b"
+      },
+      {
+        "id": "ACoAAE0N0oABzQTUqHeC5u3hRUYrvZbutcyR270",
+        "firstName": "Jaswika Mithram",
+        "lastName": "Kilaru",
+        "position": "B.tech CSE'27 | NIT Durgapur | Aspiring Software Engineer |",
+        "publicIdentifier": "jaswika-mithram-kilaru-0a8b34300",
+        "linkedinUrl": "https://www.linkedin.com/in/jaswika-mithram-kilaru-0a8b34300"
+      },
+      {
+        "id": "ACoAAFuLleIBPrE0nUdb-r98ib4L4-Yrde5Nyug",
+        "firstName": "Jill",
+        "lastName": "Davis",
+        "position": "--",
+        "publicIdentifier": "jill-davis-34244036a",
+        "linkedinUrl": "https://www.linkedin.com/in/jill-davis-34244036a"
+      },
+      {
+        "id": "ACoAAD4W80QBh8XgI2_dX6m3PhfQqQROOZ78SWw",
+        "firstName": "Abhinav",
+        "lastName": "Anand",
+        "publicIdentifier": "abhinav-anand-858a3a250",
+        "linkedinUrl": "https://www.linkedin.com/in/abhinav-anand-858a3a250"
+      },
+      {
+        "id": "ACoAAE7d-_oBoYVnI2jK6H8HVQZkq5670EhjgD8",
+        "firstName": "SAHELI",
+        "lastName": "MAHANTY",
+        "position": "2⭐@ CodeChef |Attended National Institute of Technology Durgapur. ll CSE 27 II SPICMACAY Member",
+        "publicIdentifier": "saheli-mahanty-a2216330b",
+        "linkedinUrl": "https://www.linkedin.com/in/saheli-mahanty-a2216330b"
+      },
+      {
+        "id": "ACoAABCeCmoBbkRHvQWDZJsGgAvP1zPvpjDK8g4",
+        "firstName": "Andria",
+        "lastName": "Shonia",
+        "publicIdentifier": "andria-shonia",
+        "linkedinUrl": "https://www.linkedin.com/in/andria-shonia"
+      },
+      {
+        "id": "ACoAAFP-Re4BiHltsQChkiwQNboPVn5uhZgKj4M",
+        "firstName": "Elene",
+        "lastName": "Kvitsiani",
+        "publicIdentifier": "elene-kvitsiani-752b19333",
+        "linkedinUrl": "https://www.linkedin.com/in/elene-kvitsiani-752b19333"
+      },
+      {
+        "id": "ACoAAErzn5UB_jO3L0zhHuMS4UsjgP0t-FI6msY",
+        "firstName": "Puja",
+        "lastName": "Kumari",
+        "publicIdentifier": "puja-kumari-4711642b1",
+        "linkedinUrl": "https://www.linkedin.com/in/puja-kumari-4711642b1"
+      },
+      {
+        "id": "ACoAADLzfKoBKDueAFxfXza3T8KbZAznTDLdkgI",
+        "firstName": "Sanika",
+        "lastName": "jain",
+        "publicIdentifier": "sanika-jain-3a233a1ba",
+        "linkedinUrl": "https://www.linkedin.com/in/sanika-jain-3a233a1ba"
+      },
+      {
+        "id": "ACoAAEaxGKcBa1OuUwBDccUqP8Hmvw00SOa-5ns",
+        "firstName": "Arif",
+        "lastName": "Ansary",
+        "position": "Professor of Mathematics @PW VIDYAPEETH \nEx-Senior Lecturer @ Sri Chaitanya \nBTech from NIT, DURGAPUR",
+        "publicIdentifier": "arif-ansary-173239291",
+        "linkedinUrl": "https://www.linkedin.com/in/arif-ansary-173239291"
+      },
+      {
+        "id": "ACoAADlUcnoBxhtI4lcsI6_Oo36CCDe3DhI6Cnk",
+        "firstName": "Richa ",
+        "lastName": "Roy",
+        "publicIdentifier": "richa-roy-a2214922a",
+        "linkedinUrl": "https://www.linkedin.com/in/richa-roy-a2214922a"
+      },
+      {
+        "id": "ACoAAETTVfYBvzBpNRHi_i19G3g0BIrdeClb1iY",
+        "firstName": "Amit",
+        "lastName": "P",
+        "publicIdentifier": "amitstredz",
+        "linkedinUrl": "https://www.linkedin.com/in/amitstredz"
+      },
+      {
+        "id": "ACoAAEYWgnkBSaiW-iU7IUgPDCRy701obJMUeM0",
+        "firstName": "Puranjay",
+        "lastName": "Joshi",
+        "position": "Member, RECursion NITDGP || CP & WebDev Enthusiast || DebSoc NITDGP || CSE'27 NIT Durgapur",
+        "publicIdentifier": "puranjay-joshi-361972289",
+        "linkedinUrl": "https://www.linkedin.com/in/puranjay-joshi-361972289"
+      }
+    ],
+    "_meta": {
+      "pagination": {
+        "totalElements": 20,
+        "totalPages": 1,
+        "pageNumber": 1,
+        "previousElements": 0,
+        "pageSize": 25
+      }
+    }
+  },
+  {
+    "id": "ACoAAFP-Re4BiHltsQChkiwQNboPVn5uhZgKj4M",
+    "publicIdentifier": "elene-kvitsiani-752b19333",
+    "linkedinUrl": "https://www.linkedin.com/in/elene-kvitsiani-752b19333",
+    "firstName": "Elene",
+    "lastName": "Kvitsiani",
+    "headline": "Software Engineer Intern @ Theneo | Computer Science Student at Free University of Tbilisi",
+    "about": null,
+    "openToWork": false,
+    "hiring": false,
+    "photo": "https://media.licdn.com/dms/image/v2/D4D03AQFGWBnnQi5LCQ/profile-displayphoto-shrink_800_800/B4DZX2B1tyG4Ag-/0/1743589434026?e=1761782400&v=beta&t=wdXDNnUnT003ePDajYpsZ9PkQ77lseGUXwBCBjv_g58",
+    "premium": false,
+    "influencer": false,
+    "location": {
+      "linkedinText": "Tbilisi, Georgia",
+      "countryCode": "GE",
+      "parsed": {
+        "text": "Tbilisi, Georgia",
+        "countryCode": "GE",
+        "regionCode": null,
+        "country": "Georgia",
+        "countryFull": "Georgia",
+        "state": "Tbilisi",
+        "city": "Tbilisi"
+      }
+    },
+    "verified": false,
+    "registeredAt": "2024-10-21T08:09:42.004Z",
+    "topSkills": null,
+    "connectionsCount": 142,
+    "followerCount": 142,
+    "currentPosition": [
+      {
+        "companyId": "75072704",
+        "companyLinkedinUrl": "https://www.linkedin.com/company/75072704/",
+        "companyName": "Theneo",
+        "dateRange": {
+          "start": {
+            "month": 7,
+            "year": 2025,
+            "day": null
+          },
+          "end": null
+        }
+      }
+    ],
+    "profileTopEducation": [
+      {
+        "schoolId": "5123001",
+        "companyId": "35434223",
+        "schoolLinkedinUrl": "https://www.linkedin.com/company/35434223/",
+        "schoolName": "Tbilisi School of Communication"
+      }
+    ],
+    "experience": [
+      {
+        "position": "Software Engineer Intern",
+        "location": "Tbilisi, Georgia",
+        "employmentType": "Internship",
+        "workplaceType": "Remote",
+        "companyName": "Theneo",
+        "companyLinkedinUrl": "https://www.linkedin.com/company/theneoinc/",
+        "companyId": "75072704",
+        "companyUniversalName": "theneoinc",
+        "duration": "3 mos",
+        "description": null,
+        "skills": [
+          "Python (Programming Language)",
+          "Back-End Web Development",
+          "Front-End Development",
+          "Software Infrastructure",
+          "TypeScript",
+          "JavaScript",
+          "JavaScript eXtension (JSX)"
+        ],
+        "startDate": {
+          "month": "Jul",
+          "year": 2025,
+          "text": "Jul 2025"
+        },
+        "endDate": {
+          "text": "Present"
+        }
+      },
+      {
+        "position": "Back End Developer Intern",
+        "location": "Tbilisi, Georgia",
+        "employmentType": "Internship",
+        "workplaceType": "Remote",
+        "companyName": "Naulichtis",
+        "companyLinkedinUrl": "https://www.linkedin.com/search/results/all/?keywords=Naulichtis",
+        "duration": "6 mos",
+        "description": null,
+        "skills": null,
+        "startDate": {
+          "month": "Apr",
+          "year": 2025,
+          "text": "Apr 2025"
+        },
+        "endDate": {
+          "text": "Present"
+        }
+      }
+    ],
+    "education": [
+      {
+        "schoolName": "Tbilisi School of Communication",
+        "schoolLinkedinUrl": "https://www.linkedin.com/company/35434223/",
+        "degree": "Back-End Development",
+        "fieldOfStudy": null,
+        "skills": [
+          "C#",
+          ".NET Framework"
+        ],
+        "description": "Back-End Development with C# + .NET",
+        "startDate": {
+          "month": "Dec",
+          "year": 2023,
+          "text": "Dec 2023"
+        },
+        "endDate": {
+          "month": "Apr",
+          "year": 2024,
+          "text": "Apr 2024"
+        },
+        "period": "Dec 2023 - Apr 2024"
+      },
+      {
+        "schoolName": "Free University of Tbilisi",
+        "schoolLinkedinUrl": "https://www.linkedin.com/company/1038460/",
+        "degree": "Bachelor's degree",
+        "fieldOfStudy": "Mathematics and Computer Science",
+        "skills": [
+          "SQL",
+          "C++",
+          "C (Programming Language)",
+          "Java",
+          "Python (Programming Language)",
+          "Kotlin",
+          "Cybersecurity",
+          "Algorithms",
+          "Advanced Mathematics",
+          "Calculus",
+          "AP Calculus",
+          "Probability Theory",
+          "Statistics",
+          "Reverse Engineering"
+        ],
+        "startDate": null,
+        "endDate": {
+          "month": "Sep",
+          "year": 2022,
+          "text": "Sep 2022"
+        },
+        "period": "Sep 2022"
+      },
+      {
+        "schoolName": "Scientific Cyber Security Association",
+        "schoolLinkedinUrl": "https://www.linkedin.com/search/results/all/?keywords=Scientific+Cyber+Security+Association",
+        "degree": "Python",
+        "fieldOfStudy": null,
+        "skills": [
+          "Python (Programming Language)"
+        ],
+        "description": "Python Beginner Course",
+        "startDate": {
+          "month": "Feb",
+          "year": 2021,
+          "text": "Feb 2021"
+        },
+        "endDate": {
+          "month": "Mar",
+          "year": 2021,
+          "text": "Mar 2021"
+        },
+        "period": "Feb 2021 - Mar 2021"
+      },
+      {
+        "schoolName": "Komarovi Campus School",
+        "schoolLinkedinUrl": "https://www.linkedin.com/company/25168842/",
+        "degree": "High School Diploma",
+        "fieldOfStudy": null,
+        "skills": [
+          "C++",
+          "Advanced Mathematics",
+          "Pre-Calculus",
+          "Calculus",
+          "Probability Theory",
+          "Linear Algebra",
+          "Algebra",
+          "Geometry"
+        ],
+        "insights": "Grade: Gold Medal, Diploma of Honor\nActivities and societies: Extracurricular Programming Course",
+        "startDate": {
+          "month": "Sep",
+          "year": 2016,
+          "text": "Sep 2016"
+        },
+        "endDate": {
+          "month": "Jun",
+          "year": 2022,
+          "text": "Jun 2022"
+        },
+        "period": "Sep 2016 - Jun 2022"
+      }
+    ],
+    "certifications": [
+      {
+        "title": "Backend with C# + .NET",
+        "issuedAt": "Issued Apr 2024",
+        "issuedBy": "Tbilisi School of Communication",
+        "issuedByLink": "https://www.linkedin.com/company/35434223/"
+      },
+      {
+        "title": "Python",
+        "issuedAt": "Issued Mar 2021",
+        "issuedBy": "Scientific Cyber Security Association (SCSA)",
+        "issuedByLink": "https://www.linkedin.com/company/11402793/"
+      }
+    ],
+    "projects": [],
+    "volunteering": [],
+    "receivedRecommendations": [],
+    "skills": [
+      {
+        "name": "Pre-Calculus",
+        "positions": [
+          "Komarovi Campus School"
+        ]
+      },
+      {
+        "name": "Linear Algebra",
+        "positions": [
+          "Komarovi Campus School"
+        ]
+      },
+      {
+        "name": "Algebra",
+        "positions": [
+          "Komarovi Campus School"
+        ]
+      },
+      {
+        "name": "Geometry",
+        "positions": [
+          "Komarovi Campus School"
+        ]
+      },
+      {
+        "name": "Front-End Development",
+        "positions": [
+          "Software Engineer Intern at Theneo"
+        ]
+      },
+      {
+        "name": "Software Infrastructure",
+        "positions": [
+          "Software Engineer Intern at Theneo"
+        ]
+      },
+      {
+        "name": "TypeScript",
+        "positions": [
+          "Software Engineer Intern at Theneo"
+        ]
+      },
+      {
+        "name": "JavaScript",
+        "positions": [
+          "Software Engineer Intern at Theneo"
+        ]
+      },
+      {
+        "name": "JavaScript eXtension (JSX)",
+        "positions": [
+          "Software Engineer Intern at Theneo"
+        ]
+      },
+      {
+        "name": "Kotlin",
+        "positions": [
+          "Free University of Tbilisi"
+        ]
+      },
+      {
+        "name": "Cybersecurity",
+        "positions": [
+          "Free University of Tbilisi"
+        ]
+      },
+      {
+        "name": "Algorithms",
+        "positions": [
+          "Free University of Tbilisi"
+        ]
+      },
+      {
+        "name": "Advanced Mathematics",
+        "positions": [
+          "2 educational experiences at Free University of Tbilisi and 1 other school"
+        ]
+      },
+      {
+        "name": "Calculus",
+        "positions": [
+          "2 educational experiences at Free University of Tbilisi and 1 other school"
+        ]
+      },
+      {
+        "name": "AP Calculus",
+        "positions": [
+          "Free University of Tbilisi"
+        ]
+      },
+      {
+        "name": "Probability Theory",
+        "positions": [
+          "2 educational experiences at Free University of Tbilisi and 1 other school"
+        ]
+      },
+      {
+        "name": "Statistics",
+        "positions": [
+          "Free University of Tbilisi"
+        ]
+      },
+      {
+        "name": "Reverse Engineering",
+        "positions": [
+          "Free University of Tbilisi"
+        ]
+      },
+      {
+        "name": ".NET Framework",
+        "positions": [
+          "Tbilisi School of Communication",
+          "Backend with C# + .NET"
+        ]
+      },
+      {
+        "name": "Back-End Web Development",
+        "positions": [
+          "Software Engineer Intern at Theneo",
+          "Backend with C# + .NET"
+        ]
+      },
+      {
+        "name": "Python (Programming Language)",
+        "positions": [
+          "Software Engineer Intern at Theneo",
+          "2 educational experiences at Free University of Tbilisi",
+          "Python"
+        ]
+      },
+      {
+        "name": "SQL",
+        "positions": [
+          "Free University of Tbilisi"
+        ]
+      },
+      {
+        "name": "Java",
+        "positions": [
+          "Free University of Tbilisi"
+        ]
+      },
+      {
+        "name": "C (Programming Language)",
+        "positions": [
+          "Free University of Tbilisi"
+        ]
+      },
+      {
+        "name": "C#",
+        "positions": [
+          "Tbilisi School of Communication",
+          "Backend with C# + .NET"
+        ]
+      },
+      {
+        "name": "C++",
+        "positions": [
+          "2 educational experiences at Free University of Tbilisi and 1 other school"
+        ]
+      }
+    ],
+    "publications": [],
+    "courses": [],
+    "patents": [],
+    "honorsAndAwards": [],
+    "languages": [],
+    "causes": [],
+    "featured": {
+      "images": [],
+      "link": "https://www.linkedin.com/in/elene-kvitsiani-752b19333/overlay/1758540313818/single-media-viewer?type=DOCUMENT&profileId=ACoAAFP-Re4BiHltsQChkiwQNboPVn5uhZgKj4M",
+      "title": "Resume.pdf"
+    },
+    "composeOptionType": "UPSELL",
+    "moreProfiles": [
+      {
+        "id": "ACoAADO-gyMBQkuxNwYZWy3U-DybIH6hHCvGmdc",
+        "firstName": "Badri",
+        "lastName": "Losaberidze",
+        "publicIdentifier": "badri-losaberidze-2ab896202",
+        "linkedinUrl": "https://www.linkedin.com/in/badri-losaberidze-2ab896202"
+      },
+      {
+        "id": "ACoAAEWyiG0BTje3uN3xMCgyW3oyVkomLxvltHg",
+        "firstName": "Irakli",
+        "lastName": "Todadze",
+        "publicIdentifier": "irakli-todadze-6b9732287",
+        "linkedinUrl": "https://www.linkedin.com/in/irakli-todadze-6b9732287"
+      },
+      {
+        "id": "ACoAAFpbEj8Bv4bpvI2hKRqmFIfBxQbe6pCcINs",
+        "firstName": "Lu",
+        "lastName": "Ka",
+        "position": "🇪🇺 Europe Knowledge 🇬🇪",
+        "publicIdentifier": "lu-ka-367817363",
+        "linkedinUrl": "https://www.linkedin.com/in/lu-ka-367817363"
+      },
+      {
+        "id": "ACoAAECGEyABlnHnVnEh2qUl370qxdoODp5FnUI",
+        "firstName": "Giorgi",
+        "lastName": "Toronjadze",
+        "publicIdentifier": "giorgi-toronjadze-340653262",
+        "linkedinUrl": "https://www.linkedin.com/in/giorgi-toronjadze-340653262"
+      },
+      {
+        "id": "ACoAAC7O7TwB687m15kcdsVLuVKRcnnM5haA1jw",
+        "firstName": "Beka",
+        "lastName": "Bezhuashvili",
+        "position": "Software Developer",
+        "publicIdentifier": "bekabezhuashvili",
+        "linkedinUrl": "https://www.linkedin.com/in/bekabezhuashvili"
+      },
+      {
+        "id": "ACoAADWIwPUBcGIRIBKRsiCsefzDB-1udqbp_Zg",
+        "firstName": "Luka",
+        "lastName": "Turabelidze",
+        "publicIdentifier": "luka-turabelidze-585959210",
+        "linkedinUrl": "https://www.linkedin.com/in/luka-turabelidze-585959210"
+      },
+      {
+        "id": "ACoAAEjkNnABh-Xgmz5tDaTGY78tyM5tIp-vdfs",
+        "firstName": "Mariami",
+        "lastName": "Gadelia",
+        "publicIdentifier": "mariami-gadelia-a146752a1",
+        "linkedinUrl": "https://www.linkedin.com/in/mariami-gadelia-a146752a1"
+      },
+      {
+        "id": "ACoAAEjPznEBIxjF5sCnywXXFipn_8Ke46gOoVY",
+        "firstName": "Giorgi",
+        "lastName": "Lasareishvili",
+        "publicIdentifier": "giorgi-lasareishvili-b0112b2a1",
+        "linkedinUrl": "https://www.linkedin.com/in/giorgi-lasareishvili-b0112b2a1"
+      },
+      {
+        "id": "ACoAAFkC7WoBgNt2slTVNdTpHAp0p2RAc7rzjzI",
+        "firstName": "Nia",
+        "lastName": "Karaulashvili",
+        "position": "Casino Dealer at Evolution",
+        "publicIdentifier": "nia-karaulashvili-3a215b358",
+        "linkedinUrl": "https://www.linkedin.com/in/nia-karaulashvili-3a215b358"
+      },
+      {
+        "id": "ACoAAFrGYnwBjICU55Ckd-5MLqDzTHsVE-WEL9o",
+        "firstName": "Gvantsa",
+        "lastName": "Todua",
+        "position": "--",
+        "publicIdentifier": "gvantsa-todua-310049366",
+        "linkedinUrl": "https://www.linkedin.com/in/gvantsa-todua-310049366"
+      },
+      {
+        "id": "ACoAAFK2er4Bq1ECk3WoWclaEq8XP0BNzCsiulk",
+        "firstName": "giorgi",
+        "lastName": "beridze",
+        "publicIdentifier": "giorgi-beridze-8a6899328",
+        "linkedinUrl": "https://www.linkedin.com/in/giorgi-beridze-8a6899328"
+      },
+      {
+        "id": "ACoAAEFjUEkB0XdLl8GkNQfJT3GP0DSBoWaneOc",
+        "firstName": "Tornike",
+        "lastName": "Beria",
+        "publicIdentifier": "tornike-beria-b75485267",
+        "linkedinUrl": "https://www.linkedin.com/in/tornike-beria-b75485267"
+      },
+      {
+        "id": "ACoAAF1PaNUBvaT2Xzhh4-nKzOalxqq2FS-mrik",
+        "firstName": "Dimitri",
+        "lastName": "Gumberidze",
+        "position": "--",
+        "publicIdentifier": "dimitri-gumberidze-159340378",
+        "linkedinUrl": "https://www.linkedin.com/in/dimitri-gumberidze-159340378"
+      },
+      {
+        "id": "ACoAADqqQlEBxVNlG0W5qvH2ehJAwnhPgYqgiHg",
+        "firstName": "Luka",
+        "lastName": "Lomadze",
+        "publicIdentifier": "luka-lomadze-469751235",
+        "linkedinUrl": "https://www.linkedin.com/in/luka-lomadze-469751235"
+      },
+      {
+        "id": "ACoAAF4aw1oB95pMiKs0eGN1JmQglzZUwhkoXzM",
+        "firstName": "Mariam",
+        "lastName": "Shelia",
+        "position": "Student at Tbilisi State Medical University",
+        "publicIdentifier": "mariam-shelia-5b68a8380",
+        "linkedinUrl": "https://www.linkedin.com/in/mariam-shelia-5b68a8380"
+      },
+      {
+        "id": "ACoAAEZvJ-ABGWbZ1f9WUC3g35MxYaJqF8G1_Hg",
+        "firstName": "Ana",
+        "lastName": "Mikava",
+        "position": "IT Project Manager",
+        "publicIdentifier": "ana-mikava-3408b428b",
+        "linkedinUrl": "https://www.linkedin.com/in/ana-mikava-3408b428b"
+      },
+      {
+        "id": "ACoAAFmCb04BOWSefin0LKW_6sSTZP8F5dnS1Zo",
+        "firstName": "Ana",
+        "lastName": "Dumbadze",
+        "position": "Marketing Communications Manager ",
+        "publicIdentifier": "ana-dumbadze-1a6b0b35a",
+        "linkedinUrl": "https://www.linkedin.com/in/ana-dumbadze-1a6b0b35a"
+      },
+      {
+        "id": "ACoAAFoSq2QBvuzvLQrwgGFzhJnIhZQRyRUyv6w",
+        "firstName": "Andro",
+        "lastName": "Ochigava",
+        "position": "Graphic Designer",
+        "publicIdentifier": "andro-ochigava-484109362",
+        "linkedinUrl": "https://www.linkedin.com/in/andro-ochigava-484109362"
+      },
+      {
+        "id": "ACoAAF3Uob8BFOM5k0U1Pn-Jcyr1j3krRK-5Au8",
+        "firstName": "Carsen",
+        "lastName": "Beasley",
+        "position": "Team Manager at Canva",
+        "publicIdentifier": "carsen-beasley-85325037b",
+        "linkedinUrl": "https://www.linkedin.com/in/carsen-beasley-85325037b"
+      },
+      {
+        "id": "ACoAADu39xsBxmc1NRHOgGKzWtJVKKFZnOryou4",
+        "firstName": "Stepane",
+        "lastName": "Gvinjilia",
+        "publicIdentifier": "stepane-gvinjilia-2a365623b",
+        "linkedinUrl": "https://www.linkedin.com/in/stepane-gvinjilia-2a365623b"
+      },
+      {
+        "id": "ACoAAFpfJ5sBPKhn--ZkbKUCMHZuZX0r6ntvEFY",
+        "firstName": "Dare ",
+        "lastName": "Babilashvili",
+        "position": "--",
+        "publicIdentifier": "dare-babilashvili-1b7926363",
+        "linkedinUrl": "https://www.linkedin.com/in/dare-babilashvili-1b7926363"
+      }
+    ],
+    "_meta": {
+      "pagination": {
+        "totalElements": 20,
+        "totalPages": 1,
+        "pageNumber": 1,
+        "previousElements": 0,
+        "pageSize": 25
+      }
+    }
+  },
+  {
+    "id": "ACoAAFK2er4Bq1ECk3WoWclaEq8XP0BNzCsiulk",
+    "publicIdentifier": "giorgi-beridze-8a6899328",
+    "linkedinUrl": "https://www.linkedin.com/in/giorgi-beridze-8a6899328",
+    "firstName": "giorgi",
+    "lastName": "beridze",
+    "headline": "Student at Free University of Tbilisi",
+    "about": null,
+    "openToWork": false,
+    "hiring": false,
+    "photo": "https://media.licdn.com/dms/image/v2/D4D03AQEOXFnez7DeaA/profile-displayphoto-shrink_800_800/B4DZS7zzvZGkAc-/0/1738317711151?e=1761782400&v=beta&t=4S2JV9OOKb75uCg9V9351V83rktvUNf9pgU6jZph84I",
+    "premium": false,
+    "influencer": false,
+    "location": {
+      "linkedinText": "Tbilisi, Georgia",
+      "countryCode": "GE",
+      "parsed": {
+        "text": "Tbilisi, Georgia",
+        "countryCode": "GE",
+        "regionCode": null,
+        "country": "Georgia",
+        "countryFull": "Georgia",
+        "state": "Tbilisi",
+        "city": "Tbilisi"
+      }
+    },
+    "verified": false,
+    "registeredAt": "2024-09-11T15:10:50.630Z",
+    "topSkills": null,
+    "connectionsCount": 107,
+    "followerCount": 107,
+    "currentPosition": [
+      {
+        "companyId": "75072704",
+        "companyLinkedinUrl": "https://www.linkedin.com/company/75072704/",
+        "companyName": "Theneo",
+        "dateRange": {
+          "start": {
+            "month": 7,
+            "year": 2025,
+            "day": null
+          },
+          "end": null
+        }
+      }
+    ],
+    "profileTopEducation": [
+      {
+        "schoolId": "3154257",
+        "companyId": "1038460",
+        "schoolLinkedinUrl": "https://www.linkedin.com/company/1038460/",
+        "schoolName": "Free University of Tbilisi"
+      }
+    ],
+    "experience": [
+      {
+        "position": "Software Engineer Intern",
+        "location": "Tbilisi, Georgia",
+        "employmentType": "Internship",
+        "workplaceType": null,
+        "companyName": "Theneo",
+        "companyLinkedinUrl": "https://www.linkedin.com/company/theneoinc/",
+        "companyId": "75072704",
+        "companyUniversalName": "theneoinc",
+        "duration": "3 mos",
+        "description": null,
+        "skills": [
+          "JavaScript eXtension (JSX)",
+          "JavaScript",
+          "Python (Programming Language)",
+          "Remote Teamwork",
+          "Problem Solving",
+          "Analytic Problem Solving"
+        ],
+        "startDate": {
+          "month": "Jul",
+          "year": 2025,
+          "text": "Jul 2025"
+        },
+        "endDate": {
+          "text": "Present"
+        }
+      },
+      {
+        "position": "Software Application Developer",
+        "location": "Tbilisi, Georgia",
+        "employmentType": "Internship",
+        "workplaceType": "Hybrid",
+        "companyName": "Zerobyte • Software Development",
+        "companyLinkedinUrl": "https://www.linkedin.com/company/98046331/",
+        "companyId": "98046331",
+        "duration": "7 mos",
+        "description": null,
+        "skills": [
+          "java Spring boot",
+          "Spring Boot",
+          "Java",
+          "HTML",
+          "Problem Solving",
+          "Analytic Problem Solving",
+          "Teamwork",
+          "Remote Teamwork",
+          "Process Flow Documentation",
+          "TypeScript",
+          "PostgreSQL"
+        ],
+        "startDate": {
+          "month": "Mar",
+          "year": 2025,
+          "text": "Mar 2025"
+        },
+        "endDate": {
+          "text": "Present"
+        }
+      }
+    ],
+    "education": [
+      {
+        "schoolName": "Free University of Tbilisi",
+        "schoolLinkedinUrl": "https://www.linkedin.com/company/1038460/",
+        "degree": null,
+        "fieldOfStudy": null,
+        "skills": [
+          "C++",
+          "Design Patterns",
+          "C (Programming Language)",
+          "Assembly Language",
+          "Data Structures",
+          "Calculus",
+          "Problem Solving",
+          "Algorithms",
+          "SQL",
+          "Java",
+          "Probability Theory",
+          "Object-Oriented Programming (OOP)",
+          "Scheme",
+          "Operating Systems",
+          "Code Review",
+          "Python (Programming Language)"
+        ],
+        "startDate": {
+          "year": 2022,
+          "text": "2022"
+        },
+        "endDate": {
+          "year": 2026,
+          "text": "2026"
+        },
+        "period": "2022 - 2026"
+      }
+    ],
+    "certifications": [],
+    "projects": [],
+    "volunteering": [],
+    "receivedRecommendations": [],
+    "skills": [
+      {
+        "name": "PostgreSQL",
+        "positions": [
+          "Software Application Developer at Zerobyte • Software Development"
+        ]
+      },
+      {
+        "name": "java Spring boot",
+        "positions": [
+          "Software Application Developer at Zerobyte • Software Development"
+        ]
+      },
+      {
+        "name": "Spring Boot",
+        "positions": [
+          "Software Application Developer at Zerobyte • Software Development"
+        ]
+      },
+      {
+        "name": "HTML",
+        "positions": [
+          "Software Application Developer at Zerobyte • Software Development"
+        ]
+      },
+      {
+        "name": "TypeScript",
+        "positions": [
+          "Software Application Developer at Zerobyte • Software Development"
+        ]
+      },
+      {
+        "name": "Analytic Problem Solving",
+        "positions": [
+          "2 experiences across Theneo and 1 other company"
+        ]
+      },
+      {
+        "name": "Teamwork",
+        "positions": [
+          "Software Application Developer at Zerobyte • Software Development"
+        ]
+      },
+      {
+        "name": "Remote Teamwork",
+        "positions": [
+          "2 experiences across Theneo and 1 other company"
+        ]
+      },
+      {
+        "name": "Process Flow Documentation",
+        "positions": [
+          "Software Application Developer at Zerobyte • Software Development"
+        ]
+      },
+      {
+        "name": "JavaScript",
+        "positions": [
+          "Software Engineer Intern at Theneo"
+        ]
+      },
+      {
+        "name": "JavaScript eXtension (JSX)",
+        "positions": [
+          "Software Engineer Intern at Theneo"
+        ]
+      },
+      {
+        "name": "Scheme",
+        "positions": [
+          "Free University of Tbilisi"
+        ]
+      },
+      {
+        "name": "Assembly Language",
+        "positions": [
+          "Free University of Tbilisi"
+        ]
+      },
+      {
+        "name": "Algorithms",
+        "positions": [
+          "Free University of Tbilisi"
+        ]
+      },
+      {
+        "name": "Data Structures",
+        "positions": [
+          "Free University of Tbilisi"
+        ]
+      },
+      {
+        "name": "Design Patterns",
+        "positions": [
+          "Free University of Tbilisi"
+        ]
+      },
+      {
+        "name": "Probability Theory",
+        "positions": [
+          "Free University of Tbilisi"
+        ]
+      },
+      {
+        "name": "Calculus",
+        "positions": [
+          "Free University of Tbilisi"
+        ]
+      },
+      {
+        "name": "Operating Systems",
+        "positions": [
+          "Free University of Tbilisi"
+        ]
+      },
+      {
+        "name": "SQL",
+        "positions": [
+          "Free University of Tbilisi"
+        ]
+      },
+      {
+        "name": "Java",
+        "positions": [
+          "Software Application Developer at Zerobyte • Software Development",
+          "Free University of Tbilisi"
+        ]
+      },
+      {
+        "name": "Python (Programming Language)",
+        "positions": [
+          "Software Engineer Intern at Theneo",
+          "Free University of Tbilisi"
+        ]
+      },
+      {
+        "name": "C (Programming Language)",
+        "positions": [
+          "Free University of Tbilisi"
+        ]
+      },
+      {
+        "name": "C++",
+        "positions": [
+          "Free University of Tbilisi"
+        ]
+      },
+      {
+        "name": "Problem Solving",
+        "positions": [
+          "2 experiences across Theneo and 1 other company",
+          "Free University of Tbilisi"
+        ]
+      },
+      {
+        "name": "Code Review",
+        "positions": [
+          "Free University of Tbilisi"
+        ]
+      },
+      {
+        "name": "Object-Oriented Programming (OOP)",
+        "positions": [
+          "Free University of Tbilisi"
+        ]
+      }
+    ],
+    "publications": [],
+    "courses": [],
+    "patents": [],
+    "honorsAndAwards": [],
+    "languages": [],
+    "causes": [],
+    "featured": null,
+    "composeOptionType": "UPSELL",
+    "moreProfiles": [
+      {
+        "id": "ACoAADO-gyMBQkuxNwYZWy3U-DybIH6hHCvGmdc",
+        "firstName": "Badri",
+        "lastName": "Losaberidze",
+        "publicIdentifier": "badri-losaberidze-2ab896202",
+        "linkedinUrl": "https://www.linkedin.com/in/badri-losaberidze-2ab896202"
+      },
+      {
+        "id": "ACoAAEBQoN8Bdq_7agOcuBcTLkzG-GO_7ZR-emM",
+        "firstName": "Lasha",
+        "lastName": "Chikhradze",
+        "publicIdentifier": "lashachikhradze",
+        "linkedinUrl": "https://www.linkedin.com/in/lashachikhradze"
+      },
+      {
+        "id": "ACoAAEiYmxEB_j6BY38WAWZqd4FhA6uBo2pmsL4",
+        "firstName": "Guka",
+        "lastName": "Abramishvili",
+        "publicIdentifier": "guka-abramishvili-469a8629b",
+        "linkedinUrl": "https://www.linkedin.com/in/guka-abramishvili-469a8629b"
+      },
+      {
+        "id": "ACoAADowpfEBjCEbiCOO3EKuN7VBxkN8M_ZOQMo",
+        "firstName": "Merab",
+        "lastName": "Tarielashvili",
+        "position": "Director Of Corporate Sales",
+        "publicIdentifier": "merab-tarielashvili-215b49232",
+        "linkedinUrl": "https://www.linkedin.com/in/merab-tarielashvili-215b49232"
+      },
+      {
+        "id": "ACoAADrI4hgB0JRkC3HiUbZG6AoH2V1_zt-jOlk",
+        "firstName": "Sali",
+        "lastName": "Lomidze",
+        "position": "Architect / Designer",
+        "publicIdentifier": "sali-lomidze-9b435a236",
+        "linkedinUrl": "https://www.linkedin.com/in/sali-lomidze-9b435a236"
+      },
+      {
+        "id": "ACoAADpOZdQBlgFUmXZB0-eB83YueixQjXoCEhk",
+        "firstName": "Diana",
+        "lastName": "Azikuri",
+        "position": "HR Operations Specialist",
+        "publicIdentifier": "dianaazikuri",
+        "linkedinUrl": "https://www.linkedin.com/in/dianaazikuri"
+      },
+      {
+        "id": "ACoAAEISRY4BRdHT9wvPacjYJY3Eq1Lt9N_TGxo",
+        "firstName": "Ekaterine",
+        "lastName": "Jakeli",
+        "position": "Head Accountant",
+        "publicIdentifier": "ekaterine-jakeli-4ba29526b",
+        "linkedinUrl": "https://www.linkedin.com/in/ekaterine-jakeli-4ba29526b"
+      },
+      {
+        "id": "ACoAABZU7K0BF5_lo1TWjz38wZBaMHOIHs3vVuA",
+        "firstName": "Tazo",
+        "lastName": "Lezhava",
+        "publicIdentifier": "tazo-lezhava",
+        "linkedinUrl": "https://www.linkedin.com/in/tazo-lezhava"
+      },
+      {
+        "id": "ACoAAFkl470B4e7mjqjD7Nhj7ic45yRFdliQ6Vs",
+        "firstName": "Salome",
+        "lastName": "Chikava",
+        "publicIdentifier": "salome-chikava-365a85358",
+        "linkedinUrl": "https://www.linkedin.com/in/salome-chikava-365a85358"
+      },
+      {
+        "id": "ACoAADshFu8BAtV0aMgpMnYo6p0NlEmasYpRTt4",
+        "firstName": "Lasha",
+        "lastName": "Adamashvili",
+        "position": "Head of Tax and Advisory",
+        "publicIdentifier": "lasha-adamashvili",
+        "linkedinUrl": "https://www.linkedin.com/in/lasha-adamashvili"
+      },
+      {
+        "id": "ACoAACuV6BQBffh1C1CTxtzRqnBBfpjE-HT397Q",
+        "firstName": "Gaga",
+        "lastName": "tkemaladze",
+        "publicIdentifier": "gaga-tkemaladze-b30a85184",
+        "linkedinUrl": "https://www.linkedin.com/in/gaga-tkemaladze-b30a85184"
+      },
+      {
+        "id": "ACoAAD1YNV8BSR0fqIQlO3oGxLyI8cm00sdipKY",
+        "firstName": "Nanuka",
+        "lastName": "Nemsitsveridze",
+        "position": "Human resources/Operations management",
+        "publicIdentifier": "nanuka-nemsitsveridze-793810248",
+        "linkedinUrl": "https://www.linkedin.com/in/nanuka-nemsitsveridze-793810248"
+      },
+      {
+        "id": "ACoAADLD3rgByE78rqHVRjNyw9DiEm1_9v82288",
+        "firstName": "Revaz",
+        "lastName": "Dzidziguri",
+        "publicIdentifier": "revaz-dzidziguri-4a02941b9",
+        "linkedinUrl": "https://www.linkedin.com/in/revaz-dzidziguri-4a02941b9"
+      },
+      {
+        "id": "ACoAAF1bDmEB-zVFVMM7ePS9NzQ4TTpFiU32rh0",
+        "firstName": "Gabrielle",
+        "lastName": "Stevens",
+        "position": "Human Resources Manager at YouTube",
+        "publicIdentifier": "gabrielle-stevens-a01649378",
+        "linkedinUrl": "https://www.linkedin.com/in/gabrielle-stevens-a01649378"
+      },
+      {
+        "id": "ACoAAFP-Re4BiHltsQChkiwQNboPVn5uhZgKj4M",
+        "firstName": "Elene",
+        "lastName": "Kvitsiani",
+        "publicIdentifier": "elene-kvitsiani-752b19333",
+        "linkedinUrl": "https://www.linkedin.com/in/elene-kvitsiani-752b19333"
+      },
+      {
+        "id": "ACoAADMp2KcBIyK5oUzZjKlEyNEctw-gCDzcHHc",
+        "firstName": "Mariam",
+        "lastName": "Kavtaradze",
+        "publicIdentifier": "mariam-kavtaradze-b475771bb",
+        "linkedinUrl": "https://www.linkedin.com/in/mariam-kavtaradze-b475771bb"
+      },
+      {
+        "id": "ACoAAEdT9W0BaZLLAR-1sXVuRogByRtBr1NVcek",
+        "firstName": "Sophie",
+        "lastName": "Maghradze",
+        "position": "Chief accountant ",
+        "publicIdentifier": "sophie-maghradze-a11925294",
+        "linkedinUrl": "https://www.linkedin.com/in/sophie-maghradze-a11925294"
+      },
+      {
+        "id": "ACoAAERu5QUBYRHGun8Ao7CAORaGIgOWkH7tB-o",
+        "firstName": "Lizi",
+        "lastName": "Bogveli",
+        "position": "Client Success Manager",
+        "publicIdentifier": "lizi-bogveli-371604280",
+        "linkedinUrl": "https://www.linkedin.com/in/lizi-bogveli-371604280"
+      },
+      {
+        "id": "ACoAAD6io2gBQrjszvODNZXLGkRB4xlJB99Vgwc",
+        "firstName": "Ani",
+        "lastName": "Lomidze",
+        "position": "Lawyer at Nemsitsveridze law firm",
+        "publicIdentifier": "ani-lomidze-608b14253",
+        "linkedinUrl": "https://www.linkedin.com/in/ani-lomidze-608b14253"
+      },
+      {
+        "id": "ACoAAD3TTfMB-wesj_5jAq4Dmjt1Gg0GXfVauuo",
+        "firstName": "Medea",
+        "lastName": "Amaglobeli",
+        "position": "Student at Free University of Tbilisi",
+        "publicIdentifier": "medea-amaglobeli-21746124b",
+        "linkedinUrl": "https://www.linkedin.com/in/medea-amaglobeli-21746124b"
+      },
+      {
+        "id": "ACoAAEEAS-4B36m8ELit4MJI6q2sHG9Q5Ei4WvY",
+        "firstName": "Konstantine",
+        "lastName": "Bakhutashvil",
+        "publicIdentifier": "konstantine-bakhutashvil-7a6276265",
+        "linkedinUrl": "https://www.linkedin.com/in/konstantine-bakhutashvil-7a6276265"
+      }
+    ],
+    "_meta": {
+      "pagination": {
+        "totalElements": 20,
+        "totalPages": 1,
+        "pageNumber": 1,
+        "previousElements": 0,
+        "pageSize": 25
+      }
+    }
+  }
+
+]
