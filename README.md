@@ -1,1 +1,1 @@
-# Data
+# Mintlify Competitor Data
