@@ -1,0 +1,567 @@
+{
+  "name": "Competitor Signal MAS",
+  "nodes": [
+    {
+      "parameters": {},
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [
+        -336,
+        96
+      ],
+      "id": "c1af83c2-35b6-41d9-9718-888266a52497",
+      "name": "When clicking ‘Execute workflow’"
+    },
+    {
+      "parameters": {
+        "url": "https://raw.githubusercontent.com/Ben-jpg-del/Sentiment-Data/refs/heads/main/dataset_linkedin-company-employees_2025-09-28_01-20-42-107.json",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        -128,
+        96
+      ],
+      "id": "0841ec01-83ea-4708-a3e7-dacc2a3589ad",
+      "name": "HTTP Request"
+    },
+    {
+      "parameters": {
+        "jsCode": "// n8n Code node — Split by person using `headline` and remove `moreProfiles`\n// Input: items where item.json.data is a JSON string of an array of profiles\n// Output: one item per person: { headline, person_id, name, linkedinUrl, person, _meta }\n\nfunction tryJSON(s) { try { return JSON.parse(s); } catch { return null; } }\n\nfunction toArray(any) {\n  if (!any) return [];\n  if (Array.isArray(any)) return any;\n  if (typeof any === 'object') return [any];\n  return [];\n}\n\nfunction arrayFromCommonKeys(o) {\n  if (!o || typeof o !== 'object') return null;\n  const keys = ['data','items','results','records','people','profiles','values','payload','body'];\n  for (const k of keys) {\n    const v = o[k];\n    if (Array.isArray(v)) return v;\n    if (typeof v === 'string') {\n      const pv = tryJSON(v);\n      if (Array.isArray(pv)) return pv;\n    }\n  }\n  return null;\n}\n\nfunction hasHeadline(o) {\n  if (!o || typeof o !== 'object') return false;\n  for (const k of Object.keys(o)) if (k.toLowerCase() === 'headline') return true;\n  return false;\n}\n\nfunction collectPersonsDeep(o, acc, depth = 0, maxDepth = 5) {\n  if (!o || depth > maxDepth) return;\n  if (Array.isArray(o)) { for (const v of o) collectPersonsDeep(v, acc, depth + 1, maxDepth); return; }\n  if (typeof o === 'object') {\n    if (hasHeadline(o)) { acc.push(o); return; }\n    for (const v of Object.values(o)) collectPersonsDeep(v, acc, depth + 1, maxDepth);\n  }\n}\n\nfunction normHeadline(p) {\n  const v = p && (p.headline ?? p.Headline);\n  if (v == null) return null;\n  const CONTROL = /[\\u0000-\\u001F\\u007F-\\u009F]/g;\n  return String(v).replace(CONTROL, ' ').replace(/\\s+/g, ' ').trim();\n}\nfunction preferId(p) { return p.publicIdentifier || p.id || p.linkedinUrl || null; }\nfunction fullName(p) { return [p.firstName, p.lastName].filter(Boolean).join(' ').trim() || null; }\n\n// Remove selected keys (case-insensitive) from an object at any depth\nfunction stripKeysDeep(root, keys) {\n  if (!root || typeof root !== 'object') return root;\n  const targets = new Set(keys.map(k => String(k).toLowerCase()));\n  const stack = [root];\n  const seen = new Set();\n  while (stack.length) {\n    const cur = stack.pop();\n    if (!cur || typeof cur !== 'object' || seen.has(cur)) continue;\n    seen.add(cur);\n\n    if (Array.isArray(cur)) {\n      for (let i = 0; i < cur.length; i++) {\n        const v = cur[i];\n        if (v && typeof v === 'object') stack.push(v);\n      }\n    } else {\n      for (const key of Object.keys(cur)) {\n        if (targets.has(key.toLowerCase())) {\n          delete cur[key];\n        } else {\n          const v = cur[key];\n          if (v && typeof v === 'object') stack.push(v);\n        }\n      }\n    }\n  }\n  return root;\n}\n\nconst inputs = $input.all();\nlet raw = [];\nconst debug = { items: inputs.length, carriers: 0, inner_arrays: 0, inner_objects: 0, text_parsed: 0 };\n\n// 1) Gather inner JSON from item.json.data (and common variants)\nfor (const it of inputs) {\n  const j = it.json || {};\n  let found = false;\n\n  // Primary: json.data is a JSON string of an array/object\n  if (typeof j.data === 'string') {\n    found = true;\n    debug.carriers++;\n    let inner = tryJSON(j.data);\n    if (!inner) {\n      const inner2 = tryJSON(tryJSON(j.data) || '');\n      if (inner2 != null) inner = inner2;\n    }\n    const arr = arrayFromCommonKeys(inner) || toArray(inner);\n    if (arr.length) {\n      Array.isArray(inner) ? debug.inner_arrays++ : debug.inner_objects++;\n      raw.push(...arr);\n      debug.text_parsed++;\n      continue;\n    }\n  }\n\n  // Fallbacks: other common carrier keys that may hold stringified JSON\n  const carriers = ['payload','body','values','content','value'];\n  for (const key of carriers) {\n    const v = j[key];\n    if (typeof v === 'string') {\n      found = true;\n      debug.carriers++;\n      let inner = tryJSON(v);\n      if (!inner) {\n        const inner2 = tryJSON(tryJSON(v) || '');\n        if (inner2 != null) inner = inner2;\n      }\n      const arr = arrayFromCommonKeys(inner) || toArray(inner);\n      if (arr.length) {\n        Array.isArray(inner) ? debug.inner_arrays++ : debug.inner_objects++;\n        raw.push(...arr);\n        debug.text_parsed++;\n        break;\n      }\n    } else if (Array.isArray(v)) {\n      found = true; debug.carriers++; debug.inner_arrays++;\n      raw.push(...v);\n      break;\n    } else if (v && typeof v === 'object') {\n      found = true; debug.carriers++; debug.inner_objects++;\n      const arr = arrayFromCommonKeys(v) || toArray(v);\n      raw.push(...arr);\n      break;\n    }\n  }\n\n  // If upstream already passed the parsed array/object directly in json\n  if (!found) {\n    const direct = arrayFromCommonKeys(j) || toArray(j);\n    if (direct.length) {\n      debug.inner_arrays += Array.isArray(j) ? 1 : 0;\n      raw.push(...direct);\n    }\n  }\n}\n\n// 2) Find persons (headline present anywhere)\nconst persons = [];\nfor (const obj of raw) {\n  if (hasHeadline(obj)) persons.push(obj);\n  else collectPersonsDeep(obj, persons, 0, 5);\n}\n\n// 3) Emit one item per person (remove `moreProfiles`)\nconst out = [];\nlet seq = 0;\nfor (const p of persons) {\n  stripKeysDeep(p, ['moreProfiles']);\n  out.push({\n    json: {\n      headline: normHeadline(p),\n      person_id: preferId(p),\n      name: fullName(p),\n      linkedinUrl: p.linkedinUrl || null,\n      person: p,\n      _meta: { seq: seq++, note: 'Split by headline from json.data (moreProfiles removed)' }\n    }\n  });\n}\n\n// Debug or results\nif (!out.length) {\n  return [{\n    json: {\n      warning: 'No person objects found. Check that item.json.data is a JSON string containing an array of profiles.',\n      debug: { ...debug, raw_count: raw.length, sample_input_keys: Object.keys(inputs[0]?.json || {}) }\n    }\n  }];\n}\n\nout[0].json._debug = { ...debug, raw_count: raw.length, persons_found: persons.length };\nreturn out;\n"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        48,
+        96
+      ],
+      "id": "ea7c131c-ab6b-4983-ab55-a737001a6644",
+      "name": "Code: Load & Normalize"
+    },
+    {
+      "parameters": {
+        "model": {
+          "__rl": true,
+          "mode": "list",
+          "value": "gpt-4.1-mini"
+        },
+        "options": {
+          "temperature": 0
+        }
+      },
+      "type": "@n8n/n8n-nodes-langchain.lmChatOpenAi",
+      "typeVersion": 1.2,
+      "position": [
+        1456,
+        944
+      ],
+      "id": "c973d5f0-2109-4840-a1f8-b03079d46011",
+      "name": "OpenAI Chat Model1",
+      "credentials": {
+        "openAiApi": {
+          "id": "BPCTvhM7CT4fF62D",
+          "name": "OpenAi account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "options": {}
+      },
+      "type": "n8n-nodes-base.splitInBatches",
+      "typeVersion": 3,
+      "position": [
+        400,
+        32
+      ],
+      "id": "eaa109fd-db97-4c6b-97cf-1c16055fd0d9",
+      "name": "Loop Over Items"
+    },
+    {
+      "parameters": {
+        "promptType": "define",
+        "text": "={{ JSON.stringify($json) }}",
+        "options": {
+          "systemMessage": "=You are the Mintlify Hiring Orchestrator.\n\nMODE\n- Your only actions are: (1) call tools; (2) return ONE final JSON object.\n- No prose. No code blocks. No explanations. Do not echo inputs.\n\nTOOL CALL PROTOCOL (STRICT)\n- Call tools in this exact order: A → B → C → F → G → J.\n- Each tool accepts EXACTLY ONE argument: a STRING.\n- If you must pass multiple fields, the STRING MUST be a single-line, compact JSON object (no newlines). Example:\n  {\"company_key\":\"Fern\",\"company_linkedin_url\":\"https://www.linkedin.com/company/fern\"}\n- Never pass arrays/objects as native tool arguments. Always embed them inside the one STRING as compact JSON.\n- Never forward wrappers (e.g., [{\"response\":[{\"output\":...}]}]). Strip to the content you need.\n\nINPUTS YOU MUST DERIVE FROM employee.person\n- company_key            := person.currentPosition[0].companyName; else most recent experience.companyName\n- company_linkedin_url   := person.currentPosition[0].companyLinkedinUrl; else most recent experience.companyLinkedinUrl\n- current_start_month    := person.currentPosition[0].dateRange.start.month  (or null)\n- current_start_year     := person.currentPosition[0].dateRange.start.year   (or null)\n- current_start_day      := person.currentPosition[0].dateRange.start.day    (or null)\n- now_utc                := current UTC time in ISO 8601 (e.g., 2025-09-26T00:00:00Z)\n\nTOOL CALLS (arguments MUST be STRINGs that contain compact JSON)\n\n1) Worker A — Funding Timeline (ALWAYS FIRST)\n   ARG STRING:\n   {\"company_key\":\"<company_key>\",\"company_linkedin_url\":\"<company_linkedin_url>\"}\n   After A returns:\n   - Let FUNDING_JSON := <A’s output text EXACTLY as returned>.\n   - If empty/invalid, set FUNDING_JSON := \"null\" (the literal 4-character string).\n\n2) Worker B — Talent–Funding Alignment\n   ARG STRING:\n   {\"funding_timeline_json\":FUNDING_JSON,\"person_json\":<employee.person as compact JSON string>,\n    \"current_start_month\":\"<value-or-null>\",\"current_start_year\":\"<value-or-null>\",\n    \"current_start_day\":\"<value-or-null>\",\"now_utc\":\"<ISO>\"}\n   After B returns, parse B’s JSON to obtain:\n   - first_start_utc, delta_days_to_nearest_round, hired_within_90d_of_round\n\n3) Worker C — Role & Seniority\n   ARG STRING:\n   {\"headline\":\"<employee.headline>\",\"experience_json\":<employee.person.experience as compact JSON string>}\n   Parse C’s JSON → role_bucket, seniority.\n\n4) Worker F — Skills Trend\n   ARG STRING:\n   {\"skills_json\":<employee.person.skills as compact JSON string>,\n    \"topSkills_str\":\"<employee.person.topSkills or null>\",\n    \"descriptions_json\":<array of experience.descriptions as compact JSON string>,\n    \"headline\":\"<employee.headline>\",\"education_json\":<employee.person.education as compact JSON string>,\n    \"first_start_utc\":\"<first_start_utc from B>\"}\n   Parse F’s JSON → skills_recent[].\n\n5) Worker G — Feeder Companies\n   ARG STRING:\n   {\"company_key\":\"<company_key>\",\"experience_json\":<employee.person.experience as compact JSON string>}\n   Parse G’s JSON → feeder_company or null.\n\n6) Worker J — Velocity Flags\n   ARG STRING:\n   {\"first_start_utc\":\"<first_start_utc from B>\",\"now_utc\":\"<ISO>\"}\n   Parse J’s JSON → velocity_flags{}.\n\nFINAL CONSOLIDATION (OUTPUT EXACTLY ONE JSON OBJECT)\n- If FUNDING_JSON !== \"null\", parse it and extract the object at funding_timeline → funding_timeline_used.\n- Build and return EXACTLY:\n\n{\n  \"company_key\": \"<string>\",\n  \"person_id\": \"<string>\",\n  \"linkedinUrl\": \"<string|null>\",\n  \"role_bucket\": \"ENG|DATA|DESIGN|GTM|OPS|PEOPLE|PRODUCT|null\",\n  \"seniority\": \"JR|MID|SR|LEAD|DIRECTOR+|null\",\n  \"funding_timeline_used\": { \"seed\"?:{}, \"a\"?:{}, \"b\"?:{}, \"c\"?:{}, \"later\"?:{} } | null,\n  \"first_start_utc\": \"<ISO|null>\",\n  \"delta_days_to_nearest_round\": <number|null>,\n  \"hired_within_90d_of_round\": <true|false|null>,\n  \"skills_recent\": [ { \"name\": \"<string>\", \"recent_skill\"?: true } ],\n  \"feeder_company\": { \"name\": \"<string>\", \"companyLinkedinUrl\"?: \"<string>\" } | null,\n  \"velocity_flags\": { \"start_in_last_30d\": <bool>, \"start_in_last_60d\": <bool>, \"start_in_last_90d\": <bool> },\n  \"data_quality\": { \"missing\": [\"<field>\", \"...\"] }\n}\n\nQUALITY & SAFETY RULES\n- Any unknown field → set null and add the key to data_quality.missing.\n- Never output prose. Never output multiple objects. No trailing text.\n- Before finalizing, SELF-CHECK:\n  1) Did every tool receive ONE STRING argument (no native arrays/objects)?\n  2) Is FUNDING_JSON either \"null\" or valid JSON containing funding_timeline when parsed?\n  3) Are role_bucket/seniority within the allowed enums or null?\n  4) Is velocity_flags present with all three booleans?\n  5) Is data_quality.missing accurate?\n\nFAIL-SOFT\n- If any upstream output is empty/invalid, set the dependent fields to null, record in data_quality.missing, and continue to produce the final JSON.\n"
+        }
+      },
+      "type": "@n8n/n8n-nodes-langchain.agent",
+      "typeVersion": 2.2,
+      "position": [
+        1280,
+        96
+      ],
+      "id": "cd8ff95c-54ab-41ac-bdf7-e0656a049fe2",
+      "name": "Competitor analysis coordinator"
+    },
+    {
+      "parameters": {
+        "text": "=company_key={{ $fromAI('company_key', '', 'string') }}\ncompany_linkedin_url={{ $fromAI('company_linkedin_url', '', 'string') }}",
+        "options": {
+          "systemMessage": "=You are Worker A: Funding Timeline Researcher.\n\nGoal\nReturn a normalized funding timeline for the company.\n\nInputs from AI (fromAI):\n- company_key          = {{ $fromAI('company_key', '', 'string') }}\n- company_linkedin_url = {{ $fromAI('company_linkedin_url', '', 'string') }}\n\nReturn format (IMPORTANT)\n- Your final assistant message MUST be a single line of **pure JSON text** (no prose, no backticks), exactly:\n  {\"funding_timeline\":{\"seed\":<obj|null>,\"a\":<obj|null>,\"b\":<obj|null>,\"c\":<obj|null>,\"later\":<obj|null>},\"source_note\":\"<string>\"}\n- Do NOT wrap this JSON in any additional structure. The n8n tool will place your JSON text in response[0].output.\n\nNormalization rules\n- Rounds: seed/a/b/c/later, each { \"date_utc\":\"YYYY-MM-DD\", \"amount_usd\": <int|null>, \"investors\": [] }.\n- If only month/year known → use day \"01\".\n- $1.2M → 1200000 (USD). Deduplicate same round by (date±7d & amount±5%).\n- Prefer official PR/BusinessWire/PRNewswire, then TechCrunch/Crunchbase; otherwise majority. If uncertain, set nulls and note in source_note.\n\nError fallback\n- If you cannot find any data, output exactly:\n  {\"funding_timeline\":null,\"source_note\":\"error\"}\n"
+        }
+      },
+      "type": "@n8n/n8n-nodes-langchain.agentTool",
+      "typeVersion": 2.2,
+      "position": [
+        1424,
+        368
+      ],
+      "id": "559c3257-19aa-4782-8b1d-4b751ed868b7",
+      "name": "Worker A"
+    },
+    {
+      "parameters": {
+        "text": "=funding_timeline_json={{ $fromAI('funding_timeline_json', 'null', 'string') }}\nperson_json={{ $fromAI('person_json', 'null', 'string') }}\ncurrent_start_month={{ $fromAI('current_start_month', 'null', 'string') }}\ncurrent_start_year={{ $fromAI('current_start_year', 'null', 'string') }}\ncurrent_start_day={{ $fromAI('current_start_day', 'null', 'string') }}\nnow_utc={{ $fromAI('now_utc', '', 'string') }}\n",
+        "options": {
+          "systemMessage": "=You are Worker B: Talent–Funding Alignment.\n\nGoal\nCompute alignment of an employee’s start date with the company’s funding timeline.\n\nInputs from AI (the Orchestrator sets these via fromAI; objects arrive as JSON strings)\n- funding_timeline_json  = {{ $fromAI('funding_timeline_json', 'null', 'string') }}\n- person_json            = {{ $fromAI('person_json', 'null', 'string') }}\n- current_start_month    = {{ $fromAI('current_start_month', 'null', 'string') }}   // e.g., \"Apr\" or \"4\" or null\n- current_start_year     = {{ $fromAI('current_start_year',  'null', 'string') }}   // e.g., \"2022\" or null\n- current_start_day      = {{ $fromAI('current_start_day',   'null', 'string') }}   // e.g., \"1\" or null\n- now_utc                = {{ $fromAI('now_utc', '', 'string') }}                   // ISO string, e.g., \"2025-09-26T00:00:00Z\"\n\nKey rules (do EVERYTHING in-prompt; no tools)\n1) Parse JSON strings safely. If parsing fails, treat as null.\n2) Derive first_start_utc (ISO, \"YYYY-MM-DDT00:00:00Z\"):\n   a) If current_start_year is present, build from (year, month, day?). Month may be number or short name (Jan…Dec). If month/day missing, default month=01, day=01.\n   b) Otherwise, parse person_json.person:\n      - Let company_current := person.currentPosition[0].companyName (if present). If not present, try the most recent experience with endDate.text = \"Present\".\n      - In person.experience[], find entries where companyName == company_current. Among those, choose the earliest startDate (minimum year, then month; missing month → 01). Use that as first_start_utc.\n      - If still unknown, set first_start_utc = null.\n3) Funding timeline:\n   - Parse funding_timeline_json if provided; rounds can be keys: seed, a, b, c, later.\n   - For each present round, take its date_utc (assumed \"YYYY-MM-DD\"); if only YYYY-MM, treat day=01; if only YYYY, month=01, day=01.\n   - Build a list of candidate round dates (UTC midnights).\n4) Delta and window flag:\n   - If either first_start_utc or all round dates are missing → delta_days_to_nearest_round = null; hired_within_90d_of_round = null.\n   - Else compute delta_days_to_nearest_round = signed integer days: (first_start_utc - nearest_round_date) / 86,400,000, rounded toward zero. Positive means start AFTER the round.\n   - hired_within_90d_of_round = (absolute value of delta_days_to_nearest_round ≤ 90).\n5) Output exactly the JSON below. No prose, no extra fields. If any field is unknown, set it to null.\n\nSTRICT OUTPUT (return EXACTLY this object):\n{\"first_start_utc\":\"<ISO|null>\",\"delta_days_to_nearest_round\":<number|null>,\"hired_within_90d_of_round\":<true|false|null>}\n"
+        }
+      },
+      "type": "@n8n/n8n-nodes-langchain.agentTool",
+      "typeVersion": 2.2,
+      "position": [
+        1728,
+        368
+      ],
+      "id": "b4f60900-758c-4f4e-abb1-bc88ca531d16",
+      "name": "Worker B"
+    },
+    {
+      "parameters": {
+        "text": "=headline={{ $fromAI('headline', '', 'string') }}\nexperience_json={{ $fromAI('experience_json', '[]', 'string') }}\n",
+        "options": {
+          "systemMessage": "=You are Worker C: Role & Seniority Mapper.\n\nGoal\nMap an employee to (role_bucket, seniority) using only the provided headline and experience JSON. Do ALL parsing, string normalization, date reasoning, and selection logic in-prompt (no tools).\n\nInputs from AI (strings; arrays/objects arrive as JSON strings)\n- headline        = {{ $fromAI('headline', '', 'string') }}\n- experience_json = {{ $fromAI('experience_json', '[]', 'string') }}\n\nNormalization rules\n1) Lowercase all text, strip punctuation, collapse whitespace, and split titles on separators (&, /, |, -, commas).\n2) Treat common title variants as equivalent (e.g., \"sr\" → \"senior\"; \"pm\" → \"product manager\"; \"ae\" → \"account executive\").\n3) Parse experience_json safely; if parse fails, treat as an empty array.\n\nWhich title to classify (selection precedence)\nA) If there is a current employer in the experience with endDate.text == \"present\", pick that record’s position.\nB) Otherwise, pick the record with the most recent startDate (compare year, then month; missing month → 01).\nC) If experience is empty or unusable, fall back to the headline tokens.\n\nRole buckets (pick ONE)\n- ENG: software engineer, developer, backend, frontend, full stack, platform, mobile, ios, android, web engineer, devops, sre, infrastructure, qa, test, architect (technical).\n- DATA: data scientist, data engineer, machine learning, ml, ai, applied scientist, research scientist, analytics, bi.\n- DESIGN: designer, product designer, ux, ui, ux researcher, visual designer.\n- GTM: sales, account executive, ae, sdr, bdr, partnerships, business development, growth, marketing, demand gen, content marketing, field marketing, product marketing, pmm, customer success.\n- OPS: operations, bizops, strategy & ops, finance, accounting, fp&a, legal, it support, office manager.\n- PEOPLE: recruiter, talent acquisition, ta, people ops, hr, hrbp.\n- PRODUCT: product manager, product owner, program manager (if clearly product-delivery), head of product, cpo.\nFounder/exec heuristics:\n- If title includes c-level or executive (cto→ENG, cpo→PRODUCT, cmo→GTM, cro→GTM, cfo→OPS, cio/it→OPS, coo→OPS, ceo→null bucket unless functional clue).\n- If title is only “founder”/“co-founder” with no functional clue, try the most recent non-founder title from experience; if still unknown, set role_bucket=null.\n\nSeniority (pick ONE)\n- DIRECTOR+: director, head of, vp, vice president, svp, evp, c-level, founder/co-founder.\n- LEAD: lead, principal, architect (when used as senior IC), manager (e.g., engineering manager, design manager, product manager manager).\n- SR: senior, staff.\n- MID: default if none of the above and not junior.\n- JR: junior, intern, apprentice, associate (when clearly entry-level context).\n\nOutput contract\n- Return EXACTLY this JSON object (no prose, no extra fields):\n  {\"role_bucket\":\"ENG|DATA|DESIGN|GTM|OPS|PEOPLE|PRODUCT|null\",\"seniority\":\"JR|MID|SR|LEAD|DIRECTOR+|null\"}\n\nEdge cases\n- If both bucket and seniority are indeterminate, return null for each field.\n- Never guess based on company name alone; use titles/roles only.\n"
+        }
+      },
+      "type": "@n8n/n8n-nodes-langchain.agentTool",
+      "typeVersion": 2.2,
+      "position": [
+        1152,
+        384
+      ],
+      "id": "0431426e-3ea4-4a0c-8768-b69c2c227e04",
+      "name": "Worker C"
+    },
+    {
+      "parameters": {
+        "text": "=skills_json={{ $fromAI('skills_json', '[]', 'string') }}\ntopSkills_str={{ $fromAI('topSkills_str', 'null', 'string') }}\ndescriptions_json={{ $fromAI('descriptions_json', '[]', 'string') }}\nheadline={{ $fromAI('headline', '', 'string') }}\neducation_json={{ $fromAI('education_json', '[]', 'string') }}\nfirst_start_utc={{ $fromAI('first_start_utc', 'null', 'string') }}\n",
+        "options": {
+          "systemMessage": "=You are Worker F: Skills Trend Miner.\n\nGoal\nExtract up to 10 normalized, deduplicated skills for this employee and flag which look “recent” relative to the current role context. Do ALL parsing/tokenization/normalization/scoring in-prompt; do not call tools.\n\nInputs from AI (strings; arrays/objects arrive as JSON strings)\n- skills_json       = {{ $fromAI('skills_json', '[]', 'string') }}        // e.g., [\"Python\",\"PostgreSQL\"]\n- topSkills_str     = {{ $fromAI('topSkills_str', 'null', 'string') }}     // e.g., \".NET • C# • TypeScript\"\n- descriptions_json = {{ $fromAI('descriptions_json', '[]', 'string') }}  // array of role descriptions (strings)\n- headline          = {{ $fromAI('headline', '', 'string') }}             // current headline\n- education_json    = {{ $fromAI('education_json', '[]', 'string') }}     // array with fieldOfStudy, etc.\n- first_start_utc   = {{ $fromAI('first_start_utc', 'null', 'string') }}  // ISO string or \"null\"\n\nPrecedence for evidence (highest → lowest)\n1) skills_json (if non-empty)\n2) topSkills_str (split on bullets •, commas, semicolons, slashes, pipes, middots)\n3) descriptions_json (extract tech terms)\n4) headline (tech terms only)\n5) education_json.fieldOfStudy (discipline keywords)\n\nNormalization & filtering rules\n- Lowercase, trim, collapse whitespace; restore canonical casing at the end (e.g., “javascript” → “JavaScript”).\n- Deduplicate by case-insensitive match and by common aliases; keep one canonical name.\n- Exclude company/product names (e.g., “Inc.”, “LLC”, vanity domains), generic words (“team”, “software”, “stack”), and empty tokens.\n- Canonicalize common aliases (examples, not exhaustive):\n  * js/javascript/ecmascript → JavaScript\n  * ts/typescript → TypeScript\n  * node/nodejs/node.js → Node.js\n  * react/reactjs/react.js → React\n  * next/nextjs/next.js → Next.js\n  * postgres/postgresql → PostgreSQL\n  * gcp/google cloud → Google Cloud\n  * aws/amazon web services → AWS\n  * k8s/kubernetes → Kubernetes\n  * docker/containers → Docker\n  * ml/machine learning → Machine Learning\n  * llm/large language model → LLM\n  * rest/api/rest api → REST\n  * graphql/gql → GraphQL\n  * ci/cd/ci-cd → CI/CD\n- Keep the top 10 by combined evidence strength:\n  strength = 3 (skills_json) | 2 (topSkills_str) | 1 (descriptions/headline/education); break ties alphabetically.\n\n“Recent” flag (boolean)\n- Set recent_skill=true if ANY of the following is true:\n  a) the skill appears in the headline; OR\n  b) the skill appears in a description string that contains recency cues like “current”, “present”, “now”, “building”, “leading”; OR\n  c) topSkills_str is provided (assume these represent current strengths); OR\n  d) first_start_utc is not \"null\" AND the evidence comes from headline or (if unspecified source) there is no contradictory older-only evidence.\n- Otherwise recent_skill=false.\n\nOutput (return EXACTLY this JSON; no prose, no extra fields)\n{\"skills_recent\":[{\"name\":\"<string>\",\"recent_skill\":true|false}]}\n\nEdge cases\n- If no skills can be extracted, return {\"skills_recent\":[]}.\n- Do not include more than 10 entries.\n"
+        }
+      },
+      "type": "@n8n/n8n-nodes-langchain.agentTool",
+      "typeVersion": 2.2,
+      "position": [
+        832,
+        368
+      ],
+      "id": "08be287c-8d76-4fd2-8dc5-b79b255bba4f",
+      "name": "Worker F"
+    },
+    {
+      "parameters": {
+        "text": "=company_key={{ $fromAI('company_key', '', 'string') }}\nexperience_json={{ $fromAI('experience_json', '[]', 'string') }}\n",
+        "options": {
+          "systemMessage": "=You are Worker G: Feeder Company Extractor.\n\nGoal\nIdentify the employee’s immediate previous employer BEFORE they joined the target company (company_key).\n\nInputs from AI (strings; arrays arrive as JSON strings)\n- company_key     = {{ $fromAI('company_key', '', 'string') }}\n- experience_json = {{ $fromAI('experience_json', '[]', 'string') }}\n\nDo EVERYTHING in-prompt (no tools). Follow these rules:\n\n1) Parse & normalize\n- Safely parse experience_json; if parsing fails, treat as [].\n- Normalize company names: trim, collapse whitespace, compare case-insensitively.\n- Treat strings like \"Co-Founder at X\" as belonging to company X only if the experience entry’s companyName says so.\n\n2) Date handling (construct comparable timestamps)\n- For each entry, derive:\n  • start_ts from startDate {year, month?, day?}. If month missing, use 01; if day missing, use 01. Month may be a number or short name (Jan…Dec).\n  • end_ts from endDate:\n      - If endDate.text == \"Present\" (case-insensitive), set end_ts = null (still employed).\n      - Else parse like \"Jul 2021\" → YYYY-MM-01; if only year, use YYYY-01-01. If missing entirely, end_ts = null.\n- When only text fields exist, parse what you can; otherwise leave null.\n\n3) Determine join date at company_key\n- Let company_key_norm be the normalized company_key.\n- Collect all entries where normalized(companyName) == company_key_norm.\n- If any found: the **join_ts** is the EARLIEST start_ts among those entries (earliest join into that company).\n- If none match: assume join_ts is the most recent start_ts overall (the employee’s latest role); the feeder is then the next most recent different company.\n\n4) Choose the feeder (immediately previous employer)\n- Consider only entries with start_ts strictly BEFORE join_ts.\n- From those, pick the one with the LARGEST start_ts (closest prior to join_ts).\n- Tie-breakers, in this order:\n  a) Prefer entries whose end_ts is closest to (but not after) join_ts.\n  b) Prefer non-intern/non-contract/non-freelance/non-volunteer over those types (look for tokens: \"intern\", \"contract\", \"freelance\", \"consultant\", \"part-time\", \"volunteer\").\n  c) Prefer entries with a companyLinkedinUrl present.\n- If multiple stints at the same previous employer exist, treat them as that same feeder employer (pick the most recent stint).\n- If NO prior entries exist, return null.\n\n5) Output contract (return EXACTLY one JSON object; no prose, no extra fields)\n- If a feeder is found:\n  {\"feeder_company\":{\"name\":\"<companyName>\",\"companyLinkedinUrl\":\"<url>\"}}   // omit companyLinkedinUrl if unknown\n- Otherwise:\n  {\"feeder_company\":null}\n\nEdge cases\n- If join_ts is null but experience has entries: sort all by start_ts desc (missing month→01, missing start→treat as very old) and pick the first company that is NOT company_key_norm; if none, return null.\n- Do not infer from volunteering/projects/courses unless they are the only entries.\n- Never guess based on the current headline alone; use experience_json only.\n"
+        }
+      },
+      "type": "@n8n/n8n-nodes-langchain.agentTool",
+      "typeVersion": 2.2,
+      "position": [
+        2016,
+        384
+      ],
+      "id": "1d0bd0aa-0e4b-4c4e-8708-a404a053f02e",
+      "name": "Worker G"
+    },
+    {
+      "parameters": {
+        "text": "=first_start_utc={{ $fromAI('first_start_utc', 'null', 'string') }}\nnow_utc={{ $fromAI('now_utc', '', 'string') }}\n",
+        "options": {
+          "systemMessage": "=You are Worker J: Hiring Velocity Flags.\n\nGoal\nGiven an employee’s first_start_utc and a reference now_utc, return booleans indicating whether the start date falls within the last 30, 60, and 90 days (inclusive). Do ALL parsing and date math in-prompt; do not call tools.\n\nInputs from AI\n- first_start_utc = {{ $fromAI('first_start_utc', 'null', 'string') }}   // ISO like \"YYYY-MM-DDT00:00:00Z\" or \"null\"\n- now_utc         = {{ $fromAI('now_utc', '', 'string') }}                // ISO like \"2025-09-26T00:00:00Z\"\n\nRules (perform EVERYTHING in-prompt; no subtools)\n1) Normalize & parse:\n   - Treat \"null\" or empty strings as missing.\n   - Parse both timestamps in UTC. If either cannot be parsed, treat first_start_utc as missing.\n   - For comparisons, convert both to their UTC midnight (00:00:00) to avoid partial-day drift.\n\n2) Day difference:\n   - days_diff = floor( (now_midnight_utc - start_midnight_utc) / 86,400,000 ).\n   - If start is in the future (days_diff < 0), all flags are false.\n\n3) Windows (inclusive):\n   - start_in_last_30d = (0 <= days_diff && days_diff <= 30)\n   - start_in_last_60d = (0 <= days_diff && days_diff <= 60)\n   - start_in_last_90d = (0 <= days_diff && days_diff <= 90)\n\n4) Missing/invalid:\n   - If first_start_utc is missing or invalid → all flags false.\n\nStrict output (return EXACTLY this JSON; no prose, no extra fields)\n{\"velocity_flags\":{\"start_in_last_30d\":<bool>,\"start_in_last_60d\":<bool>,\"start_in_last_90d\":<bool>}}\n"
+        }
+      },
+      "type": "@n8n/n8n-nodes-langchain.agentTool",
+      "typeVersion": 2.2,
+      "position": [
+        2272,
+        368
+      ],
+      "id": "2678f459-1bf1-451d-81fe-6a1ca62fd682",
+      "name": "Worker J"
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://google.serper.dev/search",
+        "authentication": "genericCredentialType",
+        "genericAuthType": "httpHeaderAuth",
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={{ JSON.stringify({\n  q: $fromAI('company_key','','string') + ' (funding OR financing OR seed OR \"Series A\" OR \"Series B\" OR \"Series C\") site:crunchbase.com OR site:techcrunch.com OR site:businesswire.com OR site:prnewswire.com OR site:medium.com',\n  gl: 'us',\n  hl: 'en',\n  num: 10,\n  autocorrect: true\n}) }}\n",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequestTool",
+      "typeVersion": 4.2,
+      "position": [
+        1616,
+        704
+      ],
+      "id": "2e9f5059-b9d8-4b07-b50f-2943d96a5f0c",
+      "name": "Serper Web (HTTP)",
+      "credentials": {
+        "httpHeaderAuth": {
+          "id": "32GqPh5YhrVlv4Wa",
+          "name": "Serper API KEY"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://google.serper.dev/news",
+        "authentication": "genericCredentialType",
+        "genericAuthType": "httpHeaderAuth",
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={{ JSON.stringify({\n  q: $fromAI('company_key','','string') + ' (funding OR financing OR seed OR \"Series A\" OR \"Series B\" OR \"Series C\") site:crunchbase.com OR site:techcrunch.com OR site:businesswire.com OR site:prnewswire.com OR site:medium.com',\n  gl: 'us',\n  hl: 'en',\n  num: 10,\n  autocorrect: true\n}) }}\n",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequestTool",
+      "typeVersion": 4.2,
+      "position": [
+        1728,
+        704
+      ],
+      "id": "65b41b00-99c5-4ab8-9de8-4e81bd038f08",
+      "name": "Serper News (HTTP)",
+      "credentials": {
+        "httpHeaderAuth": {
+          "id": "32GqPh5YhrVlv4Wa",
+          "name": "Serper API KEY"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "promptType": "define",
+        "text": "={\n  \"company_name\": Sully.ai,\n  \"now_utc\": {{ JSON.stringify(new Date().toISOString()) }},\n  \"items_json_str_array\": {{ JSON.stringify($json.data) }}\n\n\n}\n",
+        "messages": {
+          "messageValues": [
+            {
+              "message": "=You are “Summarizer — MBB Deck”, a strategy consultant analyst.\n\nOBJECTIVE\nTurn a batch of per-employee outputs into a crisp, executive-ready memo for Mintlify about how this peer company hires.\n\nINPUT CONTRACT\nYou will receive a single JSON object with:\n  1) company_name (string)\n  2) now_utc (ISO string)\n  3) items_json_str_array: an array whose elements are EITHER\n     • JSON STRINGs, where each string is a single person record matching the Orchestrator schema, OR\n     • JSON OBJECTs of the shape { output: \"<JSON STRING>\" }.\n     Accept both forms. If an element is an object with a \"data\" array, flatten one level and process its members similarly.\n\nORCHESTRATOR SCHEMA (per person)\n{\n  company_key, person_id, linkedinUrl,\n  role_bucket, seniority,\n  funding_timeline_used,\n  first_start_utc,\n  delta_days_to_nearest_round,\n  hired_within_90d_of_round,\n  skills_recent[],             // [{name, recent_skill}]\n  feeder_company,              // {name, companyLinkedinUrl}\n  velocity_flags{},            // {start_in_last_30d, start_in_last_60d, start_in_last_90d}\n  data_quality{}\n}\n\nPARSING & NORMALIZATION RULES (NO tools; do all parsing yourself)\n- Flatten/unwrap: For each array element:\n  • If it is a string → parse as JSON.\n  • If it is an object with \"output\" (string) → parse output.\n  • If it is an object with \"data\" (array) → iterate its members and apply the same rules.\n  • Ignore elements that cannot be parsed after these steps.\n- Company filter: Only include records for the requested company.\n  • Normalize both company_name and company_key: lowercase; trim; remove content in parentheses/brackets; collapse whitespace; strip punctuation.\n  • Include an item if normalized company_key contains the normalized company_name (substring match) or vice versa.\n- De-duplication: If duplicate person_id appears, keep the record with (a) non-null first_start_utc, then (b) more complete fields (fewest nulls), else last one.\n- Roles & seniority: Use the record’s provided values; normalize to buckets:\n  role_bucket ∈ {ENG, DATA, DESIGN, GTM, OPS, PEOPLE, PRODUCT}; map case-insensitively (e.g., \"design\"→DESIGN).\n  seniority ∈ {JR, MID, SR, LEAD, DIRECTOR+}; map case-insensitively.\n- Skills ranking: Count each skill at most once per person. Weight recent_skill=true as 2, false as 1. Aggregate and rank globally (Top 10). If ties, sort alphabetically.\n- Timing metrics:\n  • nearest-delta list = all non-null delta_days_to_nearest_round.\n  • median = median of that list; mean = arithmetic mean; round both to nearest integer (banker’s rounding OK).\n  • within_90d_share = (# hired_within_90d_of_round = true) / (# with non-null delta).\n  • IMPORTANT: People lacking the fields to compute delta (missing first_start_utc or funding_timeline_used) are EXCLUDED from the timing denominators but INCLUDED everywhere else.\n- Velocity & momentum:\n  • Prefer velocity_flags. If missing, compute from first_start_utc vs now_utc:\n     start_in_last_30d: start ≥ now-30d\n     start_in_last_60d: start ≥ now-60d\n     start_in_last_90d: start ≥ now-90d\n  • hires_30d/60d/90d = counts of those flags.\n- Feeders: Case-insensitive match on feeder_company.name; rank by count; show top 10.\n- Data quality: Track counts of (a) unparseable elements, (b) filtered non-company items, (c) records excluded from timing (missing delta drivers).\n\nOUTPUT (Markdown only; no raw JSON)\nSections:\n1) Executive Summary (5–8 bullets)\n   - Plain-English conclusions and “so what” for Mintlify.\n2) Funding ↔ Hiring Timing\n   - Median & mean delta (days; + = after round).\n   - % within ±90d of a round.\n   - One-sentence sequencing read (e.g., “wave after Series A”).\n3) Role & Seniority Mix\n   - % by role bucket.\n   - % by seniority bucket.\n   - 1–2 insights on who they hire first at this stage.\n4) Skills Signals\n   - Top 10 (recent-weighted); note fast-risers.\n   - Brief stack comment if visible.\n5) Feeder Companies\n   - Top 10 prior employers; note patterns.\n6) Velocity & Momentum\n   - hires_30d / 60d / 90d.\n   - Qualitative call: accelerating / steady / cooling.\n7) Risks & Watchouts\n   - Data gaps, concentration risks, org gaps.\n8) Implications for Mintlify (Action Plan)\n   - What to copy now (roles, seniority, skills, feeders).\n   - 30/60/90 day plan (bulleted).\n   - Optional geo/remote note if visible.\n\nCOVERAGE NOTE (one line at end)\n“Coverage: parsed X of N elements; company-filtered Y; timing-eligible Z; reasons for exclusion (top 2).”\n\nCONSTRAINTS\n- Be decisive and brief; this is for execs.\n- No raw data dumps.\n- If <3 timing-eligible people, state that timing insights are low-confidence.\n- If the batch spans multiple companies, report only on company_name (per the filter above).\n"
+            }
+          ]
+        },
+        "batching": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.chainLlm",
+      "typeVersion": 1.7,
+      "position": [
+        1392,
+        -160
+      ],
+      "id": "bb09e5f2-e918-411f-ac4f-73fbd0a5f6b3",
+      "name": "Basic LLM Chain"
+    },
+    {
+      "parameters": {
+        "aggregate": "aggregateAllItemData",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.aggregate",
+      "typeVersion": 1,
+      "position": [
+        608,
+        -64
+      ],
+      "id": "1fe125fd-8528-42dc-a920-694056f9cc29",
+      "name": "Aggregate"
+    },
+    {
+      "parameters": {
+        "sessionIdType": "customKey",
+        "sessionKey": "ai"
+      },
+      "type": "@n8n/n8n-nodes-langchain.memoryBufferWindow",
+      "typeVersion": 1.3,
+      "position": [
+        1680,
+        864
+      ],
+      "id": "89f1cc10-0dec-4938-93ec-e3da3292be62",
+      "name": "Simple Memory"
+    },
+    {
+      "parameters": {
+        "model": {
+          "__rl": true,
+          "mode": "list",
+          "value": "gpt-4.1-mini"
+        },
+        "options": {
+          "temperature": 0.7
+        }
+      },
+      "type": "@n8n/n8n-nodes-langchain.lmChatOpenAi",
+      "typeVersion": 1.2,
+      "position": [
+        1632,
+        -64
+      ],
+      "id": "3fd16df2-898c-4e8e-9fa0-74e7188049e0",
+      "name": "OpenAI Chat Model",
+      "credentials": {
+        "openAiApi": {
+          "id": "BPCTvhM7CT4fF62D",
+          "name": "OpenAi account"
+        }
+      }
+    }
+  ],
+  "pinData": {
+    "When clicking ‘Execute workflow’": [
+      {
+        "json": {}
+      }
+    ]
+  },
+  "connections": {
+    "When clicking ‘Execute workflow’": {
+      "main": [
+        [
+          {
+            "node": "HTTP Request",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "HTTP Request": {
+      "main": [
+        [
+          {
+            "node": "Code: Load & Normalize",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "OpenAI Chat Model1": {
+      "ai_languageModel": [
+        [
+          {
+            "node": "Competitor analysis coordinator",
+            "type": "ai_languageModel",
+            "index": 0
+          },
+          {
+            "node": "Worker A",
+            "type": "ai_languageModel",
+            "index": 0
+          },
+          {
+            "node": "Worker B",
+            "type": "ai_languageModel",
+            "index": 0
+          },
+          {
+            "node": "Worker C",
+            "type": "ai_languageModel",
+            "index": 0
+          },
+          {
+            "node": "Worker F",
+            "type": "ai_languageModel",
+            "index": 0
+          },
+          {
+            "node": "Worker J",
+            "type": "ai_languageModel",
+            "index": 0
+          },
+          {
+            "node": "Worker G",
+            "type": "ai_languageModel",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Code: Load & Normalize": {
+      "main": [
+        [
+          {
+            "node": "Loop Over Items",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Loop Over Items": {
+      "main": [
+        [
+          {
+            "node": "Aggregate",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Competitor analysis coordinator",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Competitor analysis coordinator": {
+      "main": [
+        [
+          {
+            "node": "Loop Over Items",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Worker A": {
+      "ai_tool": [
+        [
+          {
+            "node": "Competitor analysis coordinator",
+            "type": "ai_tool",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Worker B": {
+      "ai_tool": [
+        [
+          {
+            "node": "Competitor analysis coordinator",
+            "type": "ai_tool",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Worker C": {
+      "ai_tool": [
+        [
+          {
+            "node": "Competitor analysis coordinator",
+            "type": "ai_tool",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Worker G": {
+      "ai_tool": [
+        [
+          {
+            "node": "Competitor analysis coordinator",
+            "type": "ai_tool",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Worker F": {
+      "ai_tool": [
+        [
+          {
+            "node": "Competitor analysis coordinator",
+            "type": "ai_tool",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Worker J": {
+      "ai_tool": [
+        [
+          {
+            "node": "Competitor analysis coordinator",
+            "type": "ai_tool",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Serper Web (HTTP)": {
+      "ai_tool": [
+        [
+          {
+            "node": "Worker A",
+            "type": "ai_tool",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Serper News (HTTP)": {
+      "ai_tool": [
+        [
+          {
+            "node": "Worker A",
+            "type": "ai_tool",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Aggregate": {
+      "main": [
+        [
+          {
+            "node": "Basic LLM Chain",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Simple Memory": {
+      "ai_memory": [
+        [
+          {
+            "node": "Competitor analysis coordinator",
+            "type": "ai_memory",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "OpenAI Chat Model": {
+      "ai_languageModel": [
+        [
+          {
+            "node": "Basic LLM Chain",
+            "type": "ai_languageModel",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "versionId": "bdc02187-fe85-4dde-bab9-e89df5c1e6a4",
+  "meta": {
+    "templateCredsSetupCompleted": true,
+    "instanceId": "1182c239668e3da92c1f6386a83ba4206836bf4f113884196a7f321d3bb7affa"
+  },
+  "id": "xD2TUhU9gV6wygti",
+  "tags": []
+}
