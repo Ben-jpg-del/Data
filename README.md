@@ -39,19 +39,6 @@ Derive competitor hiring signals from public profiles and auto-compose an exec-r
 }
 ```
 
-## Reliability & Performance
-
-* **Fail-soft:** Strict JSON parse at every tool; on error → `null` + continue.
-* **Batching:** Tune `Split in Batches` for concurrency vs rate limits.
-* **Cost surface:** `people × 6 worker calls + 1 summarize`. Optional early-exit if no funding found (skip B/J).
-
-## Setup & Run
-
-1. **Import** the n8n workflow JSON.
-2. **Credentials:** OpenAI for Orchestrator/Summarizer; Serper (HTTP header auth) for Worker A.
-3. **Dataset URL:** Set in the **HTTP Request** node.
-4. **Execute:** Collect per-person JSON and the final Markdown memo from terminal nodes.
-
 ## Architecture
 <img width="1172" height="533" alt="image" src="https://github.com/user-attachments/assets/ffa99259-14cc-4930-9f0c-556ddf269e76" />
 
